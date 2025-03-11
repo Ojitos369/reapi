@@ -3,7 +3,7 @@ from .api import HelloWorld
 
 router = APIRouter()
 
-@router.post("/hh")
+@router.get("/hh")
 async def hh(request: Request):
     r = await HelloWorld(request=request).run()
     return r
