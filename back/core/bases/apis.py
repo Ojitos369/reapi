@@ -11,19 +11,18 @@ from fastapi import HTTPException
 from ojitos369.errors import CatchErrors as CE
 from ojitos369.utils import get_d, print_line_center, printwln as pln
 
-from settings import MYE, ce, prod_mode
+from core.conf.settings import MYE, ce, prod_mode
 
 
 class BaseApi:
     def __init__(self, *args, **kwargs):
-        pln('Init')
-        print(args)
-        print(kwargs)
         self.request = kwargs.get('request', None)
-        self.post_data = kwargs.get('post_data', {})
-        
-        self.args = args
-        self.kwargs = kwargs
+        self.data = {}
+        for key, value in kwargs.items():
+            if key != "request":
+                self.data[key] = value
+        if args:
+            self.data['args'] = args
 
         self.status = 200
         self.response = {}
@@ -45,27 +44,23 @@ class BaseApi:
                 detail = str(e)
             )
         except Exception as e:
-            error = self.ce.show_error(e, send_email=prod_mode, extra=self.extra_error)
+            error = self.ce.show_error(e, send_email=True, extra=self.extra_error)
             print_line_center(error)
             raise HTTPException(
                 status_code = status.HTTP_500_INTERNAL_SERVER_ERROR,
                 detail = str(e)
             )
 
-    def get_post_data(self):
+    async def get_post_data(self):
         try:
-            self.data = self.post_data
-            pln(self.data)
-        except:
-            try:
-                self.data = self.request.data
-            except:
-                self.data = {}
+            data = await self.request.json()
+        except Exception as e:
+            data = {}
+        for key, value in data.items():
+            self.data[key] = value
     
     def get_get_data(self):
-        # fastapi request.
         data = self.request.query_params
-        self.data = {}
         for key, value in data.items():
             self.data[key] = value
     
@@ -90,17 +85,13 @@ class BaseApi:
             ip = self.request.client.host
         except:
             ip = 'unknown'
-        pln(ip)
         self.petition_ip = ip
 
-    def run(self):
-        pln('Run')
-        # self.args = args
-        # self.kwargs = kwargs
+    async def run(self):
         self.get_client_ip()
         try:
             self.get_get_data()
-            self.get_post_data()
+            await self.get_post_data()
         except Exception as e:
             self.errors(e)
         try:

@@ -17,4 +17,5 @@ class MYE(Exception):
     pass
 
 prod_mode = True if str(os.environ.get('RUN_PROD_MODE', True)).title() == 'True' else False
-ce = ce = CE(name_project = 'REANGO BASE', email_settings = email_settings)
+ce = ce = CE(name_project = 'REAPI BASE', email_settings = email_settings)
+
