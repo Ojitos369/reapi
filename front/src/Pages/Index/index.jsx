@@ -57,6 +57,9 @@ const Index = props => {
                     </button>
                 </div>}
             </div>
+            <p>
+                {s.app?.hh?.response?.message || 'Sin Message'}
+            </p>
         </div>
     )
 }

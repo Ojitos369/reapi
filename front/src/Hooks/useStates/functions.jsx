@@ -7,7 +7,7 @@ import { f as ff } from "./fs";
 
 const MySwal = withReactContent(Swal);
 
-const link = 'http://localhost:8102/api/';
+const link = 'http://localhost:8369/api/';
 // const link = 'http://192.168.16.3:8000/api/';
 axios.defaults.withCredentials = true
 const miAxios = axios.create({
@@ -26,6 +26,7 @@ const useF = props => {
             miAxios.get(end)
             .then(res => {
                 console.log(res.data);
+                u2("app", "hh", "response", res.data);
             })
             .catch(err => {
                 console.log(err);

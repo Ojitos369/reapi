@@ -6,10 +6,12 @@ from inspect import currentframe
 # FastApi
 from fastapi import status
 from fastapi import HTTPException
+from fastapi import WebSocket, WebSocketDisconnect
 
 # Ojitos369
 from ojitos369.errors import CatchErrors as CE
 from ojitos369.utils import get_d, print_line_center, printwln as pln
+from core.websockets.manager import ConnectionManager
 
 from core.conf.settings import MYE, ce, prod_mode
 
@@ -133,4 +135,47 @@ class FullApi(BaseApi):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.post = self.get = self.put = self.patch = self.delete = self.gen
+
+
+class WebSocketApi:
+    """
+    Clase base para manejar la lógica de un endpoint de WebSocket.
+    Abstrae el ciclo de conexión, recepción y desconexión.
+    """
+    def __init__(self, websocket: WebSocket, manager: ConnectionManager, **kwargs):
+        self.websocket = websocket
+        self.manager = manager
+        self.data = kwargs # Para pasar datos extras como client_id
+
+    async def on_connect(self):
+        """Se ejecuta cuando un cliente se conecta."""
+        pass
+
+    async def on_receive(self, data: any):
+        """Se ejecuta cuando se recibe un mensaje del cliente."""
+        pass
+
+    async def on_disconnect(self):
+        """Se ejecuta cuando un cliente se desconecta."""
+        pass
+
+    async def handle_connection(self):
+        """
+        Orquesta el ciclo de vida, ahora consciente de los grupos.
+        """
+        client_id = self.data.get('client_id', 'desconocido')
+        group_id = self.data.get('group_id', 'default') # Obtenemos el group_id
+
+        await self.manager.connect(self.websocket, group_id)
+        await self.on_connect()
+        try:
+            while True:
+                data = await self.websocket.receive_text()
+                await self.on_receive(data)
+        except WebSocketDisconnect:
+            pass
+        finally:
+            # Pasamos el group_id para que sepa de dónde desconectar
+            self.manager.disconnect(self.websocket, group_id)
+            await self.on_disconnect()
 
