@@ -138,35 +138,24 @@ class FullApi(BaseApi):
 
 
 class WebSocketApi:
-    """
-    Clase base para manejar la lógica de un endpoint de WebSocket.
-    Abstrae el ciclo de conexión, recepción y desconexión.
-    """
     def __init__(self, websocket: WebSocket, manager: ConnectionManager, **kwargs):
         self.websocket = websocket
         self.manager = manager
-        self.data = kwargs # Para pasar datos extras como client_id
+        self.data = kwargs
 
     async def on_connect(self):
-        """Se ejecuta cuando un cliente se conecta."""
         pass
 
     async def on_receive(self, data: any):
-        """Se ejecuta cuando se recibe un mensaje del cliente."""
         pass
 
     async def on_disconnect(self):
-        """Se ejecuta cuando un cliente se desconecta."""
         pass
 
     async def handle_connection(self):
-        """
-        Orquesta el ciclo de vida, ahora consciente de los grupos.
-        """
-        client_id = self.data.get('client_id', 'desconocido')
-        group_id = self.data.get('group_id', 'default') # Obtenemos el group_id
+        chat_id = self.data.get('chat_id', 'default')
 
-        await self.manager.connect(self.websocket, group_id)
+        await self.manager.connect(self.websocket, chat_id)
         await self.on_connect()
         try:
             while True:
@@ -175,7 +164,8 @@ class WebSocketApi:
         except WebSocketDisconnect:
             pass
         finally:
-            # Pasamos el group_id para que sepa de dónde desconectar
-            self.manager.disconnect(self.websocket, group_id)
+            self.manager.disconnect(self.websocket, chat_id)
             await self.on_disconnect()
+
+
 

@@ -1,14 +1,12 @@
-# apis/sockets/api.py
+# Python
 import httpx
 import json
+
+# User
 from core.bases.apis import WebSocketApi
 
 class ChatSocketApi(WebSocketApi):
-    """
-    Lógica de chat que opera de forma 100% asíncrona con un LLM.
-    """
     async def stream_llm_response(self, client, data):
-        """Generador asíncrono que obtiene el stream del LLM."""
         async with client.stream("POST", self.link, json=data, timeout=None) as response:
             response.raise_for_status()
             async for line in response.aiter_lines():
@@ -65,11 +63,12 @@ class ChatSocketApi(WebSocketApi):
                 await self.manager.broadcast_to_group("-done-", group_id)
 
     async def on_receive(self, data: str):
-        group_id = self.data.get('group_id')
-        await self.consultar(data, group_id)
+        chat_id = self.data.get('chat_id')
+        await self.consultar(data, chat_id)
 
     async def on_connect(self):
         pass
 
     async def on_disconnect(self):
         pass
+

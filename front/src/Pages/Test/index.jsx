@@ -4,18 +4,16 @@ export const Test = () => {
     const [messages, setMessages] = useState([]);
     const [actualMessage, setActualMessage] = useState("");
     const [input, setInput] = useState('');
-    const [group, setGroup] = useState('gen'); // Nombre del grupo
+    const [group, setGroup] = useState('gen');
     const [isConnected, setIsConnected] = useState(false);
     
     const socket = useRef(null);
     const clientId = useRef(Date.now());
 
-    // Este useEffect ahora maneja la conexión y el procesamiento de mensajes.
     useEffect(() => {
-        // Si no estamos intentando conectar, no hacemos nada.
         if (!isConnected) return;
 
-        const wsUrl = `ws://localhost:8369/api/ws/${group}/${clientId.current}`;
+        const wsUrl = `ws://localhost:8369/api/ws/${group}`;
         socket.current = new WebSocket(wsUrl);
 
         console.log('Intentando conectar al WebSocket...');
@@ -28,14 +26,11 @@ export const Test = () => {
             const message = event.data;
 
             if (message !== "-done-") {
-                // ✅ LA SOLUCIÓN CLAVE ESTÁ AQUÍ
-                // Usamos la forma funcional para asegurar que siempre usamos el estado más reciente.
                 setActualMessage(prevActualMessage => prevActualMessage + message);
             } else {
-                // Cuando llega "-done-", guardamos el mensaje completo y reseteamos el actual.
                 setActualMessage(prevActualMessage => {
                     setMessages(prevMessages => [...prevMessages, prevActualMessage]);
-                    return ""; // Reseteamos el mensaje actual
+                    return "";
                 });
             }
         };
@@ -49,12 +44,11 @@ export const Test = () => {
             console.error('Error en el WebSocket:', error);
         };
 
-        // Función de limpieza para desconectar el socket
         return () => {
             console.log('Cerrando conexión WebSocket.');
             socket.current.close();
         };
-    }, [isConnected, group]); // Se ejecuta cuando cambia el estado de conexión o el grupo
+    }, [isConnected, group]);
 
     const handleConnect = () => {
         setIsConnected(true);
@@ -62,7 +56,7 @@ export const Test = () => {
 
     const sendMessage = () => {
         if (socket.current?.readyState === WebSocket.OPEN && input) {
-            setMessages(prev => [...prev, `Yo: ${input}`]); // Opcional: muestra tu propio mensaje inmediatamente
+            setMessages(prev => [...prev, `Yo: ${input}`]);
             socket.current.send(input);
             setInput('');
         }
