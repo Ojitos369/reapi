@@ -4,5 +4,4 @@
 *.vscode*
 *.vscode/*
 *.env*
-logs/*
 *.pnpm-store*
