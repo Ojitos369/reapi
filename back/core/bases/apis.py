@@ -146,7 +146,7 @@ class WebSocketApi:
         self.websocket = websocket
         self.manager = manager
         self.data = kwargs
-        # self.validate_session()
+        self.validate_session()
     
     def validate_session(self):
         auth_code = self.websocket.query_params.get("clientId", None)
