@@ -24,6 +24,7 @@ export const Chat = () => {
 
         socket.current.onmessage = (event) => {
             const message = event.data;
+            console.log('Mensaje recibido:', message);
 
             if (message !== "-done-") {
                 setActualMessage(prevActualMessage => prevActualMessage + message);

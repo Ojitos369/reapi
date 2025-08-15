@@ -146,11 +146,11 @@ class WebSocketApi:
         self.websocket = websocket
         self.manager = manager
         self.data = kwargs
-        self.validate_session()
+        # self.validate_session()
     
     def validate_session(self):
         auth_code = self.websocket.query_params.get("clientId", None)
-        if not auth_code or auth_code != sec_code:
+        if not auth_code:
             raise HTTPException(
                 status_code=status.HTTP_401_UNAUTHORIZED,
                 detail="Unauthorized access"
