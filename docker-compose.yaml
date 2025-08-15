@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  back:
+    build:
+      context: .
+      dockerfile: docker/back.dockerfile
+    container_name: reapi-back
+    volumes:
+      - ./back:/usr/src/app
+      - ./crons:/usr/src/app/crons
+      - ./logs:/usr/src/logs
+    ports:
+      - "8369:8000"
+    env_file:
+      - .env
+    networks:
+      - reapi-network
+
+  front:
+    build:
+      context: .
+      dockerfile: docker/front.dockerfile
+    container_name: reapi-front
+    volumes:
+      - ./front:/usr/src/app
+      - ./logs:/usr/src/logs
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_BACKEND_URL=http://reapi-back:8000
+    depends_on:
+      - back
+    networks:
+      - reapi-network
+
+networks:
+  reapi-network:
+    driver: bridge

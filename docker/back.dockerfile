@@ -35,12 +35,13 @@ RUN echo "" > /etc/cron.d/my_cron \
 RUN crontab /etc/cron.d/my_cron
 
 # SUPERVISOR
-COPY back.supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY docker/back.supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 CMD ["/usr/bin/supervisord"]
 
 # PYTHON
 WORKDIR $APPINSTALL
-COPY ../back/ $APPINSTALL
+COPY .env $APPINSTALL/
+COPY back/ $APPINSTALL/
 RUN pip install -r requirements.txt
 
 # docker start rng-py

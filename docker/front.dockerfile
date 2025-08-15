@@ -28,14 +28,14 @@ RUN echo "es_MX.UTF-8 UTF-8" >> /etc/locale.gen && \
     apt-get clean
 
 # SUPERVISOR
-COPY back.supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY docker/front.supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 CMD ["/usr/bin/supervisord"]
 
-# PYTHON
+# NODE
 WORKDIR $APPINSTALL
-COPY ../front/ $APPINSTALL
+COPY front/ $APPINSTALL/
 RUN npm install -g pnpm
-RUN pnpm install
+RUN pnpm install -f
 
 # docker start rng-py
 # docker rm -f rng-py && docker image rm rng-web && docker network rm rng-net && docker compose up -d
