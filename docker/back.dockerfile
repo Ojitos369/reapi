@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:3.13
 
 # ENVS
 ENV DEBIAN_FRONTEND=noninteractive
@@ -6,13 +6,13 @@ ENV TZ=America/Mexico_City
 ENV LANG=es_MX.UTF-8
 ENV LANGUAGE=es_MX:es
 ENV LC_ALL=es_MX.UTF-8
-ENV APPHOME=/usr/src/app
+ENV APPINSTALL=/usr/src/app
 ENV PYTHONUNBUFFERED 1
 
 # DEPENDENCIES
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y \
-    wget unzip poppler-utils cron locales tzdata git neovim curl zsh supervisor htop
+    curl git zsh neovim wget unzip cron locales tzdata supervisor htop
 
 # ZSH 
 RUN apt install git neovim curl zsh -y
@@ -27,24 +27,23 @@ RUN echo "es_MX.UTF-8 UTF-8" >> /etc/locale.gen && \
     dpkg-reconfigure -f noninteractive tzdata && \
     apt-get clean
 
-# LOGS
-RUN mkdir /usr/src/logs
-
 # CRONS
+RUN mkdir /usr/src/logs
 RUN echo "" > /etc/cron.d/my_cron \
     && chmod 0644 /etc/cron.d/my_cron
-# RUN echo "* * * * * /usr/src/app/scripts/test.sh >> /usr/src/logs/test.log 2>&1" >> /etc/cron.d/my_cron
+# RUN echo "* * * * * /usr/src/app/crons/test.sh >> /usr/src/logs/test.log 2>&1" >> /etc/cron.d/my_cron
 RUN crontab /etc/cron.d/my_cron
 
 # SUPERVISOR
-COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY back.supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 CMD ["/usr/bin/supervisord"]
 
 # PYTHON
-WORKDIR $APPHOME
-COPY . $APPHOME
+WORKDIR $APPINSTALL
+COPY ../back/ $APPINSTALL
 RUN pip install -r requirements.txt
 
 # docker start rng-py
 # docker rm -f rng-py && docker image rm rng-web && docker network rm rng-net && docker compose up -d
 # docker rm -f rng-py && docker image rm rng-web && docker compose up -d
+

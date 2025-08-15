@@ -1,0 +1,43 @@
+FROM node:22
+
+# ENVS
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=America/Mexico_City
+ENV LANG=es_MX.UTF-8
+ENV LANGUAGE=es_MX:es
+ENV LC_ALL=es_MX.UTF-8
+ENV APPINSTALL=/usr/src/app
+ENV PYTHONUNBUFFERED 1
+
+# DEPENDENCIES
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install -y \
+    curl git zsh neovim wget unzip cron locales tzdata supervisor htop
+
+# ZSH 
+RUN apt install git neovim curl zsh -y
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+RUN chsh -s $(which zsh)
+
+# LOCALES
+RUN echo "es_MX.UTF-8 UTF-8" >> /etc/locale.gen && \
+    locale-gen es_MX.UTF-8 && \
+    ln -snf /usr/share/zoneinfo/America/Mexico_City /etc/localtime && \
+    echo "America/Mexico_City" > /etc/timezone && \
+    dpkg-reconfigure -f noninteractive tzdata && \
+    apt-get clean
+
+# SUPERVISOR
+COPY back.supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+CMD ["/usr/bin/supervisord"]
+
+# PYTHON
+WORKDIR $APPINSTALL
+COPY ../front/ $APPINSTALL
+RUN npm install -g pnpm
+RUN pnpm install
+
+# docker start rng-py
+# docker rm -f rng-py && docker image rm rng-web && docker network rm rng-net && docker compose up -d
+# docker rm -f rng-py && docker image rm rng-web && docker compose up -d
+
