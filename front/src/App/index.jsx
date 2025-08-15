@@ -5,6 +5,7 @@ import { Theme } from '../Components/Theme';
 import { Main as MainPage } from '../Pages/Main';
 import { Index as IndexPage } from '../Pages/Index';
 import { Test as TestPage } from '../Pages/Test';
+import { Chat as ChatPage } from '../Pages/Chat';
 import { Route, Routes, Navigate } from 'react-router-dom';
 
 import { store } from './store';
@@ -35,13 +36,9 @@ function AppUI() {
             <BgTheme />
             <Routes>
                 <Route path="" element={ <MainPage /> } >
-                    {/* -----------   Index   ----------- */}
                     <Route path="" element={ <IndexPage /> } />
-                    {/* -----------   /Index   ----------- */}
-                    {/* -----------   Test   ----------- */}
+                    <Route path="chat" element={ <ChatPage /> } />
                     <Route path="test" element={ <TestPage /> } />
-                    {/* -----------   /Test   ----------- */}
-                    {/* -----------   404   ----------- */}
                     <Route path="*" element={<div className='text-danger h1 text-center mt-5'>404 Not Found</div>} />
                     {/* -----------   /404   ----------- */}
                 </Route>

@@ -15,6 +15,8 @@ from core.websockets.manager import ConnectionManager
 
 from core.conf.settings import MYE, ce, prod_mode
 
+sec_code = "0e5a332d-9e2e-427d-bd84-4e581fe8a806"
+
 
 class BaseApi:
     def __init__(self, *args, **kwargs):
@@ -68,8 +70,10 @@ class BaseApi:
     
     def validate_session(self):
         cookies = self.request.cookies
-        mi_cookie = get_d(cookies, 'miCookie', default='')
-        pln(mi_cookie)
+        mi_cookie = cookies.get('miCookie', '')
+        auth_code = self.request.headers.get("authorization", "no encontrado")
+        # print(f"Authorization header: {auth_code}")
+        # pln(mi_cookie)
 
     def validar_permiso(self, usuarios_validos):
         pass
@@ -142,6 +146,16 @@ class WebSocketApi:
         self.websocket = websocket
         self.manager = manager
         self.data = kwargs
+        self.validate_session()
+    
+    def validate_session(self):
+        auth_code = self.websocket.query_params.get("clientId", None)
+        if not auth_code or auth_code != sec_code:
+            raise HTTPException(
+                status_code=status.HTTP_401_UNAUTHORIZED,
+                detail="Unauthorized access"
+            )
+        print(f"Authorization header: {auth_code}")
 
     async def on_connect(self):
         pass

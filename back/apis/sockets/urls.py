@@ -1,4 +1,5 @@
 from fastapi import APIRouter, WebSocket
+
 from .api import ChatSocketApi
 from core.websockets.manager import manager
 

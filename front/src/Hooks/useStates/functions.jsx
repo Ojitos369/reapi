@@ -23,6 +23,13 @@ const useF = props => {
     const app = {
         helloWorld: () => {
             const end = 'base/hh';
+            const auth_code = "0e5a332d-9e2e-427d-bd84-4e581fe8a806"
+
+            const header = {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${auth_code}`
+            }
+
             miAxios.get(end)
             .then(res => {
                 console.log(res.data);
