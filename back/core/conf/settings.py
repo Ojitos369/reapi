@@ -1,7 +1,13 @@
 import os
+from pathlib import Path
+import setproctitle
 
 from ojitos369.errors import CatchErrors as CE
-from ojitos369.utils import get_d, print_line_center, printwln as pln
+setproctitle.setproctitle('migin-py')
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+MEDIA_DIR = os.path.join(BASE_DIR, 'media')
+
 origins = [
     "http://localhost:5173",
     "http://localhost:8101",

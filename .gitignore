@@ -6,3 +6,7 @@
 *.env*
 logs/*
 *.pnpm-store*
+
+/back/media/*
+!/back/media/stay
+!/back/media/dist

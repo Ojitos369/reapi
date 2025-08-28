@@ -6,6 +6,7 @@ export const Chat = () => {
     const [input, setInput] = useState('');
     const [group, setGroup] = useState('gen');
     const [isConnected, setIsConnected] = useState(false);
+    const [cargando, setCargando] = useState(false);
     
     const socket = useRef(null);
     const clientId = useRef(Date.now());
@@ -33,6 +34,7 @@ export const Chat = () => {
                     return "";
                 });
             }
+            setCargando(false);
         };
 
         socket.current.onclose = () => {
@@ -59,6 +61,7 @@ export const Chat = () => {
             setMessages(prev => [...prev, `Yo: ${input}`]);
             socket.current.send(input);
             setInput('');
+            setCargando(true);
         }
     };
 
@@ -84,6 +87,7 @@ export const Chat = () => {
                     </div>
                 }
                 <br /><br />
+                {cargando && <p>Cargando...</p>}
                 {isConnected &&
                     <div className="input-area">
                         <input

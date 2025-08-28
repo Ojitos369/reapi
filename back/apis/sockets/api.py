@@ -13,7 +13,8 @@ class ChatSocketApi(WebSocketApi):
 
     async def consultar(self, user_message, chat_id):
         self.link = "http://localhost:11434/api/generate"
-        self.model = "deepseek-r1:1.5b"
+        # self.model = "deepseek-r1:1.5b"
+        self.model = "ds8"
         instrucciones = "Eres un bot, solo daras la respuesta, los roles los manejo por fuera\n"
         data = {
             "model": self.model,
