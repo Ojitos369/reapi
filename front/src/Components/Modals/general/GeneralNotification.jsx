@@ -13,14 +13,15 @@ const colors = {
 const Content = props => {
     const { ls, s, f } = useStates();
 
-    const { color, message, title, messages } = useMemo(() => {
+    const { color, message, title, messages, html } = useMemo(() => {
         return {
             color: colors[s.general?.notification?.mode] ?? 'var(--my-minor)',
             title: s.general?.notification?.title || '',
             message: s.general?.notification?.message || '',
             messages: s.general?.notification?.messages,
+            html: s.general?.notification?.html,
         }
-    }, [s.general?.notification?.mode, s.general?.notification?.message, s.general?.notification?.message]);
+    }, [s.general?.notification?.mode, s.general?.notification?.message, s.general?.notification?.html, s.general?.notification?.title, s.general?.notification?.messages]);
 
     // console.log('color', color);
     // console.log('message', message);
@@ -40,6 +41,10 @@ const Content = props => {
             <p className='w-full text-start px-8 mt-4'>
                 {message}
             </p>}
+            {!!html &&
+            <div className='w-full text-start px-8 mt-4'
+                dangerouslySetInnerHTML={{ __html: html }}
+            ></div>}
             {!!messages && messages.map((m, i) => {
                 return (
                     <p key={i} className='w-full text-start px-8 mt-4'>

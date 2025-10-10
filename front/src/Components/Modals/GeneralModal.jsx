@@ -25,7 +25,7 @@ const GeneralModal = props => {
 
 const LocalModal = props => {
     const { s, f } = useStates();
-    const { Component, lvl1, lvl2, autoFocus=true } = props;
+    const { Component, borderColor, lvl1, lvl2, autoFocus=true } = props;
     const keyExec = !!s.modals?.[lvl1]?.[lvl2];
     const ztyle = props.zindex ? {zIndex: props.zindex} : {};
 
@@ -64,6 +64,7 @@ const LocalModal = props => {
             <div 
                 className={`flex ${styles.modal_container} ${styles[props?.modal_container_w || "modal_container_50"]} ${padding} ${styles.my_modal}`}
                 onClick={e => e.stopPropagation()}
+                style={{border: `2px solid ${borderColor || 'var(--my-minor)'}`}}
                 >
                 <Component 
                     {...props}
