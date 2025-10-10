@@ -1,5 +1,5 @@
 services:
-  web:
+  reapi-web:
     build: .
     command: ["/usr/bin/supervisord"]
     container_name: reapy-py

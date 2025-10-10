@@ -9,4 +9,5 @@ logs/*
 
 /back/media/*
 !/back/media/stay
+!/back/media/pages
 !/back/media/dist
