@@ -1,0 +1,19 @@
+services:
+  web:
+    build: .
+    command: ["/usr/bin/supervisord"]
+    container_name: reapy-py
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8368:8000"
+    networks:
+      - reapy-net
+
+networks:
+  reapy-net:
+    driver: bridge
+

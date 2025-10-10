@@ -3,24 +3,15 @@ from pathlib import Path
 import setproctitle
 
 from ojitos369.errors import CatchErrors as CE
-setproctitle.setproctitle('migin-py')
+setproctitle.setproctitle('reapi-py')
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 origins = [
     "http://localhost:5173",
-    "http://localhost:8101",
-    "http://localhost:8101",
-    "http://localhost:8102",
-    "http://localhost:8080",
-    "http://reapif",
-    "http://reapif:5173",
-    "http://reapif:8101",
-    "http://reapin:8101",
-    "http://reapin:8102",
-    "http://192.168.16.2:5173",
 ]
+allow_origin_regex = r"https?://.*(localhost)+.*(:[0-9]+)?"
 allow_origins = origins
 allow_credentials = True
 allow_methods = ["*"]
