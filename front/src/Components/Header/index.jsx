@@ -1,11 +1,20 @@
-import { Link } from "react-router-dom"
+import { MenuIndexPart } from "./MenuIndexPart";
+import { UserPart } from "./UserPart";
+import { ModalUserMenu } from "./ModalUserMenu";
+import { myStates } from "./myStates";
+
 
 export const Header = props => {
+    const { dev_mode, userMenu, style } = myStates();
+
     return (
-        <div className="flex w-full bg-[var(--my-primary)]">
-            <Link to="/" className="w-1/7 text-white underline text-center mx-4 py-2">Index</Link>
-            <Link to="/chat" className="w-1/7 text-white underline text-center mx-4 py-2">Chat</Link>
-            <Link to="/test" className="w-1/7 text-white underline text-center mx-4 py-2">Test</Link>
+        <div className={`${style.headerContent} ${dev_mode && style.devModeBC}`}>
+            <MenuIndexPart />
+            <UserPart />
+            {userMenu && <ModalUserMenu />}
         </div>
     )
 }
+/* 
+
+*/

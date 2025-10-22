@@ -1,0 +1,36 @@
+@use '../../../static/css/response.scss' as *;
+
+.mainPage {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    overflow: hidden;
+    .pageTitle {
+        width: 100%;
+        border-bottom: 1px solid;
+        padding: 5px 15px;
+        font-weight: bolder;
+        font-size: 1.3rem;
+    }
+
+    .sectionContainer {
+        display: flex;
+        justify-content: center;
+        align-content: start;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+        transition: all 0.5s ease-in-out;
+        @include md {
+            &.menuOpen {
+                width: calc(100vw - var(--side-bar-w));
+            }
+        }
+        .contentContainer {
+            width: 98%;
+            height: 100%;
+        }
+    }
+}

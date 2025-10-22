@@ -1,0 +1,21 @@
+@use '../../../static/css/response.scss' as *;
+
+.testComponent {
+    width: 100%;
+    color: red;
+    @include sm {
+        color: orange;
+    }
+    @include md {
+        color: yellow;
+    }
+    @include lg {
+        color: green;
+    }
+    @include xl {
+        color: blue;
+    }
+    @include xxl {
+        color: purple;
+    }
+}

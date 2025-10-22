@@ -1,8 +1,9 @@
 import { useMemo, useEffect } from 'react';
 import { useStates } from '../../Hooks/useStates';
+import { Test } from '../../Components/TestComponent';
 import styles from './styles/index.module.scss';
 
-const Index = props => {
+export const Index = props => {
     const { ls, s, f } = useStates();
     const theme = useMemo(() => ls.theme, [ls.theme]);
     const modalMode = useMemo(() => s.changeTheme?.modalMode, [s.changeTheme?.modalMode]);
@@ -60,8 +61,8 @@ const Index = props => {
             <p>
                 {s.app?.hh?.response?.message || 'Sin Message'}
             </p>
+            <Test />
         </div>
     )
 }
 
-export { Index };

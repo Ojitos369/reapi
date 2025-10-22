@@ -8,6 +8,8 @@ import { Test as TestPage } from '../Pages/Test';
 import { Chat as ChatPage } from '../Pages/Chat';
 import { Route, Routes, Navigate } from 'react-router-dom';
 
+import { P404 } from '../Pages/P404';
+
 import { store } from './store';
 import { Provider } from "react-redux";
 import { useStates } from '../Hooks/useStates';
@@ -39,7 +41,7 @@ function AppUI() {
                     <Route path="" element={ <IndexPage /> } />
                     <Route path="chat" element={ <ChatPage /> } />
                     <Route path="test" element={ <TestPage /> } />
-                    <Route path="*" element={<div className='text-danger h1 text-center mt-5'>404 Not Found</div>} />
+                    <Route path="*" element={ <P404 /> } />
                     {/* -----------   /404   ----------- */}
                 </Route>
             </Routes>
