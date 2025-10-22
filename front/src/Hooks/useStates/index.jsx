@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { useSelector } from "react-redux";
 import { useF } from "./functions";
 import { useLf } from "./localFunctions";
@@ -11,4 +12,16 @@ const useStates = props => {
     return { ls, s, f, lf };
 }
 
-export { useStates };
+const createState = (elements, init) => {
+    const { s, f } = useStates();
+    let state = `s.` + elements.join('?.');
+    const ele = useMemo(() => eval(state) ?? init, [eval(state)]);
+    const updater = value => {
+        value = JSON.stringify(value);
+        let update = `f.u${elements.length - 1}('${elements.join("','")}',${value});`;
+        eval(update);
+    }
+    return [ele, updater]
+}
+
+export { useStates, createState };

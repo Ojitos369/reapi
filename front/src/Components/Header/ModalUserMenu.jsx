@@ -1,8 +1,8 @@
-import { myStates } from "./myStates";
+import { localStates } from "./localStates";
 import { GeneralModal } from "../Modals/GeneralModal";
 
 const Component = props => {
-    const { style, username, closeSession, changeTheme } = myStates();
+    const { style, username, closeSession, changeTheme } = localStates();
     return (
         <div className={`${style.menuUserContainer}`}>
             <p className={`${style.userTitle}`}>

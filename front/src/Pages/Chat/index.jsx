@@ -1,15 +1,43 @@
-import { useState, useEffect, useRef } from 'react';
+import { localStates } from "./localStates";
+import { useEffect, useRef } from 'react';
+import { createState } from "../../Hooks/useStates";
+
+import { Titulo } from "./Titulo";
 
 export const Chat = () => {
-    const [messages, setMessages] = useState([]);
-    const [actualMessage, setActualMessage] = useState("");
-    const [input, setInput] = useState('');
-    const [group, setGroup] = useState('gen');
-    const [isConnected, setIsConnected] = useState(false);
-    const [cargando, setCargando] = useState(false);
-    
+    const { setTitulo, setActualPage } = localStates();
+
+    const [messages, setMessages] = createState(['chat', 'messages'], []);
+    const [actualMessage, setActualMessage] = createState(['chat', 'actualMessage'],"");
+    const [input, setInput] = createState(['chat', 'input'],'');
+    const [group, setGroup] = createState(['chat', 'group'],'gen');
+    const [isConnected, setIsConnected] = createState(['chat', 'connected'],false);
+    const [cargando, setCargando] = createState(['chat', 'cargando'],false);
     const socket = useRef(null);
     const clientId = useRef(Date.now());
+
+    const init = () => {
+        setTitulo("chat");
+        setActualPage("chat");
+    }
+
+    const handleConnect = () => {
+        setIsConnected(true);
+    };
+    const sendMessage = () => {
+        console.log(socket.current?.readyState);
+        if (socket.current?.readyState === WebSocket.OPEN && input) {
+            setMessages(prev => [...prev, `Yo: ${input}`]);
+            socket.current.send(input);
+            setInput('');
+            setCargando(true);
+        }
+    };
+
+
+    useEffect(() => {
+        init();
+    }, []);
 
     useEffect(() => {
         if (!isConnected) return;
@@ -27,12 +55,14 @@ export const Chat = () => {
             const message = event.data;
 
             if (message !== "-done-") {
-                setActualMessage(prevActualMessage => prevActualMessage + message);
+                setActualMessage(actualMessage + message);
             } else {
-                setActualMessage(prevActualMessage => {
-                    setMessages(prevMessages => [...prevMessages, prevActualMessage]);
-                    return "";
-                });
+                // setActualMessage(prevActualMessage => {
+                //     setMessages(prevMessages => [...prevMessages, prevActualMessage]);
+                //     return "";
+                // });
+                setMessages([...messages, actualMessage])
+                setActualMessage("");
             }
             setCargando(false);
         };
@@ -52,23 +82,10 @@ export const Chat = () => {
         };
     }, [isConnected, group]);
 
-    const handleConnect = () => {
-        setIsConnected(true);
-    };
-
-    const sendMessage = () => {
-        if (socket.current?.readyState === WebSocket.OPEN && input) {
-            setMessages(prev => [...prev, `Yo: ${input}`]);
-            socket.current.send(input);
-            setInput('');
-            setCargando(true);
-        }
-    };
-
     return (
         <div className="App">
             <header className="App-header">
-                <h1>Chat con LLM en Streaming</h1>
+                <Titulo />
                 <div className="chat-box">
                     {messages.map((msg, index) => (
                         <p key={index}>{msg}</p>

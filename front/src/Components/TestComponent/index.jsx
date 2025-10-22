@@ -1,6 +1,8 @@
-import style from './styles/index.module.scss';
-
+import { localStates, indexEffects } from "./localStates"
 export const Test = props => {
+    const { style } = localStates();
+    indexEffects();
+
     return (
         <div className={`${style.testComponent}`}>
             Test Component

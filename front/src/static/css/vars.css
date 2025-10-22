@@ -11,4 +11,7 @@
     --my-light: #f8f9fa;
     --my-black: #212529;
     --my-white: #f8f9fa;
+
+    --side-bar-w: max(250px, 20%);
+    --header-h: 60px;
 }

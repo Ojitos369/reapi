@@ -1,25 +1,16 @@
 import { Outlet } from "react-router-dom";
-import { useMemo } from "react";
-import { MenuBar } from "../../Components/MenuBar";
+import { SideBar } from "../../Components/SideBar";
 import { Header } from "../../Components/Header";
-import { useStates } from "../../Hooks/useStates";
-import style from './style/index.module.scss';
+import { localStates } from "./localStates";
 
-const myStates = () => {
-    const { s } = useStates();
-    const menuOpen = useMemo(() => s.menu?.open, [s.menu?.open]);
-    const pageTitle = useMemo(() => s.page?.title, [s.page?.title]);
-
-    return { menuOpen, pageTitle }
-}
 
 export const Main = props => {
-    const { menuOpen, pageTitle } = myStates();
+    const { style, menuOpen, pageTitle } = localStates();
 
     return (
         <div className={`${style.mainPage}`}>
             <Header />
-            <MenuBar />
+            <SideBar />
             <section className={`${style.sectionContainer} ${menuOpen && style.menuOpen}`}>
                 <div className={`${style.contentContainer}`}>
                 {!!pageTitle && 

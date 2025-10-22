@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { useStates } from "../../Hooks/useStates";
 import style from './styles/index.module.scss';
 
-export const myStates = () => {
+export const localStates = () => {
     const { f, lf, s } = useStates();
 
     const actualPage = useMemo(() => s.page?.actual || '', [s.page?.actual]);

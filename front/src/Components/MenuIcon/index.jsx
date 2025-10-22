@@ -1,25 +1,7 @@
-import { useMemo } from "react";
-import { useStates } from "../../Hooks/useStates";
-import style from './styles/index.module.scss';
-
-const myStates = () => {
-    const { f, s } = useStates();
-    const menuOpen = useMemo(() => s.menu?.open ?? false, [s.menu?.open]);
-
-    const toggleMenu = e => {
-        if (!!e) {
-            e.preventDefault(); 
-            e.stopPropagation();
-        }
-        f.u1('menu', 'open', !menuOpen);
-    }
-    return {
-        menuOpen, toggleMenu
-    }
-}
+import { localStates } from "./localStates";
 
 export const MenuIcon = () => {
-    const { menuOpen, toggleMenu } = myStates();
+    const { style, menuOpen, toggleMenu } = localStates();
     return (
         <div className={`${style.menuIcon}`} onClick={toggleMenu}>
             <label className={`${style.hamburger}`}>

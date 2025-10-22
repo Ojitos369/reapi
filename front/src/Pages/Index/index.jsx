@@ -1,34 +1,9 @@
-import { useMemo, useEffect } from 'react';
-import { useStates } from '../../Hooks/useStates';
+import { localStates, indexEffect } from './localStates';
 import { Test } from '../../Components/TestComponent';
-import styles from './styles/index.module.scss';
 
 export const Index = props => {
-    const { ls, s, f } = useStates();
-    const theme = useMemo(() => ls.theme, [ls.theme]);
-    const modalMode = useMemo(() => s.changeTheme?.modalMode, [s.changeTheme?.modalMode]);
-    const showModal = useMemo(() => s.changeTheme?.showModal, [s.changeTheme?.showModal]);
-
-    const toggleModalMode = () => {
-        f.u1('changeTheme', 'modalMode', modalMode === "M" ? "N" : "M");
-    }
-
-    const toggleShowModal = () => {
-        f.u1('changeTheme', 'showModal', !showModal);
-    }
-
-    useEffect(() => {
-        f.app.helloWorld();
-    }, []);
-
-    useEffect(() => {
-        if (!showModal) return;
-        f.general.notificacion({
-            mode: 'info',
-            title: 'Cambio Thema',
-            message: `Thema Cambiado a: ${theme}`
-        });
-    }, [theme, showModal]);
+    const { styles, toggleShowModal, toggleModalMode, hhMessage, theme, showModal, modalMode } = localStates();
+    indexEffect();
 
     return (
         <div className={`${styles.indexPage} flex w-full flex-wrap justify-center`}>
@@ -59,7 +34,7 @@ export const Index = props => {
                 </div>}
             </div>
             <p>
-                {s.app?.hh?.response?.message || 'Sin Message'}
+                {hhMessage || 'Sin Message'}
             </p>
             <Test />
         </div>

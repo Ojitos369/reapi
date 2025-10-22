@@ -16,15 +16,6 @@ import { useStates } from '../Hooks/useStates';
 
 import { GeneralNotification } from '../Components/Modals/general/GeneralNotification'; 
 
-const BgTheme = () => {
-    const { ls } = useStates();
-    return (
-        <>
-            <div className={`wipeInDown full-page-container bg-my-${ls.theme}`}></div>
-            <Theme />
-        </>
-    )
-}
 
 function AppUI() {
     const { ls, s } = useStates();
@@ -34,8 +25,7 @@ function AppUI() {
     }, [ls?.theme]);
 
     return (
-        <div className={`text-[var(--my-minor)]`}>
-            <BgTheme />
+        <div className={`text-[var(--my-minor)] bg-my-${ls.theme}`}>
             <Routes>
                 <Route path="" element={ <MainPage /> } >
                     <Route path="" element={ <IndexPage /> } />
