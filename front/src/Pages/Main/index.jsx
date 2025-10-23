@@ -14,10 +14,10 @@ export const Main = props => {
             <SideBar />
             <section className={`${style.sectionContainer} ${openSectionClass && style[openSectionClass]}`}>
                 <div className={`${style.contentContainer}`}>
-                {!!pageTitle && 
-                    <h1 className={`${style.pageTitle}`}>{pageTitle}</h1>
-                }
-                <Outlet />
+                    {!!pageTitle && 
+                        <h1 className={`${style.pageTitle}`}>{pageTitle}</h1>
+                    }
+                    <Outlet />
                 </div>
             </section>
             <MenuBar />

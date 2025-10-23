@@ -8,7 +8,7 @@ export const MenuBar = props => {
     ]
 
     return (
-        <div className={`${style.MenuBarContent} ${!menubarOpen && style.hiddeBar}`}>
+        <div className={`${style.menuBarContent} ${!menubarOpen && style.hiddeBar}`}>
             <li className={`${style.elementsList}`}>
                 {elementos.map((ele, index) => {
                     const show = ele.show ?? true;
