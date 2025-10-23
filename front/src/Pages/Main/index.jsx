@@ -11,16 +11,18 @@ export const Main = props => {
     return (
         <div className={`${style.mainPage}`}>
             <Header />
-            <SideBar />
-            <section className={`${style.sectionContainer} ${openSectionClass && style[openSectionClass]}`}>
-                <div className={`${style.contentContainer}`}>
-                    {!!pageTitle && 
-                        <h1 className={`${style.pageTitle}`}>{pageTitle}</h1>
-                    }
-                    <Outlet />
-                </div>
-            </section>
-            <MenuBar />
+            <div className={`${style.mainContent}`}>
+                <SideBar />
+                <section className={`${style.sectionContainer} ${openSectionClass && style[openSectionClass]}`}>
+                    <div className={`${style.contentContainer}`}>
+                        {!!pageTitle && 
+                            <h1 className={`${style.pageTitle}`}>{pageTitle}</h1>
+                        }
+                        <Outlet />
+                    </div>
+                </section>
+                <MenuBar />
+            </div>
         </div>
     )
 }

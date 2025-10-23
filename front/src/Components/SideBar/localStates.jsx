@@ -13,7 +13,7 @@ export const localStates = () => {
         lf.toggleTheme();
     }
     const toggleSidebar = () => {
-        f.u1('sidebar', 'open', !menuOpen);
+        f.u1('sidebar', 'open', !sidebarOpen);
     }
     
     return {

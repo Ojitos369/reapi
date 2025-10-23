@@ -16,5 +16,5 @@ export const localStates = () => {
 
     const pageTitle = useMemo(() => s.page?.title, [s.page?.title]);
 
-    return { style, openSectionClass, pageTitle }
+    return { style, openSectionClass, pageTitle, menubarOpen }
 }

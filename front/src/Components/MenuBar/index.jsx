@@ -1,7 +1,7 @@
 import { localStates } from "./localStates";
 
-export const MenuBar = props => {
-    const { style, menubarOpen, changeTheme } = localStates();
+export const MenuBar = ({ menubarOpen }) => {
+    const { style, changeTheme } = localStates();
 
     const elementos = [
         {name: 'Cambiar Tema', action: changeTheme},

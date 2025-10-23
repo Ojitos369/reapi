@@ -1,11 +1,16 @@
 @use '../../../static/css/response.scss' as *;
 
 .mainPage {
-    display: flex;
     width: 100vw;
     height: 100vh;
-    flex-wrap: wrap;
     overflow: hidden;
+
+    .mainContent {
+        display: flex;
+        width: 100%;
+        height: calc(100vh - var(--header-h));
+    }
+
     .pageTitle {
         width: 100%;
         border-bottom: 1px solid;
@@ -24,12 +29,13 @@
         overflow: scroll;
         transition: all 0.5s ease-in-out;
 
+        &.menubarOpen {
+            width: calc(100vw - var(--menu-bar-w));
+        }
+
         @include md {
             &.sidebarOpen {
                 width: calc(100vw - var(--side-bar-w));
-            }
-            &.menubarOpen {
-                width: calc(100vw - var(--menu-bar-w));
             }
             &.bothOpen {
                 width: calc(100vw - var(--side-bar-w) - var(--menu-bar-w));

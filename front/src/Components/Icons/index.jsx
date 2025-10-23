@@ -133,7 +133,7 @@ export const Pause = props => {
     )
 }
 export const User = props => {
-    const { className, onClick } = props;
+    const { className, onClick, open } = props;
     return (
         <svg 
             xmlns="http://www.w3.org/2000/svg" 
@@ -146,7 +146,7 @@ export const User = props => {
             strokeLinecap="round" 
             strokeLinejoin="round"
             onClick={onClick}
-            className={`lucide lucide-user-icon lucide-user ${!!className && className}`}>
+            className={`lucide lucide-user-icon lucide-user ${!!className && className} ${open && simple.selected}`}>
             <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
             <circle cx="12" cy="7" r="4"/>
         </svg>
