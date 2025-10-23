@@ -3,7 +3,7 @@ import { localStates } from "./localStates";
 export const SidebarIcon = () => {
     const { style, sidebarOpen, toggleSidebar } = localStates();
     return (
-        <div className={`${style.sidebarIcon}`} onClick={toggleSidebar}>
+        <div className={`${style.sidebarIcon} p-4`} onClick={toggleSidebar}>
             <label className={`${style.hamburger}`}>
                 <input type="checkbox" checked={sidebarOpen} readOnly />
                 <svg viewBox="0 0 32 32">

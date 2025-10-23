@@ -5,6 +5,7 @@ import style from './styles/index.module.scss';
 export const localStates = props => {
     const { f } = useStates();
     const init = () => {
+        f.u1('page', 'title', 'test');
         f.u1('page', 'actual', 'test');
     }
     return { style, init }

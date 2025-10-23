@@ -14,27 +14,14 @@
     position: sticky;
     top: 0;
     padding: 5px 35px;
-    &.devModeBC {
-        background: #49a1de;
-    }
 
     .menuIndexPart {
         display: flex;
-        flex-direction: row;
         width: auto;
         height: 100%;
         justify-content: start;
-        align-items: center;
+        align-content: center;
         padding: 3px 0;
-        .sidebarIcon {
-            height: 30px;
-            width: 30px;
-            margin-right: 15px;
-        }
-        img {
-            height: 90%;
-            width: auto;
-        }
     }
     .userPart {
         width: auto;

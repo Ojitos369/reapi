@@ -1,11 +1,7 @@
 import { localStates } from "./localStates";
 
 export const MenuBar = props => {
-    const { style, menubarOpen, changeTheme } = localStates();
-
-    const elementos = [
-        {name: 'Cambiar Tema', action: changeTheme},
-    ]
+    const { style, menubarOpen, changeTheme, elementos } = localStates();
 
     return (
         <div className={`${style.menuBarContent} ${!menubarOpen && style.hiddeBar}`}>

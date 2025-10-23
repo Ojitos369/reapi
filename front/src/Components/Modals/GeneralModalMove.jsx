@@ -24,7 +24,7 @@ const dragElement = (elmnt, updatePost, xpos, ypos) => {
     }
 
     function elementMove(e) {
-        e.preventDefault();
+        // e.preventDefault();
 
         let ele_height = elmnt.offsetHeight;
         let ele_width = elmnt.offsetWidth;
