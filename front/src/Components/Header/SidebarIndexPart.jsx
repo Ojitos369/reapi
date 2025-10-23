@@ -1,12 +1,12 @@
 import { localStates } from "./localStates";
-import { MenuIcon } from "../MenuIcon";
+import { SidebarIcon } from "../SidebarIcon";
 
-export const MenuIndexPart = () => {
+export const SidebarIndexPart = () => {
     const { logo, style } = localStates();
     return (
         <div className={`${style.menuIndexPart}`}>
-            <div className={`${style.menuIcon}`}>
-                <MenuIcon />
+            <div className={`${style.sidebarIcon}`}>
+                <SidebarIcon />
             </div>
         </div>
     )

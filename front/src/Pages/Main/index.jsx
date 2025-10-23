@@ -1,17 +1,18 @@
 import { Outlet } from "react-router-dom";
 import { SideBar } from "../../Components/SideBar";
+import { MenuBar } from "../../Components/MenuBar";
 import { Header } from "../../Components/Header";
 import { localStates } from "./localStates";
 
 
 export const Main = props => {
-    const { style, menuOpen, pageTitle } = localStates();
+    const { style, openSectionClass, pageTitle } = localStates();
 
     return (
         <div className={`${style.mainPage}`}>
             <Header />
             <SideBar />
-            <section className={`${style.sectionContainer} ${menuOpen && style.menuOpen}`}>
+            <section className={`${style.sectionContainer} ${openSectionClass && style[openSectionClass]}`}>
                 <div className={`${style.contentContainer}`}>
                 {!!pageTitle && 
                     <h1 className={`${style.pageTitle}`}>{pageTitle}</h1>
@@ -19,6 +20,7 @@ export const Main = props => {
                 <Outlet />
                 </div>
             </section>
+            <MenuBar />
         </div>
     )
 }

@@ -1,6 +1,6 @@
-import { MenuIndexPart } from "./MenuIndexPart";
+import { SidebarIndexPart } from "./SidebarIndexPart";
 import { UserPart } from "./UserPart";
-import { ModalUserMenu } from "./ModalUserMenu";
+// import { ModalUserMenu } from "./ModalUserMenu";
 import { localStates } from "./localStates";
 
 
@@ -9,9 +9,9 @@ export const Header = props => {
 
     return (
         <header className={`${style.headerContent} ${dev_mode && style.devModeBC}`}>
-            <MenuIndexPart />
+            <SidebarIndexPart />
             <UserPart />
-            {userMenu && <ModalUserMenu />}
+            {/* {userMenu && <ModalUserMenu />} */}
         </header>
     )
 }

@@ -9,10 +9,12 @@ export const localStates = () => {
     const { prod_mode, dev_mode } = useMemo(() => s.app?.modes ?? {}, [s.app?.modes]);
     const userMenu = useMemo(() => s.modals?.user?.menu, [s.modals?.user?.menu]);
     const username = useMemo(() => s.usuario?.data?.usuario, [s.usuario?.data?.usuario]);
+    const menubarOpen = useMemo(() => s.menubar?.open ?? false, [s.menubar?.open]);
 
     const openUserMenu = () => {
-        f.u1('menu', 'open', false);
-        f.u2('modals', 'user', 'menu', true);
+        // f.u1('menu', 'open', false);
+        // f.u2('modals', 'user', 'menu', true);
+        f.u1('menubar', 'open', !menubarOpen);
     }
 
     const changeTheme = () => {
@@ -30,6 +32,6 @@ export const localStates = () => {
         prod_mode, dev_mode,
         actualPage, 
         userMenu, openUserMenu, 
-        username, 
+        username, menubarOpen, 
     }
 }

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { localStates } from "./localStates";
 
 export const SideBar = props => {
-    const { style, menuOpen, actualPage } = localStates();
+    const { style, sidebarOpen, actualPage } = localStates();
 
     const elementos = [
         {name: 'Index', page_name: 'index', to: '/'},
@@ -11,7 +11,7 @@ export const SideBar = props => {
     ]
 
     return (
-        <nav className={`${style.SideBarContent} ${!menuOpen && style.hiddeBar}`}>
+        <nav className={`${style.SideBarContent} ${!sidebarOpen && style.hiddeBar}`}>
             <li className={`${style.elementsList}`}>
                 {elementos.map((ele, index) => {
                     const show = ele.show ?? true;

@@ -4,17 +4,17 @@ import style from './styles/index.module.scss';
 
 export const localStates = () => {
     const { f, s } = useStates();
-    const menuOpen = useMemo(() => s.menu?.open ?? false, [s.menu?.open]);
+    const sidebarOpen = useMemo(() => s.sidebar?.open ?? false, [s.sidebar?.open]);
 
-    const toggleMenu = e => {
+    const toggleSidebar = e => {
         if (!!e) {
             e.preventDefault(); 
             e.stopPropagation();
         }
-        f.u1('menu', 'open', !menuOpen);
+        f.u1('sidebar', 'open', !sidebarOpen);
     }
     return {
         style, 
-        menuOpen, toggleMenu
+        sidebarOpen, toggleSidebar
     }
 }
