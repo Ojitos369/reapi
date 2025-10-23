@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const appName = "reactAppName";
+const appName = "reapibase";
 
 const fs = createSlice({
     name: "fs",
@@ -9,6 +9,9 @@ const fs = createSlice({
         ls: localStorage.getItem(appName) ? JSON.parse(localStorage.getItem(appName)) : {theme: 'black'},
     },
     reducers: {
+        rs: (s) => {
+            s.s = {}
+        },
         u0: (s, action) => {
             const { f0, value } = action.payload;
             s.s = {
@@ -310,8 +313,8 @@ const fs = createSlice({
     }
 });
 
-const { u0, u1, u2, u3, u4, u5, u6, u7, u8, u9, lu0, lu1, lu2, lu3, lu4, lu5 } = fs.actions;
-const f = {u0, u1, u2, u3, u4, u5, u6, u7, u8, u9};
+const { rs, u0, u1, u2, u3, u4, u5, u6, u7, u8, u9, lu0, lu1, lu2, lu3, lu4, lu5 } = fs.actions;
+const f = {rs, u0, u1, u2, u3, u4, u5, u6, u7, u8, u9};
 const lf = {u0: lu0, u1: lu1, u2: lu2, u3: lu3, u4: lu4, u5: lu5};
 // console.log('lf', lf);
 const fsReducer = fs.reducer;

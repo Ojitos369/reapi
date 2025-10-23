@@ -15,11 +15,16 @@ export const localStates = () => {
     const toggleMenubar = () => {
         f.u1('menubar', 'open', !menubarOpen);
     }
+
+    const closeSession = () => {
+        f.auth.closeSession();
+    }
     
 
     const elementos = useMemo(() => {
         return [
             {name: `Theme: ${actualTheme}`, action: changeTheme},
+            {name: `Cerrar Sesion`, action: closeSession},
         ]
     }, [actualTheme, changeTheme]);
 

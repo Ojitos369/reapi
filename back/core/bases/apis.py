@@ -12,13 +12,14 @@ from fastapi import WebSocket, WebSocketDisconnect
 from ojitos369.errors import CatchErrors as CE
 from ojitos369.utils import get_d, print_line_center, printwln as pln
 from core.websockets.manager import ConnectionManager
+from .utils import ClassBase
 
-from core.conf.settings import MYE, ce, prod_mode
+from core.conf.settings import MYE, ce, prod_mode, dev_mode
 
 sec_code = "0e5a332d-9e2e-427d-bd84-4e581fe8a806"
 
 
-class BaseApi:
+class BaseApi(ClassBase):
     def __init__(self, *args, **kwargs):
         self.request = kwargs.get('request', None)
         self.data = {}
@@ -70,8 +71,9 @@ class BaseApi:
     
     def validate_session(self):
         cookies = self.request.cookies
-        mi_cookie = cookies.get('miCookie', '')
+        mi_cookie = cookies.get('reapiBase', '')
         auth_code = self.request.headers.get("authorization", "no encontrado")
+        self.token = mi_cookie or auth_code
         # print(f"Authorization header: {auth_code}")
         # pln(mi_cookie)
 
@@ -102,7 +104,7 @@ class BaseApi:
             self.errors(e)
         try:
             self.validate_session()
-            return self.main()
+            return self.main() or self.response
         except Exception as e:
             self.errors(e)
 
