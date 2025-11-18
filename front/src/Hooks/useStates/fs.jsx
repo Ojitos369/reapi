@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const appName = "reapibase";
+const appName = "ascrm";
 
 const fs = createSlice({
     name: "fs",

@@ -1,11 +1,14 @@
-import { localStates, indexEffects } from "./localStates";
+import { Route, Routes } from 'react-router-dom';
+import { P404 } from '../P404';
+
+import { Test as TestPage } from './Test';
+
 export const Test = () => {
-    const { style } = localStates();
-    indexEffects();
 
     return (
-        <div>
-            <h1 className={`${style.h1Component}`}>Test Component</h1>
-        </div>
-    );
-};
+        <Routes>
+            <Route path="test" element={ <TestPage /> } />
+            <Route path="*" element={ <P404 /> } />
+        </Routes>
+    )
+}

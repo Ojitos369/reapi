@@ -12,7 +12,7 @@
     --my-black: #212529;
     --my-white: #f8f9fa;
 
-    --side-bar-w: max(250px, 20%);
-    --menu-bar-w: max(250px, 20%);
+    --side-bar-w: max(250px, 15%);
+    --menu-bar-w: max(250px, 15%);
     --header-h: 50px;
 }

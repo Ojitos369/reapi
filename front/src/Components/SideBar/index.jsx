@@ -1,14 +1,10 @@
 import { Link } from "react-router-dom";
-import { localStates } from "./localStates";
+import { Fragment } from "react";
+import { localStates, localEffects } from "./localStates";
 
 export const SideBar = props => {
-    const { style, sidebarOpen, actualPage } = localStates();
-
-    const elementos = [
-        {name: 'Index', page_name: 'index', to: '/'},
-        {name: 'Chat', page_name: 'chat', to: '/chat'},
-        {name: 'Test', page_name: 'test', to: '/test'},
-    ]
+    const { style, sidebarOpen, toggleMenu, elementos, actualPage } = localStates();
+    localEffects();
 
     return (
         <nav className={`${style.SideBarContent} ${!sidebarOpen && style.hiddeBar}`}>
@@ -17,15 +13,37 @@ export const SideBar = props => {
                     const show = ele.show ?? true;
                     if (!show) return null;
                     return (
-                        <Link key={index}  to={ele.to} className={`${style.link} ${(actualPage === ele.page_name) && style.linkSelected}`}>
+                        <Fragment key={index}>
+                        <button 
+                            className={`${style.link} ${ele.opened && style.linkSelected}`}
+                            onClick={() => {
+                                toggleMenu(ele.menu_name);
+                            }}
+                            >
                             {ele.name}
-                        </Link>
+                        </button>
+                        <div className={`${style.linksList} ${style[ele.menu_name]} ${ele.opened && style.linksListSelected}`}>
+                            <div className={style.linksListContent}>
+                                {ele.elements.map((ele2, index2) => {
+                                    const show2 = ele2.show ?? true;
+                                    if (!show2) return null;
+                                    return (
+                                        <Link 
+                                            key={index2}
+                                            className={`${style.linkPage} ${style.link} ${actualPage === ele2.page_name && style.linkSelected}`}
+                                            to={ele2.to}
+                                        >
+                                            {ele2.name}
+                                        </Link>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                        </Fragment>
                     )
                 })}
             </li>
         </nav>
     )
 }
-/* 
-
-*/
+/* */

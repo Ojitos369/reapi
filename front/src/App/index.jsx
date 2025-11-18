@@ -9,7 +9,6 @@ import { Test as TestPage } from '../Pages/Test';
 import { Chat as ChatPage } from '../Pages/Chat';
 
 import { Login as LoginPage } from '../Pages/Login';
-
 import { P404 } from '../Pages/P404';
 
 import { store } from './store';
@@ -56,8 +55,8 @@ function AppUI() {
             <Routes>
                 <Route path="" element={ <MainPage /> } >
                     <Route path="" element={ <IndexPage /> } />
-                    <Route path="test" element={ <TestPage /> } />
-                    <Route path="chat" element={ <ChatPage /> } />
+                    <Route path="chat/*" element={ <ChatPage /> } />
+                    <Route path="test/*" element={ <TestPage /> } />
                     <Route path="*" element={ <P404 /> } />
                     {/* -----------   /404   ----------- */}
                 </Route>

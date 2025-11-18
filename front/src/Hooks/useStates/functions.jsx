@@ -4,7 +4,6 @@ import withReactContent from 'sweetalert2-react-content';
 import { useDispatch, useSelector } from "react-redux";
 import { f as ff } from "./fs";
 
-
 const MySwal = withReactContent(Swal);
 
 const link = 'http://localhost:8369/api/';
@@ -13,7 +12,7 @@ axios.defaults.withCredentials = true
 const miAxios = axios.create({
     baseURL: link,
 });
-const pjid = "reapibase";
+const pjid = "ascrm";
 
 const updates = () => {
     const ls = useSelector(state => state.fs.ls);
