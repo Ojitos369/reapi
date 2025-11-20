@@ -7,6 +7,7 @@ from inspect import currentframe
 from fastapi import status
 from fastapi import HTTPException
 from fastapi import WebSocket, WebSocketDisconnect
+from starlette.concurrency import run_in_threadpool
 
 # Ojitos369
 from ojitos369.errors import CatchErrors as CE
@@ -103,10 +104,13 @@ class BaseApi(ClassBase):
         except Exception as e:
             self.errors(e)
         try:
-            self.validate_session()
-            return self.main() or self.response
+            await run_in_threadpool(self.validate_session)
+            result = await run_in_threadpool(self.main)
+            return result or self.response
         except Exception as e:
             self.errors(e)
+        finally:
+            self.close_connections()
 
 
 class PostApi(BaseApi):
