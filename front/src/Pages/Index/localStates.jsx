@@ -8,11 +8,14 @@ export const localStates = props => {
     const theme = useMemo(() => ls.theme, [ls.theme]);
     const [modalMode, setModalMode] = createState(['changeTheme', 'modalMode'], "N");
     const [showModal, setShowModal] = createState(['changeTheme', 'showModal'], false);
+    const [titulo, setTitulo] = createState(['page', 'title'], "");
+    const [actualPage, setActualPage] = createState(['page', 'actual'], "");
     const hhMessage = useMemo(() => s.app?.hh?.response?.message, [s.app?.hh?.response?.message]);
 
     const init = () => {
         f.app.helloWorld();
-        f.u1('page', 'actual', 'index');
+        setTitulo("Index");
+        setActualPage("index");
     }
 
     const toggleNot = () => {

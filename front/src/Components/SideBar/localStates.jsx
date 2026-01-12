@@ -14,6 +14,10 @@ export const localStates = () => {
 
     const elementos = useMemo(() => {
         return [
+            {name: 'Index', menu_name: 'index', opened: menusAbiertos['index'], elements: [
+                // cargar, asignar
+                {name: 'Index', page_name: 'index', to: '/'},
+            ]},
             {name: 'Chat', menu_name: 'chat', opened: menusAbiertos['chat'], elements: [
                 // cargar, asignar
                 {name: 'Chat', page_name: 'chat', to: '/chat/chat'},
