@@ -110,7 +110,7 @@ class BaseApi(ClassBase):
         except Exception as e:
             self.errors(e)
         finally:
-            self.close_connections()
+            pass
 
 
 class PostApi(BaseApi):
