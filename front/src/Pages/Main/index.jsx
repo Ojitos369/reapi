@@ -2,11 +2,12 @@ import { Outlet } from "react-router-dom";
 import { SideBar } from "../../Components/SideBar";
 import { MenuBar } from "../../Components/MenuBar";
 import { Header } from "../../Components/Header";
-import { localStates } from "./localStates";
+import { localStates, localEffects } from "./localStates";
 
 
 export const Main = props => {
     const { style, openSectionClass, pageTitle } = localStates();
+    localEffects();
 
     return (
         <div className={`${style.mainPage}`}>

@@ -9,7 +9,8 @@ export const localStates = () => {
     const actualPage = useMemo(() => s.page?.actual || '', [s.page?.actual]);
     const actualMenu = useMemo(() => s.page?.actualMenu || '', [s.page?.actualMenu]);
     const { prod_mode, dev_mode } = useMemo(() => s.app?.modes ?? {}, [s.app?.modes]);
-    const sidebarOpen = useMemo(() => s.sidebar?.open, [s.sidebar?.open]);
+    const isInMd = useMemo(() => s.app?.general?.isInMd, [s.app?.general?.isInMd]);
+    const [sidebarOpen, setSidebarOpen] = createState(['sidebar', 'open'], false);
     const [menusAbiertos, setMenusAbiertos] = createState(['sidebar', 'menusAbiertos'], {});
 
     const elementos = useMemo(() => {
@@ -30,16 +31,16 @@ export const localStates = () => {
     }, [menusAbiertos]);
 
     const toggleMenu = menu => {
-        setMenusAbiertos({[menu]: !menusAbiertos[menu]});
+        setMenusAbiertos({ [menu]: !menusAbiertos[menu] });
     }
-    
+
     return {
-        style, 
-        prod_mode, dev_mode,
-        actualPage, 
-        toggleMenu, 
-        sidebarOpen,
-        setMenusAbiertos, 
+        style,
+        prod_mode, dev_mode, isInMd,
+        actualPage,
+        toggleMenu, isInMd, 
+        sidebarOpen, setSidebarOpen,
+        setMenusAbiertos,
         elementos, actualMenu, 
     }
 }
@@ -48,6 +49,6 @@ export const localEffects = () => {
     const { actualMenu, setMenusAbiertos } = localStates();
 
     useEffect(() => {
-        setMenusAbiertos({[actualMenu]: true});
+        setMenusAbiertos({ [actualMenu]: true });
     }, [actualMenu]);
 }

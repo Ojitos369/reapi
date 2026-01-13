@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import { localStates, localEffects } from "./localStates";
 
 export const SideBar = props => {
-    const { style, sidebarOpen, toggleMenu, elementos, actualPage } = localStates();
+    const { style, sidebarOpen, setSidebarOpen, toggleMenu, elementos, actualPage, isInMd } = localStates();
     localEffects();
 
     return (
@@ -32,6 +32,9 @@ export const SideBar = props => {
                                             key={index2}
                                             className={`${style.linkPage} ${style.link} ${actualPage === ele2.page_name && style.linkSelected}`}
                                             to={ele2.to}
+                                            onClick={() => {
+                                                if (!isInMd) setSidebarOpen(false);
+                                            }}
                                         >
                                             {ele2.name}
                                         </Link>

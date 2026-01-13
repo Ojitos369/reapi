@@ -1,38 +1,35 @@
-import { useMemo } from "react";
-import { useStates } from "../../Hooks/useStates";
+import { useMemo, useEffect } from "react";
+import { useStates, createState } from "../../Hooks/useStates";
 import style from './styles/index.module.scss';
 
+import { MenuBarDefault } from "../../Pages/Index/MenuBarDefault";
+
 export const localStates = () => {
-    const { f, lf, s, ls } = useStates();
-
-    const { prod_mode, dev_mode } = useMemo(() => s.app?.modes ?? {}, [s.app?.modes]);
-    const actualTheme = useMemo(() => ls.theme, [ls.theme]);
-    const menubarOpen = useMemo(() => s.menubar?.open, [s.menubar?.open]);
-
-    const changeTheme = () => {
-        lf.toggleTheme();
-    }
-    const toggleMenubar = () => {
-        f.u1('menubar', 'open', !menubarOpen);
-    }
-
-    const closeSession = () => {
-        f.auth.closeSession();
-    }
-    
-
-    const elementos = useMemo(() => {
-        return [
-            {name: `Theme: ${actualTheme}`, action: changeTheme},
-            {name: `Cerrar Sesion`, action: closeSession},
-        ]
-    }, [actualTheme, changeTheme]);
+    const { s } = useStates();
+    // const menubarOpen = useMemo(() => s.menubar?.open, [s.menubar?.open]);
+    const [menubarOpen, setMenuBarOpen] = createState(['menubar', 'open'], false);
+    const menuMode = useMemo(() => s.menubar?.menuMode, [s.menubar?.menuMode]);
+    const Component = useMemo(() => {
+        switch (menuMode) {
+            case 'menuBarDefault':
+                return MenuBarDefault;
+            default:
+                return null;
+        }
+    }, [menuMode]);
 
     return {
-        style, 
-        changeTheme,
-        prod_mode, dev_mode,
-        menubarOpen, toggleMenubar,
-        actualTheme, elementos, 
+        style, Component,
+        menubarOpen, setMenuBarOpen,
     }
+}
+
+export const localEffects = () => {
+    const { Component, setMenuBarOpen } = localStates();
+
+    useEffect(() => {
+        if (!Component) {
+            setMenuBarOpen(false);
+        }
+    }, [Component]);
 }
