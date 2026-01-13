@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { lf as lff } from "./fs";
-import { useF } from "./functions";
+import { useBase as useF } from "./apps/base";
 
 const useLf = props => {
     const ls = useSelector(state => state.fs.ls);

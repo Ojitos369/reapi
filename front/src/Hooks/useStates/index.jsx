@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { useSelector } from "react-redux";
-import { useF } from "./functions";
+import { useBase as useF } from "./apps/base";
 import { useLf } from "./localFunctions";
 
 const useStates = props => {

@@ -1,8 +1,8 @@
 
 import { useEffect } from 'react';
 import { createState } from '../../../Hooks/useStates';
-import style from './styles/index.module.scss';
-import styleGen from '../styles/index.module.scss';
+import styles from './styles/index.module.scss';
+import stylesGen from '../styles/index.module.scss';
 
 
 export const localStates = props => {
@@ -17,7 +17,7 @@ export const localStates = props => {
 
 
     return { 
-        style, styleGen,
+        styles, stylesGen,
         init,
     }
 }

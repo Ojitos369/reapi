@@ -72,11 +72,13 @@ class BaseApi(ClassBase):
     
     def validate_session(self):
         cookies = self.request.cookies
-        mi_cookie = cookies.get('reapiBase', '')
-        auth_code = self.request.headers.get("authorization", "no encontrado")
+        mi_cookie = cookies.get('reapi', '')
+        auth_code = self.request.headers.get("authorization", None)
         self.token = mi_cookie or auth_code
         # print(f"Authorization header: {auth_code}")
         # pln(mi_cookie)
+        if not self.token:
+            raise self.MYE("Sesion no valida")
 
     def validar_permiso(self, usuarios_validos):
         pass

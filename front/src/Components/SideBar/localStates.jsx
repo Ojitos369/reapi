@@ -38,7 +38,7 @@ export const localStates = () => {
         style,
         prod_mode, dev_mode, isInMd,
         actualPage,
-        toggleMenu, isInMd, 
+        toggleMenu, 
         sidebarOpen, setSidebarOpen,
         setMenusAbiertos,
         elementos, actualMenu, 

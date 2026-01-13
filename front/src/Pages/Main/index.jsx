@@ -21,7 +21,11 @@ export const Main = props => {
                         {!!pageTitle && 
                             <h1 className={`${style.pageTitle}`}>{pageTitle}</h1>
                         }
-                        <Outlet />
+                        <div className={`${style.outletContainer}`}>
+                            <div className={`${style.outlet}`}>
+                                <Outlet />
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <MenuBar />
