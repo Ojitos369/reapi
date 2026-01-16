@@ -1,3 +1,14 @@
+::view-transition-group(*) {
+    animation-duration: inherit;
+    mix-blend-mode: normal;
+}
+
+::view-transition-old(*),
+::view-transition-new(*) {
+    animation-duration: inherit;
+    animation-fill-mode: both !important;
+}
+
 ::view-transition-old(.moveRight) {
     animation: move-right 0.5s ease-in-out reverse;
 }
