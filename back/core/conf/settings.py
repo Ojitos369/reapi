@@ -36,4 +36,4 @@ email_settings = {
 class MYE(Exception):
     pass
 
-ce = CE(name_project = 'Manejo Altan', email_settings = email_settings)
+ce = CE(name_project = 'REAPI', email_settings = email_settings)
