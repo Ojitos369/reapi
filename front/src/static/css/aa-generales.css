@@ -54,22 +54,25 @@ a:hover {
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
+    display: none;
 }
 /* Track */
 ::-webkit-scrollbar-track {
     background-color: #fff;
     border-radius: 0 50px 50px 0;
+    display: none;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
     border-radius: 50px;
     background: #888;
+    display: none;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+    display: none;
 }
-
 
 
 body::-webkit-scrollbar {

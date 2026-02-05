@@ -5,17 +5,19 @@
     color: var(--my-minor);
     height: calc(100vh - var(--header-h));
     width: 100%;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: start;
     flex-wrap: wrap;
-    border-right: 1px solid var(--my-minor);
+    // border-right: 1px solid var(--my-minor);
     transition: all 0.5s ease-in-out;
     z-index: 1;
     position: fixed;
     overflow: hidden;
     top: var(--header-h);
+    left: 0;
 
     .elementsList {
         width: 100%;
@@ -48,7 +50,7 @@
                 width: 100%;
                 border: none;
                 text-align: start;
-                padding: 5px 30px;
+                padding: 5px 35px;
                 color: var(--my-minor);
 
                 &.linkSelected {
@@ -71,8 +73,8 @@
         .link {
             border: none;
             width: 100%;
-            padding: 5px;
-            text-align: center;
+            padding: 5px 25px;
+            text-align: start;
             transition: all 0.3s ease-in-out;
             box-shadow: 0px 0px 0px #212529, 0px 0px 0px #353a3f;
 
@@ -104,6 +106,6 @@
 
     &.hiddeBar {
         width: 0;
-        border-right: 1px solid transparent;
+        // border-right: 1px solid transparent;
     }
 }
