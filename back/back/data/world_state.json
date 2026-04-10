@@ -1,167 +1,11 @@
 {
   "agents": [
     {
-      "id": "8e9502a2-76f3-4010-abab-1ae0cb3cb59d",
-      "name": "Gage",
-      "x": 187.37627265057364,
-      "y": 1294.383697976162,
-      "speed": 0.8879704592934379,
-      "dna": {
-        "sociability": 0.3730866363669382,
-        "energy_loss_rate": 0.0441167780371526,
-        "aggressiveness": 0.770973145380808,
-        "work_ethic": 0.7603321319709003,
-        "curiosity": 0.8255302861923923,
-        "strength": 1.282693042832315,
-        "libido": 0.7879942140540943,
-        "cognitive_level": 0.04076869117075224
-      },
-      "personality": [
-        "philosophical",
-        "wise"
-      ],
-      "status": "moving",
-      "memories": [],
-      "inventory": {
-        "wood": 0,
-        "food": 0,
-        "stone": 0,
-        "iron": 0,
-        "gold": 0,
-        "resin": 0,
-        "seed": 0,
-        "clay": 0,
-        "gemstone": 0,
-        "mana": 0
-      },
-      "tools": [],
-      "discovered_recipes": [],
-      "energy": 93.73541751872456,
-      "needs": {
-        "hunger": 92.90000000000028,
-        "thirst": 88.64000000000011,
-        "social": 95.73999999999984,
-        "rest": 97.16000000000044
-      },
-      "age": 151,
-      "max_age": 5489,
-      "generation": 1,
-      "fitness": 0,
-      "xp": 0,
-      "level": 1,
-      "biome": "Pradera",
-      "current_dialogue": null
-    },
-    {
-      "id": "ae1d2f50-e8c1-48f6-8d96-9b4bb1bb754e",
-      "name": "Dot",
-      "x": 535.2489768949414,
-      "y": 795.1395337239984,
-      "speed": 1.139061210050821,
-      "dna": {
-        "sociability": 0.3781388995893209,
-        "energy_loss_rate": 0.03991743679639684,
-        "aggressiveness": 0.33871905423287574,
-        "work_ethic": 0.9244204934398114,
-        "curiosity": 0.2078025271518229,
-        "strength": 1.0912944052659668,
-        "libido": 0.8303486010007791,
-        "cognitive_level": 0.01974814785920841
-      },
-      "personality": [
-        "friendly",
-        "philosophical"
-      ],
-      "status": "moving",
-      "memories": [],
-      "inventory": {
-        "wood": 0,
-        "food": 0,
-        "stone": 0,
-        "iron": 0,
-        "gold": 0,
-        "resin": 0,
-        "seed": 0,
-        "clay": 0,
-        "gemstone": 0,
-        "mana": 0
-      },
-      "tools": [],
-      "discovered_recipes": [],
-      "energy": 93.97246704374348,
-      "needs": {
-        "hunger": 92.45000000000043,
-        "thirst": 87.92000000000026,
-        "social": 95.46999999999983,
-        "rest": 96.9800000000006
-      },
-      "age": 151,
-      "max_age": 5113,
-      "generation": 1,
-      "fitness": 0,
-      "xp": 0,
-      "level": 1,
-      "biome": "Bosque Oscuro",
-      "current_dialogue": null
-    },
-    {
-      "id": "da756635-1c64-47fe-bc36-c049fe6d514c",
-      "name": "Cam",
-      "x": 1732.7110399307346,
-      "y": 1895.6602807803054,
-      "speed": 1.516683103043121,
-      "dna": {
-        "sociability": 0.1846418483367317,
-        "energy_loss_rate": 0.01178630707675429,
-        "aggressiveness": 0.5017293442012406,
-        "work_ethic": 0.4898744989789965,
-        "curiosity": 0.8369099584242935,
-        "strength": 1.808259074092978,
-        "libido": 0.07473927513904899,
-        "cognitive_level": 0.09740237294274154
-      },
-      "personality": [
-        "wise",
-        "pessimistic"
-      ],
-      "status": "thinking_action",
-      "memories": [],
-      "inventory": {
-        "wood": 0,
-        "food": 0,
-        "stone": 0,
-        "iron": 0,
-        "gold": 0,
-        "resin": 0,
-        "seed": 0,
-        "clay": 0,
-        "gemstone": 0,
-        "mana": 0
-      },
-      "tools": [],
-      "discovered_recipes": [],
-      "energy": 98.49724584771295,
-      "needs": {
-        "hunger": 93.62500000000003,
-        "thirst": 89.79999999999988,
-        "social": 96.17499999999986,
-        "rest": 97.45000000000017
-      },
-      "age": 151,
-      "max_age": 6879,
-      "generation": 1,
-      "fitness": 0,
-      "xp": 0,
-      "level": 1,
-      "biome": "Desierto",
-      "current_dialogue": null
-    },
-    {
-      "id": "3d4ab871-d1a0-4552-8a20-9d3001f81476",
-      "name": "Gage",
-      "x": 623.0821064231397,
-      "y": 772.4417086293436,
-      "speed": 1.0130764732037232,
+      "id": "570e2838-78ae-4e67-96e6-bd0ce9e966ee",
+      "name": "Dax",
+      "x": 1273.476726926835,
+      "y": 1489.9144683443128,
+      "speed": 1.7278027884686542,
       "dna": {
         "sociability": 0.5487246248603572,
         "energy_loss_rate": 0.023516175219588556,
@@ -173,14 +17,35 @@
         "cognitive_level": 0.03203010719935595
       },
       "personality": [
-        "inquisitive",
-        "pessimistic"
+        "grumpy",
+        "wise"
       ],
-      "status": "moving",
-      "memories": [],
+      "status": "talking",
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        }
+      ],
       "inventory": {
         "wood": 0,
-        "food": 0,
+        "food": 4,
         "stone": 0,
         "iron": 0,
         "gold": 0,
@@ -192,47 +57,60 @@
       },
       "tools": [],
       "discovered_recipes": [],
-      "energy": 96.44905754184288,
+      "energy": 55.066777240217256,
       "needs": {
-        "hunger": 92.45000000000043,
-        "thirst": 87.92000000000026,
-        "social": 95.46999999999983,
-        "rest": 96.9800000000006
+        "hunger": 61.075000000005375,
+        "thirst": 83.27999999999943,
+        "social": 58.644999999997296,
+        "rest": 52.43000000000502
       },
-      "age": 151,
-      "max_age": 6740,
-      "generation": 1,
-      "fitness": 0,
-      "xp": 0,
+      "age": 2499,
+      "max_age": 7984,
+      "generation": 2,
+      "fitness": 4,
+      "xp": 20,
       "level": 1,
-      "biome": "Bosque Oscuro",
+      "biome": "Pradera",
       "current_dialogue": null
     },
     {
-      "id": "72593348-8094-4bea-903c-123a030a7670",
-      "name": "Ash",
-      "x": 932.658360357817,
-      "y": 891.0848421052235,
-      "speed": 0.703057869775318,
+      "id": "bb429b86-0f99-4d44-94f6-f4e9523d72eb",
+      "name": "Sue",
+      "x": 778.017969429486,
+      "y": 986.3509099369553,
+      "speed": 0.7488487057931896,
       "dna": {
-        "sociability": 0.9884744364866049,
-        "energy_loss_rate": 0.03187177644929249,
-        "aggressiveness": 0.3929576252171927,
-        "work_ethic": 0.5934179432841665,
-        "curiosity": 0.18755159172856994,
-        "strength": 0.5007207472451355,
-        "libido": 0.6832995882085847,
-        "cognitive_level": 0.01116583375857827
+        "sociability": 0.5487246248603572,
+        "energy_loss_rate": 0.023516175219588556,
+        "aggressiveness": 0.32335312132549676,
+        "work_ethic": 0.477336472103874,
+        "curiosity": 0.40388500864034027,
+        "strength": 1.0357432275601492,
+        "libido": 0.7499093610490642,
+        "cognitive_level": 0.11081904565393735
       },
       "personality": [
-        "naive",
-        "wise"
+        "grumpy",
+        "pessimistic"
       ],
       "status": "moving",
-      "memories": [],
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        }
+      ],
       "inventory": {
         "wood": 0,
-        "food": 0,
+        "food": 2,
         "stone": 0,
         "iron": 0,
         "gold": 0,
@@ -244,18 +122,91 @@
       },
       "tools": [],
       "discovered_recipes": [],
-      "energy": 95.18736175615675,
+      "energy": 47.99847892722803,
       "needs": {
-        "hunger": 92.45000000000043,
-        "thirst": 87.92000000000026,
-        "social": 95.46999999999983,
-        "rest": 96.9800000000006
+        "hunger": 17.825000000005147,
+        "thirst": 18.76000000000147,
+        "social": 26.694999999997222,
+        "rest": 51.13000000000436
       },
-      "age": 151,
-      "max_age": 6208,
-      "generation": 1,
-      "fitness": 0,
-      "xp": 0,
+      "age": 2499,
+      "max_age": 9092,
+      "generation": 2,
+      "fitness": 1,
+      "xp": 10,
+      "level": 1,
+      "biome": "Pradera",
+      "current_dialogue": null
+    },
+    {
+      "id": "6ebc6ddd-7320-442c-9d52-9e6f9a094b42",
+      "name": "Mac",
+      "x": 1257.7625024284848,
+      "y": 1531.110259085793,
+      "speed": 1.6565452762271902,
+      "dna": {
+        "sociability": 0.5487246248603572,
+        "energy_loss_rate": 0.023516175219588556,
+        "aggressiveness": 0.3836744563828906,
+        "work_ethic": 0.477336472103874,
+        "curiosity": 0.40388500864034027,
+        "strength": 1.0357432275601492,
+        "libido": 0.7499093610490642,
+        "cognitive_level": 0.03203010719935595
+      },
+      "personality": [
+        "friendly",
+        "philosophical"
+      ],
+      "status": "talking",
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        }
+      ],
+      "inventory": {
+        "wood": 0,
+        "food": 4,
+        "stone": 0,
+        "iron": 0,
+        "gold": 0,
+        "resin": 0,
+        "seed": 0,
+        "clay": 0,
+        "gemstone": 0,
+        "mana": 0
+      },
+      "tools": [],
+      "discovered_recipes": [],
+      "energy": 55.06677724021787,
+      "needs": {
+        "hunger": 61.07500000000543,
+        "thirst": 57.28000000000064,
+        "social": 58.644999999997296,
+        "rest": 52.430000000005016
+      },
+      "age": 2499,
+      "max_age": 9120,
+      "generation": 2,
+      "fitness": 4,
+      "xp": 20,
       "level": 1,
       "biome": "Pradera",
       "current_dialogue": null
@@ -935,32 +886,6 @@
       "height": 0,
       "history": [
         "Spawneado el mundo: Polar Bear"
-      ],
-      "metadata": {}
-    },
-    {
-      "id": "7c2b1062-564a-42ab-a032-39623c6e39a6",
-      "name": "Apple Tree",
-      "x": 1264,
-      "y": 1570,
-      "type": "resource",
-      "emoji": "\ud83c\udf4e",
-      "amount": 9,
-      "width": 0,
-      "height": 0,
-      "history": [
-        "Spawneado el mundo: Apple Tree",
-        "Wes recolect\u00f3 comida.",
-        "Cal recolect\u00f3 comida.",
-        "Sue recolect\u00f3 comida.",
-        "Red recolect\u00f3 comida.",
-        "Dot recolect\u00f3 comida.",
-        "Kit recolect\u00f3 comida.",
-        "Flynn recolect\u00f3 comida.",
-        "Koa recolect\u00f3 comida.",
-        "Koa recolect\u00f3 comida.",
-        "Koa recolect\u00f3 comida.",
-        "Kit recolect\u00f3 comida."
       ],
       "metadata": {}
     },
@@ -2621,11 +2546,14 @@
       "y": 600,
       "type": "resource",
       "emoji": "\ud83c\udf4e",
-      "amount": 20,
+      "amount": 17,
       "width": 0,
       "height": 0,
       "history": [
-        "Spawneado el mundo: Apple Tree"
+        "Spawneado el mundo: Apple Tree",
+        "Dax recolect\u00f3 comida.",
+        "Sue recolect\u00f3 comida.",
+        "Bo recolect\u00f3 comida."
       ],
       "metadata": {}
     },
@@ -3401,11 +3329,12 @@
       "y": 1735,
       "type": "resource",
       "emoji": "\ud83c\udf4e",
-      "amount": 20,
+      "amount": 19,
       "width": 0,
       "height": 0,
       "history": [
-        "Spawneado el mundo: Apple Tree"
+        "Spawneado el mundo: Apple Tree",
+        "Gage recolect\u00f3 comida."
       ],
       "metadata": {}
     },
@@ -6134,7 +6063,7 @@
       "y": 1363,
       "type": "resource",
       "emoji": "\ud83c\udf4e",
-      "amount": 8,
+      "amount": 4,
       "width": 0,
       "height": 0,
       "history": [
@@ -6150,7 +6079,11 @@
         "Flynn recolect\u00f3 comida.",
         "Cid recolect\u00f3 comida.",
         "Jed recolect\u00f3 comida.",
-        "Flynn recolect\u00f3 comida."
+        "Flynn recolect\u00f3 comida.",
+        "Gage recolect\u00f3 comida.",
+        "Cam recolect\u00f3 comida.",
+        "Cam recolect\u00f3 comida.",
+        "Dax recolect\u00f3 comida."
       ],
       "metadata": {}
     },
@@ -6446,12 +6379,13 @@
       "y": 1616,
       "type": "resource",
       "emoji": "\ud83c\udf4e",
-      "amount": 19,
+      "amount": 18,
       "width": 0,
       "height": 0,
       "history": [
         "Spawneado el mundo: Apple Tree",
-        "Koa recolect\u00f3 comida."
+        "Koa recolect\u00f3 comida.",
+        "Gage recolect\u00f3 comida."
       ],
       "metadata": {}
     },
@@ -8210,7 +8144,8 @@
         "Koa bebi\u00f3 agua.",
         "Koa bebi\u00f3 agua.",
         "Kit bebi\u00f3 agua.",
-        "Koa bebi\u00f3 agua."
+        "Koa bebi\u00f3 agua.",
+        "Gage bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8291,7 +8226,19 @@
         "Kit bebi\u00f3 agua.",
         "Koa bebi\u00f3 agua.",
         "Koa bebi\u00f3 agua.",
-        "Kit bebi\u00f3 agua."
+        "Kit bebi\u00f3 agua.",
+        "Cam bebi\u00f3 agua.",
+        "Gage bebi\u00f3 agua.",
+        "Cam bebi\u00f3 agua.",
+        "Gage bebi\u00f3 agua.",
+        "Cam bebi\u00f3 agua.",
+        "Gage bebi\u00f3 agua.",
+        "Gage bebi\u00f3 agua.",
+        "Gage bebi\u00f3 agua.",
+        "Mac bebi\u00f3 agua.",
+        "Mac bebi\u00f3 agua.",
+        "Mac bebi\u00f3 agua.",
+        "Dax bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8352,7 +8299,8 @@
       "width": 0,
       "height": 0,
       "history": [
-        "Spawneado el mundo: Water Well"
+        "Spawneado el mundo: Water Well",
+        "Gage bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8540,7 +8488,10 @@
         "Kit bebi\u00f3 agua.",
         "Red bebi\u00f3 agua.",
         "Jed bebi\u00f3 agua.",
-        "Flynn bebi\u00f3 agua."
+        "Flynn bebi\u00f3 agua.",
+        "Gage bebi\u00f3 agua.",
+        "Cam bebi\u00f3 agua.",
+        "Cam bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8570,7 +8521,12 @@
       "width": 0,
       "height": 0,
       "history": [
-        "Spawneado el mundo: Water Well"
+        "Spawneado el mundo: Water Well",
+        "Dax bebi\u00f3 agua.",
+        "Sue bebi\u00f3 agua.",
+        "Bo bebi\u00f3 agua.",
+        "Dax bebi\u00f3 agua.",
+        "Sue bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8631,10 +8587,41 @@
       "Gold"
     ]
   },
-  "current_generation": 1,
-  "game_time": 5206,
+  "current_generation": 2,
+  "game_time": 14006,
   "time_scale": 1.0,
-  "historical_best": [],
+  "historical_best": [
+    {
+      "dna": {
+        "sociability": 0.5487246248603572,
+        "energy_loss_rate": 0.023516175219588556,
+        "aggressiveness": 0.32335312132549676,
+        "work_ethic": 0.477336472103874,
+        "curiosity": 0.40388500864034027,
+        "strength": 1.0357432275601492,
+        "libido": 0.7499093610490642,
+        "cognitive_level": 0.03203010719935595
+      },
+      "fitness": 11,
+      "name": "Gage",
+      "generation": 1
+    },
+    {
+      "dna": {
+        "sociability": 0.1846418483367317,
+        "energy_loss_rate": 0.01178630707675429,
+        "aggressiveness": 0.5017293442012406,
+        "work_ethic": 0.4898744989789965,
+        "curiosity": 0.8369099584242935,
+        "strength": 1.808259074092978,
+        "libido": 0.07473927513904899,
+        "cognitive_level": 0.14740237294274156
+      },
+      "fitness": 11,
+      "name": "Cam",
+      "generation": 1
+    }
+  ],
   "biome_seeds": [
     {
       "x": 1759,

@@ -29,7 +29,7 @@ def log_llm_interaction(agent_name, prompt_type, input_data, output_data):
         f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
 
 async def generate_dialogue(agent, other_agent, recent_context: str) -> dict:
-    system_prompt = f"Rol: {agent.name}. Personalidad: {', '.join(agent.personality)}. Instrucción: Responde en español con respuestas cortas. NO pienses en voz alta. NO des explicaciones. Solo escribe el diálogo."
+    system_prompt = f"Rol: {agent.name}. Personalidad: {', '.join(agent.personality)}. Instrucción: Responde en español con respuestas cortas. NO pienses en voz alta. NO des explicaciones. Solo escribe el diálogo. Responde algo, evita las miradas silenciosas. Trata de hacer platica."
     
     user_prompt = f"Contexto: {recent_context}\nTu respuesta debe ser corta:"
 
