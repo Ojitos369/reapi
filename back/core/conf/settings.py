@@ -3,7 +3,7 @@ from pathlib import Path
 import setproctitle
 from ojitos369.errors import CatchErrors as CE
 
-setproctitle.setproctitle('reapi-py')
+setproctitle.setproctitle('mnw-py')
 
 # ----------------------   BASE   ----------------------
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -36,4 +36,4 @@ email_settings = {
 class MYE(Exception):
     pass
 
-ce = CE(name_project = 'REAPI', email_settings = email_settings)
+ce = CE(name_project = 'mnw', email_settings = email_settings)

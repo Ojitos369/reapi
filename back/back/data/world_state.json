@@ -1,0 +1,8637 @@
+{
+  "agents": [
+    {
+      "id": "ebc2bac4-91f8-4e12-8d49-3191cdacab75",
+      "name": "Koa",
+      "x": 1264.0943044446426,
+      "y": 1535.2484515669476,
+      "speed": 0.7741198689355455,
+      "dna": {
+        "sociability": 0.15554491327917308,
+        "energy_loss_rate": 0.0210628819301575,
+        "aggressiveness": 0.17401806063007264,
+        "work_ethic": 0.11836457067057238,
+        "curiosity": 0.5741638130907876,
+        "strength": 1.3204455220753828,
+        "libido": 0.9179488628819022,
+        "cognitive_level": 0.08103409470547969
+      },
+      "personality": [
+        "friendly",
+        "grumpy"
+      ],
+      "status": "talking",
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        }
+      ],
+      "inventory": {
+        "wood": 0,
+        "food": 10,
+        "stone": 0,
+        "iron": 0,
+        "gold": 0,
+        "resin": 0,
+        "seed": 0,
+        "clay": 0,
+        "gemstone": 0,
+        "mana": 0
+      },
+      "tools": [],
+      "discovered_recipes": [],
+      "energy": 2.008169885659796,
+      "needs": {
+        "hunger": 76.47500000000583,
+        "thirst": 77.51999999999794,
+        "social": 25.51499999999983,
+        "rest": 10.590000000000517
+      },
+      "age": 4906,
+      "max_age": 6890,
+      "generation": 0,
+      "fitness": 7,
+      "xp": 70,
+      "level": 1,
+      "biome": "Pradera",
+      "current_dialogue": null
+    },
+    {
+      "id": "897e6d8d-ef1e-44cd-9efb-34cd6b47206d",
+      "name": "Kit",
+      "x": 1247.5846800942409,
+      "y": 1539.6687094907581,
+      "speed": 0.6778836450640942,
+      "dna": {
+        "sociability": 0.5047691794547154,
+        "energy_loss_rate": 0.028611767169416095,
+        "aggressiveness": 0.7235759885900892,
+        "work_ethic": 0.917311495923187,
+        "curiosity": 0.1924870239548353,
+        "strength": 0.6115304224941702,
+        "libido": 0.5785493008231741,
+        "cognitive_level": 0.056567082992329376
+      },
+      "personality": [
+        "philosophical",
+        "naive"
+      ],
+      "status": "idle",
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        },
+        {
+          "type": "action",
+          "text": "ha recolectado manzanas."
+        }
+      ],
+      "inventory": {
+        "wood": 0,
+        "food": 4,
+        "stone": 0,
+        "iron": 0,
+        "gold": 0,
+        "resin": 0,
+        "seed": 0,
+        "clay": 0,
+        "gemstone": 0,
+        "mana": 0
+      },
+      "tools": [],
+      "discovered_recipes": [],
+      "energy": 4.241025585321406,
+      "needs": {
+        "hunger": 62.950000000005645,
+        "thirst": 79.07999999999991,
+        "social": 41.7699999999956,
+        "rest": 21.180000000004707
+      },
+      "age": 4906,
+      "max_age": 5632,
+      "generation": 0,
+      "fitness": 8,
+      "xp": 40,
+      "level": 1,
+      "biome": "Pradera",
+      "current_dialogue": null
+    }
+  ],
+  "env_objects": [
+    {
+      "id": "60d0d3f6-7241-45a3-9ff5-7f3243383e9c",
+      "name": "Wall",
+      "x": 1664,
+      "y": 1044,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 163,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "87a8f3ae-a067-43e7-bfd4-7522be18fcf5",
+      "name": "Wall",
+      "x": 776,
+      "y": 671,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 150,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "45333082-975d-41e3-a991-b0bbe7d9572e",
+      "name": "Wall",
+      "x": 1574,
+      "y": 1514,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 369,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b4945af3-1585-4baf-be21-4cd4ac194a87",
+      "name": "Wall",
+      "x": 1071,
+      "y": 681,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 312,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f3289ba6-b4e9-482b-96a5-5f18b752602a",
+      "name": "Wall",
+      "x": 959,
+      "y": 1588,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 30,
+      "height": 257,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6e03858c-ca56-4f41-ba14-aebf3318d110",
+      "name": "Wall",
+      "x": 1281,
+      "y": 290,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 30,
+      "height": 371,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9c61785b-2240-4ae9-b7fa-0f3744fd44d7",
+      "name": "Wall",
+      "x": 1158,
+      "y": 798,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 359,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e54b06fe-a559-492e-8aeb-ca43d1db77e2",
+      "name": "Wall",
+      "x": 750,
+      "y": 1540,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 365,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5997f5d3-e6c3-4416-92d3-b956d1d2ed54",
+      "name": "Wall",
+      "x": 1006,
+      "y": 1495,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 328,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f90bf4a1-2e49-47c3-9479-a0ec5baeed0e",
+      "name": "Wall",
+      "x": 1593,
+      "y": 1710,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 30,
+      "height": 238,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c8e5658d-ccfc-4a99-bc91-593ca4ab3695",
+      "name": "Wall",
+      "x": 931,
+      "y": 1007,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 341,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8f964a48-11fa-4ead-8209-94edb2909140",
+      "name": "Wall",
+      "x": 1761,
+      "y": 304,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 325,
+      "height": 30,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "09fe3a7e-3fa5-43c3-b135-fdcb08c44c1c",
+      "name": "Wall",
+      "x": 1120,
+      "y": 1365,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 30,
+      "height": 273,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "fde1d0b6-5b2b-48ab-a315-46fcdf722802",
+      "name": "Wall",
+      "x": 596,
+      "y": 1473,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 30,
+      "height": 175,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "fd7accc5-51ab-4791-a3be-4caf06078484",
+      "name": "Wall",
+      "x": 973,
+      "y": 812,
+      "type": "structure",
+      "emoji": "\ud83e\uddf1",
+      "amount": 10,
+      "width": 30,
+      "height": 218,
+      "history": [
+        "Spawneado el mundo: Wall"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1c98907e-6cba-46cd-b49a-db0dd36eb57b",
+      "name": "Mountain",
+      "x": 1836,
+      "y": 713,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 107,
+      "height": 112,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "30bca999-319c-4255-9d2a-4965619448aa",
+      "name": "Mountain",
+      "x": 1119,
+      "y": 859,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 156,
+      "height": 157,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "98f42e03-a673-45df-b0a8-085625eefa30",
+      "name": "Mountain",
+      "x": 860,
+      "y": 614,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 182,
+      "height": 170,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f25b7c74-7a87-4f44-abaf-c5e92fd93861",
+      "name": "Mountain",
+      "x": 938,
+      "y": 706,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 186,
+      "height": 121,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "df0699bb-395f-4c0d-8f00-df051081fc05",
+      "name": "Mountain",
+      "x": 245,
+      "y": 579,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 100,
+      "height": 105,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "16192bc6-691a-497d-b24a-35e8c1a39d80",
+      "name": "Mountain",
+      "x": 913,
+      "y": 1062,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 152,
+      "height": 199,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4cd2a14e-46cf-4f7e-b660-75d1ec731915",
+      "name": "Mountain",
+      "x": 1785,
+      "y": 1739,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 156,
+      "height": 101,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3986be1f-e678-4629-9b12-f8fce822369a",
+      "name": "Mountain",
+      "x": 671,
+      "y": 433,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 135,
+      "height": 146,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e2238bd2-ab63-4e07-bd39-6e4469aa1483",
+      "name": "Mountain",
+      "x": 1872,
+      "y": 1192,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 165,
+      "height": 130,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "23251744-6e0f-4502-b0a3-662e7ec726da",
+      "name": "Mountain",
+      "x": 806,
+      "y": 1157,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 117,
+      "height": 123,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1da09162-c5c9-4f63-87df-6442bb0591cb",
+      "name": "Mountain",
+      "x": 1575,
+      "y": 1775,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 165,
+      "height": 173,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3314743d-182e-4309-a90a-e5e2683e5382",
+      "name": "Mountain",
+      "x": 1561,
+      "y": 1798,
+      "type": "terrain",
+      "emoji": "\u26f0\ufe0f",
+      "amount": 10,
+      "width": 143,
+      "height": 170,
+      "history": [
+        "Spawneado el mundo: Mountain"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "61b671d2-4485-435f-9e89-462e7feacb30",
+      "name": "Flower",
+      "x": 322,
+      "y": 1859,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0c84b1f8-8acf-4d3b-b272-1e71b7dd1232",
+      "name": "Scorpion",
+      "x": 1123,
+      "y": 817,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "22667eb7-2e34-4528-9cc7-f03ff90afbbe",
+      "name": "Spider Web",
+      "x": 749,
+      "y": 152,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "740b9940-d790-4e70-b1f5-f3337cc94624",
+      "name": "Clay Pit",
+      "x": 1404,
+      "y": 175,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f5866a03-c95b-41fb-ac78-0fb490a5f66f",
+      "name": "Polar Bear",
+      "x": 862,
+      "y": 1791,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3bedd9e5-4138-4c7e-be86-d3a6a94770a2",
+      "name": "Oasis",
+      "x": 1479,
+      "y": 281,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1ea15288-6bb7-4819-b30a-2af4b17c4836",
+      "name": "Tall Grass",
+      "x": 815,
+      "y": 859,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "706c5cd4-7675-4bd1-b3e5-bb8418b9034c",
+      "name": "Apple Tree",
+      "x": 1661,
+      "y": 1182,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 19,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree",
+        "Eva recolect\u00f3 comida."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "28060d3a-c2be-4454-8616-cbc5c8a9331c",
+      "name": "Snow Rock",
+      "x": 563,
+      "y": 1532,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2e771d89-e29b-44a3-8c73-5b7e604db9b6",
+      "name": "Scorpion",
+      "x": 1575,
+      "y": 271,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f848fc78-c64c-439a-8847-efa12b4e37a0",
+      "name": "Ice Crystal",
+      "x": 570,
+      "y": 1727,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "38d96184-d3bf-454b-9d09-5bdef4b4c1bc",
+      "name": "Witch Cauldron",
+      "x": 1009,
+      "y": 190,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "21113e16-1dbc-4c62-97af-adae64ade02c",
+      "name": "Snow Rock",
+      "x": 921,
+      "y": 1770,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "70afe7f1-610f-4c2a-a5bc-b213bcacbe81",
+      "name": "Apple Tree",
+      "x": 956,
+      "y": 807,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "eb1ddec8-7683-49cf-86ec-b84306e6c3db",
+      "name": "Frozen Pond",
+      "x": 769,
+      "y": 1302,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f140c8ea-e62c-4cf8-90e4-30827bbe84ed",
+      "name": "Oasis",
+      "x": 1445,
+      "y": 369,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bd28f841-c991-402b-a0e9-c84f1132cce2",
+      "name": "Tall Grass",
+      "x": 1852,
+      "y": 1382,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7f238f6a-12a9-4e93-97ee-119f2f3684ba",
+      "name": "Polar Bear",
+      "x": 569,
+      "y": 1391,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7c2b1062-564a-42ab-a032-39623c6e39a6",
+      "name": "Apple Tree",
+      "x": 1264,
+      "y": 1570,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 9,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree",
+        "Wes recolect\u00f3 comida.",
+        "Cal recolect\u00f3 comida.",
+        "Sue recolect\u00f3 comida.",
+        "Red recolect\u00f3 comida.",
+        "Dot recolect\u00f3 comida.",
+        "Kit recolect\u00f3 comida.",
+        "Flynn recolect\u00f3 comida.",
+        "Koa recolect\u00f3 comida.",
+        "Koa recolect\u00f3 comida.",
+        "Koa recolect\u00f3 comida.",
+        "Kit recolect\u00f3 comida."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "64d8a7b7-239a-4112-8a30-333c34377618",
+      "name": "Mushrooms",
+      "x": 968,
+      "y": 260,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "801eaa80-5688-40f9-9b92-11ee676b601d",
+      "name": "Frozen Pond",
+      "x": 1115,
+      "y": 1852,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4a704ec9-15c9-4ef5-ba4f-7cef6b495c64",
+      "name": "Obelisk",
+      "x": 253,
+      "y": 1012,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "80aa15ae-cb41-4cb8-b6ee-8acf8db87ca4",
+      "name": "Gold Mine",
+      "x": 1218,
+      "y": 418,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2cbbb1b1-2c92-4663-8b43-205d677a9887",
+      "name": "Palm Tree",
+      "x": 1426,
+      "y": 329,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "91d3e724-01a3-4914-a42c-402fe7de1b49",
+      "name": "Ancient Bones",
+      "x": 1738,
+      "y": 782,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c64f651b-a65f-4816-a738-c0f613d1f6a0",
+      "name": "Snow Rock",
+      "x": 1794,
+      "y": 1665,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0ae1bd8f-238a-4840-bac8-a05a84962266",
+      "name": "Dark Crystal",
+      "x": 350,
+      "y": 424,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e5a86664-9361-4d07-9e76-1e3a67196387",
+      "name": "Ice Spike",
+      "x": 783,
+      "y": 1269,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "996702fd-8b92-41d1-9bf4-7fd31534f98b",
+      "name": "Dry Bush",
+      "x": 1242,
+      "y": 181,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "51700fe1-f396-4921-bb6f-0136f015de87",
+      "name": "Snowman",
+      "x": 421,
+      "y": 1098,
+      "type": "resource",
+      "emoji": "\u2603\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snowman"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "180ed9d7-2b28-44fc-ad60-d49c0a78c7f6",
+      "name": "Oasis",
+      "x": 1370,
+      "y": 1171,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cf6f7918-b25c-4145-b9d9-27e0ca120cdf",
+      "name": "Ghost",
+      "x": 622,
+      "y": 698,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "faf0b368-65cd-4552-84c5-b268877aa474",
+      "name": "Stone Rock",
+      "x": 1726,
+      "y": 1126,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1c98617f-0527-4b33-8ca1-8bb5892c40c9",
+      "name": "Wheat",
+      "x": 1502,
+      "y": 1136,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8b0d2db8-072b-4489-a985-0123aa66aff8",
+      "name": "Dry Bush",
+      "x": 1375,
+      "y": 1121,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0ff2d8a0-0328-47e5-ac84-79403c75c1ab",
+      "name": "Palm Tree",
+      "x": 344,
+      "y": 219,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b698b70f-2287-4bcc-be03-d475ea8e63d6",
+      "name": "Dry Bush",
+      "x": 1542,
+      "y": 409,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3adc9ca0-400c-46f0-bca9-db2628265d23",
+      "name": "Berry Bush",
+      "x": 1513,
+      "y": 1474,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dd7ad24d-72d8-44f2-a8b3-ddeb989f949a",
+      "name": "Mushrooms",
+      "x": 1023,
+      "y": 344,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6697cd98-a185-4287-9065-4ca2412855a9",
+      "name": "Pine Tree",
+      "x": 846,
+      "y": 1521,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3d92d60b-2c9b-496e-a625-31d5e5f28c2a",
+      "name": "Scorpion",
+      "x": 1689,
+      "y": 1831,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "86583636-de78-4d61-ae03-f6382ae6eb82",
+      "name": "Ghost",
+      "x": 563,
+      "y": 749,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "78297ff9-45c4-49d2-a6c9-fa7fddb5bf79",
+      "name": "Pine Tree",
+      "x": 908,
+      "y": 1690,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0ad33124-0336-4d18-8b28-3211d3c658cb",
+      "name": "Witch Cauldron",
+      "x": 565,
+      "y": 896,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d0182fff-35a0-448e-8062-92ada524151f",
+      "name": "Ice Spike",
+      "x": 630,
+      "y": 1327,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "935d7e84-d02c-429c-90b2-d691e8f8a4b6",
+      "name": "Sand Dune",
+      "x": 1949,
+      "y": 1806,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "67752b96-8e14-4a19-bfc6-991686b2aef2",
+      "name": "Scorpion",
+      "x": 306,
+      "y": 183,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "be1315f8-2f31-452d-9594-e632ea75ee36",
+      "name": "Wheat",
+      "x": 1620,
+      "y": 1417,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "df12beb3-0dce-464c-b001-6238039ca817",
+      "name": "Ice Crystal",
+      "x": 401,
+      "y": 1087,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "fb47df13-c8de-425e-8d04-a831dc97a8d5",
+      "name": "Berry Bush",
+      "x": 1321,
+      "y": 1456,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e66cb658-88bc-4d46-81c8-5a098b74eaff",
+      "name": "Witch Cauldron",
+      "x": 535,
+      "y": 440,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7a846a25-b0f5-41f9-ac53-11d83f9f2be5",
+      "name": "Flower",
+      "x": 1561,
+      "y": 1252,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "263d8461-4112-4206-8271-28bb536ac896",
+      "name": "Wheat",
+      "x": 1319,
+      "y": 1341,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9b4ccea0-c44f-42cb-977e-2ac873e4b7a6",
+      "name": "Tall Grass",
+      "x": 1615,
+      "y": 1697,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7ff9a3e7-f853-44b7-b85a-f61e6f093fc9",
+      "name": "Beehive",
+      "x": 293,
+      "y": 1822,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c6bd6866-e812-4190-bf07-f7882c2a295d",
+      "name": "Scorpion",
+      "x": 1612,
+      "y": 305,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bdd907ad-1eb3-4ae5-a2f0-897242c62297",
+      "name": "Scorpion",
+      "x": 1342,
+      "y": 811,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ed9e5c32-ed21-40d0-89b3-bd006a65a30b",
+      "name": "Ice Spike",
+      "x": 774,
+      "y": 1557,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f50ca552-37c9-48c5-b15f-b1f4c0e1064a",
+      "name": "Scorpion",
+      "x": 1801,
+      "y": 727,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "def48a87-1e7a-45f8-b2c2-03a6223e6e1f",
+      "name": "Oasis",
+      "x": 1913,
+      "y": 1919,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b32ace5c-06ee-4c75-9d05-30bf5bb3c9fa",
+      "name": "Cow",
+      "x": 1905,
+      "y": 986,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9ac97879-88b4-4344-93ef-58d44adf2232",
+      "name": "Gold Mine",
+      "x": 1179,
+      "y": 908,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "09429908-81f5-4431-a539-2abb39afbf42",
+      "name": "Thorns",
+      "x": 508,
+      "y": 567,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "79b922db-4a2d-4d31-a57e-ddbe353432ff",
+      "name": "Beehive",
+      "x": 407,
+      "y": 1445,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3184bb1f-97b9-4125-be46-10ac2781508d",
+      "name": "Beehive",
+      "x": 120,
+      "y": 1882,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2bc3da9b-88d1-49f9-8b28-fe229f18f199",
+      "name": "Igloo",
+      "x": 753,
+      "y": 1866,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "82c5158d-169d-4fac-9389-4fe36caeb310",
+      "name": "Pine Tree",
+      "x": 921,
+      "y": 1697,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1f660ffc-b034-468b-a5eb-9a02412141c4",
+      "name": "Palm Tree",
+      "x": 1204,
+      "y": 1416,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2ac908e2-59f7-48be-b703-3beacd40d7b8",
+      "name": "Mushrooms",
+      "x": 661,
+      "y": 722,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4468bcef-bcf9-4b71-8573-013b35f0f300",
+      "name": "Cursed Totem",
+      "x": 794,
+      "y": 662,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b2e37717-f798-4d2b-bd26-0246bc5a3baa",
+      "name": "Scorpion",
+      "x": 1862,
+      "y": 115,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d0606058-b0bd-4b79-b366-29c8f432f283",
+      "name": "Obelisk",
+      "x": 104,
+      "y": 939,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4bbb6b4e-e95a-417c-a78f-6adec70df19b",
+      "name": "Witch Cauldron",
+      "x": 453,
+      "y": 430,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7f7f4669-1abe-448f-ad22-86cec179a255",
+      "name": "Ice Spike",
+      "x": 562,
+      "y": 1529,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5ae31955-1346-4a90-9a3b-f5e3922ac792",
+      "name": "Beehive",
+      "x": 291,
+      "y": 654,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "62619c7e-b0a8-4703-b8ad-4f8faa7b7629",
+      "name": "Palm Tree",
+      "x": 1950,
+      "y": 634,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "68a13bac-ae88-4f66-bde3-bd8d11a0053e",
+      "name": "Sand Dune",
+      "x": 1763,
+      "y": 379,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bd8f701b-fea6-4584-bd3c-535af184cc01",
+      "name": "Dry Bush",
+      "x": 926,
+      "y": 500,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "343d49a7-9297-4cf9-a428-294fc0f0c2e0",
+      "name": "Flower",
+      "x": 267,
+      "y": 543,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cb613fc1-bd76-4ae1-8b55-b0f537fa8bf4",
+      "name": "Palm Tree",
+      "x": 1358,
+      "y": 996,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c533ffb6-04af-4671-b081-f1f30d0d0dd7",
+      "name": "Sand Dune",
+      "x": 1090,
+      "y": 1108,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b74a1afb-150e-4111-8ff2-df3b3ac083c8",
+      "name": "Cactus",
+      "x": 1213,
+      "y": 983,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cdb6fc41-24b7-452a-b258-182616647b8b",
+      "name": "Dry Bush",
+      "x": 561,
+      "y": 104,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "75af3005-5eab-4769-b5d1-ac962a2e87a6",
+      "name": "Scorpion",
+      "x": 1239,
+      "y": 1095,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "380243d8-db05-4764-bfde-4345624461e3",
+      "name": "Ghost",
+      "x": 947,
+      "y": 391,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "88327863-f2d7-47d6-82d9-8d6a5d77cf77",
+      "name": "Beehive",
+      "x": 1635,
+      "y": 1433,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8456c558-769c-4134-a3dd-027b60524f68",
+      "name": "Gold Mine",
+      "x": 1524,
+      "y": 968,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4d3e4076-8e17-460b-9d21-9284e02615c0",
+      "name": "Cactus",
+      "x": 1158,
+      "y": 797,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "595185cb-53e2-41e6-a7b5-dcf6de406f17",
+      "name": "Dry Bush",
+      "x": 305,
+      "y": 132,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "51daaae5-4501-489c-bda3-49fd11767bdd",
+      "name": "Berry Bush",
+      "x": 962,
+      "y": 858,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6cf6b715-cc5e-42c3-bbb1-edfa91ac378e",
+      "name": "Flower",
+      "x": 414,
+      "y": 1835,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f3064d2e-e75e-4bd6-a595-06d5c0e3c8c5",
+      "name": "Berry Bush",
+      "x": 437,
+      "y": 857,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bd34d26c-5169-4ce3-893a-cd4256f037f7",
+      "name": "Sheep",
+      "x": 478,
+      "y": 579,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b5638a49-2eff-4e73-a9d9-8eb40ceed4b7",
+      "name": "Tall Grass",
+      "x": 1932,
+      "y": 1298,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "764843b4-357c-45d1-9ff2-54bc09dfb1f0",
+      "name": "Snowman",
+      "x": 640,
+      "y": 1086,
+      "type": "resource",
+      "emoji": "\u2603\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snowman"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "303c07e7-4cef-4931-8f68-86b4f21b2a0e",
+      "name": "Clay Pit",
+      "x": 1312,
+      "y": 354,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8471bf64-48ff-4911-8efd-4fed58b23dd8",
+      "name": "Sheep",
+      "x": 731,
+      "y": 929,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a91fed94-502e-4f15-82d9-12f8691175f8",
+      "name": "Flower",
+      "x": 480,
+      "y": 1669,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5b43ed14-cccf-4c71-a4c7-2cae170fdea1",
+      "name": "Tall Grass",
+      "x": 1924,
+      "y": 1352,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e39d8412-2610-4ff0-b063-4812877ece6b",
+      "name": "Berry Bush",
+      "x": 1602,
+      "y": 1289,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8a285e6e-18d9-48e9-b1b9-0696a4714afd",
+      "name": "Cactus",
+      "x": 1409,
+      "y": 860,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "17312ba3-4c4f-4619-95ab-43a48016d2b7",
+      "name": "Pine Tree",
+      "x": 312,
+      "y": 1228,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9cf0cd42-714f-457f-8f2d-9fd521a1ab21",
+      "name": "Flower",
+      "x": 486,
+      "y": 1655,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "73257182-cd1e-4e3c-9959-3c15d8d165c6",
+      "name": "Cactus",
+      "x": 1793,
+      "y": 143,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "687b9647-8260-4c69-aa9a-d931733cd59f",
+      "name": "Stone Rock",
+      "x": 1443,
+      "y": 1615,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9d8526db-4e91-42fe-9e9a-feaa233a152d",
+      "name": "Ice Spike",
+      "x": 978,
+      "y": 1345,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d0b4bc4d-9233-420a-ab11-852e5b9cb5d4",
+      "name": "Cactus",
+      "x": 1127,
+      "y": 318,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2797d43c-5e4e-408f-90e0-cf2ee3b396c6",
+      "name": "Wheat",
+      "x": 1887,
+      "y": 1260,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "64ed1de1-74a9-4f7e-9250-38b3e45ec927",
+      "name": "Gold Mine",
+      "x": 136,
+      "y": 212,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "31806c23-3425-42ed-8b3a-00fdf61517fa",
+      "name": "Beehive",
+      "x": 1737,
+      "y": 1422,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "95c79111-197b-4598-a807-de70a8a89ba2",
+      "name": "Palm Tree",
+      "x": 1267,
+      "y": 1162,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ba775921-34ee-49fd-9aed-5597c40f1f60",
+      "name": "Thorns",
+      "x": 100,
+      "y": 1146,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "be7da516-bc6f-49a4-8452-b7b4b6285f59",
+      "name": "Berry Bush",
+      "x": 1403,
+      "y": 1397,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "92c5ef48-4197-40f8-98d2-f3900bde7bfd",
+      "name": "Spider Web",
+      "x": 991,
+      "y": 339,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "629ce715-4b6f-4d9c-bfca-8ca0f6872108",
+      "name": "Dead Tree",
+      "x": 541,
+      "y": 817,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "206e9e08-ef4a-42d3-b2d4-bf34ff8ebe81",
+      "name": "Cursed Totem",
+      "x": 491,
+      "y": 440,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7c2114df-3465-4aa1-8a6e-00bcb30f7a87",
+      "name": "Ice Spike",
+      "x": 1920,
+      "y": 1627,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7fb4f4ae-a217-4cf3-985f-d3cf51e80e34",
+      "name": "Sheep",
+      "x": 240,
+      "y": 386,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2f341762-7115-486b-8bfb-f20db6844ada",
+      "name": "Tall Grass",
+      "x": 1922,
+      "y": 1404,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0043da8b-1f5d-44d7-9540-14d337aee9c3",
+      "name": "Oasis",
+      "x": 1799,
+      "y": 463,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e132097f-6f13-4fad-ae2b-4925b70f7deb",
+      "name": "Clay Pit",
+      "x": 1316,
+      "y": 917,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "65ff2098-44cc-4fbd-91bb-22bd057a1fee",
+      "name": "Palm Tree",
+      "x": 1152,
+      "y": 833,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d10a0a35-b54b-478a-8bba-4c195b1e1dc1",
+      "name": "Obelisk",
+      "x": 947,
+      "y": 92,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "65aa5773-0b68-4a32-8941-e1eebc9cfbec",
+      "name": "Obelisk",
+      "x": 716,
+      "y": 418,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "94ee2f70-4dbf-4f0c-a3ff-9bfc7451211d",
+      "name": "Stone Rock",
+      "x": 704,
+      "y": 960,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d501b3f3-b462-4e43-982e-67eec6844297",
+      "name": "Oasis",
+      "x": 1943,
+      "y": 1704,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6a2d6a45-9a4e-4521-b85e-241d81028491",
+      "name": "Dry Bush",
+      "x": 1315,
+      "y": 703,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "56eaac2c-3e5b-4d5d-aec0-1dd37e0e9fce",
+      "name": "Snow Rock",
+      "x": 947,
+      "y": 1799,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b383c831-bf92-46d7-a3e2-ee320f2800b6",
+      "name": "Beehive",
+      "x": 230,
+      "y": 613,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f386ada1-7c67-43a9-bd58-13912918485a",
+      "name": "Apple Tree",
+      "x": 333,
+      "y": 600,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "afa3746e-2ba9-41d8-9a92-62b328754146",
+      "name": "Pine Tree",
+      "x": 895,
+      "y": 1606,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "58ad00d1-3b3a-4b82-96a8-ac8803b412b2",
+      "name": "Frozen Pond",
+      "x": 733,
+      "y": 1556,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7337d0f3-0d8b-4812-ade6-fdcef69e5108",
+      "name": "Igloo",
+      "x": 937,
+      "y": 1667,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d6eac2b9-d625-46aa-a53c-b4d2aa6c007b",
+      "name": "Oasis",
+      "x": 1203,
+      "y": 119,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e97e29e6-b758-4dd2-98ff-2a52d82b1aab",
+      "name": "Sand Dune",
+      "x": 1890,
+      "y": 702,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dd8d7e4b-78a8-4a6f-9a78-b8d3c8db0e85",
+      "name": "Sheep",
+      "x": 1568,
+      "y": 1689,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1c237ac1-16e7-415a-864c-b28f848b88b2",
+      "name": "Frozen Pond",
+      "x": 734,
+      "y": 1532,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "578e9b4d-35fc-4f61-aede-0ab005eb83b6",
+      "name": "Stone Rock",
+      "x": 1895,
+      "y": 1478,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a6588542-4c28-43c8-94f6-c205bd68cb9c",
+      "name": "Cow",
+      "x": 1598,
+      "y": 1109,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "52c815e8-230d-4b98-bb86-adda35671c5f",
+      "name": "Dark Crystal",
+      "x": 554,
+      "y": 336,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c78788fd-3182-41f6-b46d-2907b52f2667",
+      "name": "Obelisk",
+      "x": 894,
+      "y": 453,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "df3758b6-2416-44c6-97e2-89472eaff05d",
+      "name": "Sheep",
+      "x": 871,
+      "y": 1049,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bce7244e-7cb6-4227-b4bb-e0f46abb00f7",
+      "name": "Sand Dune",
+      "x": 918,
+      "y": 695,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "81dfcc52-a461-4b8a-8cd4-71d5c753bc8b",
+      "name": "Sand Dune",
+      "x": 1327,
+      "y": 529,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "abec9a39-7ce0-4ddf-898d-18ebecf75091",
+      "name": "Gold Mine",
+      "x": 1472,
+      "y": 350,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "817e825a-2e69-416c-8c98-d097a4010ea9",
+      "name": "Mushrooms",
+      "x": 729,
+      "y": 363,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "93ce82d0-96e0-44a0-96ae-a096fe2f8dd1",
+      "name": "Ancient Bones",
+      "x": 1624,
+      "y": 261,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6c451cb8-4a3a-4f21-b60b-34cd7083728d",
+      "name": "Ice Spike",
+      "x": 925,
+      "y": 1820,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "16d0cf09-8ca2-495e-b981-72bd03de4967",
+      "name": "Polar Bear",
+      "x": 681,
+      "y": 1726,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e664aaa7-bd1e-4658-ba0a-8b2b117dc6cd",
+      "name": "Berry Bush",
+      "x": 1758,
+      "y": 1438,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6714398f-a918-43ad-892a-f43b37a18c7c",
+      "name": "Wheat",
+      "x": 1728,
+      "y": 1586,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5848af1f-c775-44c6-a341-c067f9276a4b",
+      "name": "Dry Bush",
+      "x": 1319,
+      "y": 789,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9c96dd55-60b3-4bb9-821d-1ba2d2cf1f4b",
+      "name": "Polar Bear",
+      "x": 1688,
+      "y": 1774,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5841c4a1-7ade-4ba0-8e88-f350b69f04a2",
+      "name": "Polar Bear",
+      "x": 652,
+      "y": 1606,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "09c60cfb-420c-4ff2-accf-9850b2f2601a",
+      "name": "Sand Dune",
+      "x": 1560,
+      "y": 420,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f113ed72-e0fe-4050-8227-e046c8892379",
+      "name": "Sheep",
+      "x": 899,
+      "y": 950,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "42bdd743-cce3-43a1-9a2a-eab2917d3212",
+      "name": "Beehive",
+      "x": 1897,
+      "y": 1376,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d5a79379-c175-4314-96f5-83378a1dc428",
+      "name": "Frozen Pond",
+      "x": 754,
+      "y": 1642,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b8798b25-6e3a-4806-868f-e621455bd57b",
+      "name": "Palm Tree",
+      "x": 976,
+      "y": 560,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "470c285e-2351-48a5-ad7b-fc96efea54c7",
+      "name": "Tall Grass",
+      "x": 318,
+      "y": 1889,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "09f850a2-06a3-43fc-a18f-d158bec7b816",
+      "name": "Cactus",
+      "x": 1166,
+      "y": 1395,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9fab4fd4-d090-4aa9-aa5c-5ed723f15545",
+      "name": "Flower",
+      "x": 448,
+      "y": 1873,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e4f0f206-a0f3-48d8-b33f-1cb2f74b0ca2",
+      "name": "Tall Grass",
+      "x": 516,
+      "y": 1583,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ce5aa849-9cca-4d31-a083-e4de15f963ef",
+      "name": "Sheep",
+      "x": 1937,
+      "y": 1288,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bb227fbe-1f80-4763-b563-27dd10f37b8f",
+      "name": "Flower",
+      "x": 1687,
+      "y": 1371,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "15228cf5-83c3-4848-bfe0-388d5e19815d",
+      "name": "Oasis",
+      "x": 1859,
+      "y": 708,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "835b6a53-7d0b-4b55-9bbe-4f6765d05178",
+      "name": "Witch Cauldron",
+      "x": 801,
+      "y": 562,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5d21e6cd-ff20-439b-8e34-3e90e25b7523",
+      "name": "Sand Dune",
+      "x": 1131,
+      "y": 776,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f5039c81-b18f-4200-be2e-391ec6d41cd9",
+      "name": "Igloo",
+      "x": 881,
+      "y": 1816,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3a40f211-fe63-45af-a2cf-a1ed97ace5b1",
+      "name": "Cow",
+      "x": 135,
+      "y": 1403,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "fcd62622-9a2b-4d85-89d7-ba28c56bfd21",
+      "name": "Tall Grass",
+      "x": 1817,
+      "y": 1011,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7abec761-42d9-4fe7-bf49-3c95afd2eeb9",
+      "name": "Ice Spike",
+      "x": 929,
+      "y": 1824,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "454431e0-528a-44cd-b73c-7bca4175dd3e",
+      "name": "Witch Cauldron",
+      "x": 869,
+      "y": 585,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "284a3e92-59d9-4abb-b29d-0d00995c5406",
+      "name": "Polar Bear",
+      "x": 605,
+      "y": 1668,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4f5e84c7-dffe-4dd3-92e6-188f7b6ff834",
+      "name": "Igloo",
+      "x": 1857,
+      "y": 1680,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0b481952-aad2-4464-96f7-bae19fdb7f2e",
+      "name": "Palm Tree",
+      "x": 1804,
+      "y": 422,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a2b687fc-07de-4ab7-9d78-332529b064db",
+      "name": "Mushrooms",
+      "x": 777,
+      "y": 432,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f187e697-6379-49c6-a203-1e48ad36f80e",
+      "name": "Palm Tree",
+      "x": 132,
+      "y": 92,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dd4ec790-eb27-4b8f-a88f-be58a1b68f5d",
+      "name": "Obelisk",
+      "x": 370,
+      "y": 1059,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ad27f53b-cfe6-4d9d-b3d4-15b22345eb72",
+      "name": "Tall Grass",
+      "x": 1675,
+      "y": 1253,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "76069988-0be6-49e8-b91f-efa9e264ce38",
+      "name": "Scorpion",
+      "x": 502,
+      "y": 95,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f9164691-464e-47eb-a689-cf0c116ac259",
+      "name": "Apple Tree",
+      "x": 292,
+      "y": 1735,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "920442d5-4550-4b5e-a6d5-f765968422fa",
+      "name": "Gold Mine",
+      "x": 1113,
+      "y": 1093,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "87e0e496-2c4c-4444-879f-c3a55995dcad",
+      "name": "Dead Tree",
+      "x": 367,
+      "y": 1022,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "68171a8d-6e02-4591-a5bb-b854c4221849",
+      "name": "Ice Spike",
+      "x": 1507,
+      "y": 1870,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a0bade79-77c3-48c2-b5eb-c9d4a6483b29",
+      "name": "Ancient Bones",
+      "x": 694,
+      "y": 130,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2d97eca1-d82a-46fc-8f59-308f18b37018",
+      "name": "Stone Rock",
+      "x": 786,
+      "y": 973,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b3afca1b-bb7e-4600-929d-abaa0923930a",
+      "name": "Stone Rock",
+      "x": 1860,
+      "y": 1156,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "eeecf93b-9182-415b-aa3f-a3e50dec4d11",
+      "name": "Ice Spike",
+      "x": 415,
+      "y": 1151,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "83bc2a9c-b0f6-4a90-bb36-0f2ce784d1f1",
+      "name": "Oasis",
+      "x": 1082,
+      "y": 423,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "93f5f8ed-164d-434b-b8b2-8ac88adff6fa",
+      "name": "Tall Grass",
+      "x": 1866,
+      "y": 1176,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5dbf9ddb-d5b1-42d2-bab4-fd7e473b9916",
+      "name": "Ancient Bones",
+      "x": 1806,
+      "y": 415,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2bc2b0c8-c7d8-426b-b9a5-e34a9430c003",
+      "name": "Dark Crystal",
+      "x": 189,
+      "y": 1087,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "855fe669-839b-4901-9ffc-a37ddddb9c94",
+      "name": "Cursed Totem",
+      "x": 826,
+      "y": 120,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9fc57d6e-b441-4db7-80d6-fa2dbb6e53ab",
+      "name": "Igloo",
+      "x": 602,
+      "y": 1660,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "86cf12d5-b0a6-4865-98d0-55f9f686888b",
+      "name": "Ice Crystal",
+      "x": 1028,
+      "y": 1641,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "15b17c7d-41b8-4ca8-9f1c-700216560143",
+      "name": "Snow Rock",
+      "x": 622,
+      "y": 1633,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7a446b7d-96dd-4480-b7b8-cc2aeb5a6fbf",
+      "name": "Frozen Pond",
+      "x": 563,
+      "y": 1553,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "91a3ab65-3174-40ae-890d-21553f38d5cf",
+      "name": "Cow",
+      "x": 1632,
+      "y": 1128,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e6c6597f-fa0a-4b23-8a5b-a0000dc2a9f0",
+      "name": "Thorns",
+      "x": 623,
+      "y": 723,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6e55243b-bcf5-4c54-938f-d1a4bd671975",
+      "name": "Berry Bush",
+      "x": 1549,
+      "y": 1663,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "47f9d1f0-7a58-4761-bc2f-fa44dcf6fc69",
+      "name": "Cow",
+      "x": 1599,
+      "y": 1140,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4dc1da74-dece-4a53-a591-fe60e7954ce9",
+      "name": "Spider Web",
+      "x": 547,
+      "y": 587,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e2e09956-f349-4e04-b46f-574af67bad10",
+      "name": "Cactus",
+      "x": 153,
+      "y": 273,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "727da28d-f739-4683-b15d-1810cf36cb1c",
+      "name": "Cow",
+      "x": 1523,
+      "y": 1605,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "921b315e-adc3-4153-8f52-90f5a972e3e0",
+      "name": "Clay Pit",
+      "x": 1655,
+      "y": 116,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cdb583c6-394c-47d4-95a9-1d9f9dd170e0",
+      "name": "Dead Tree",
+      "x": 1169,
+      "y": 80,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "69ea026b-3ca1-493f-852b-fa74461d2568",
+      "name": "Obelisk",
+      "x": 292,
+      "y": 973,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4c925512-41fd-4b0d-9b63-cdcfea561c89",
+      "name": "Frozen Pond",
+      "x": 482,
+      "y": 962,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b3bc8b43-01d6-4b04-959e-304d9f9ca1f6",
+      "name": "Spider Web",
+      "x": 800,
+      "y": 731,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "03f6855d-9ea7-4661-aa4d-459c9ba2c7a7",
+      "name": "Ancient Bones",
+      "x": 1054,
+      "y": 593,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "374c3429-f830-4ca4-8b7f-c2bdf83318f0",
+      "name": "Palm Tree",
+      "x": 1286,
+      "y": 731,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "28fdba51-7449-4c18-814d-4ab574f0fc76",
+      "name": "Wheat",
+      "x": 315,
+      "y": 1534,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bdb90df9-1198-40a6-95a0-bd5b71f32f54",
+      "name": "Gold Mine",
+      "x": 1007,
+      "y": 801,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "42a7be43-0495-4cf7-bc5e-1de57b6e9e2b",
+      "name": "Scorpion",
+      "x": 1353,
+      "y": 997,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ffdeb5b1-18bf-4a94-8e7e-f493b98219ab",
+      "name": "Cow",
+      "x": 1387,
+      "y": 1465,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "28ccc7c8-4797-4314-8424-f61cc9cc94b8",
+      "name": "Flower",
+      "x": 465,
+      "y": 1572,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c64b807e-c400-4780-a140-ba7431c5e255",
+      "name": "Sand Dune",
+      "x": 1093,
+      "y": 1125,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "39156d46-ef31-44e6-bd0b-51ece134061d",
+      "name": "Polar Bear",
+      "x": 1841,
+      "y": 1616,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3ff21b40-26b5-4d2a-beee-ea5a91a00b5f",
+      "name": "Frozen Pond",
+      "x": 1552,
+      "y": 1842,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "82000859-5437-471f-9ec5-9612fc605ac5",
+      "name": "Obelisk",
+      "x": 521,
+      "y": 631,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c5f2817d-e0a4-48c3-b5e2-08e4138dd0c9",
+      "name": "Scorpion",
+      "x": 148,
+      "y": 287,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "879dc3f7-4d7f-4960-9a37-a35fbbcba45a",
+      "name": "Clay Pit",
+      "x": 1549,
+      "y": 408,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2e7a5335-aecf-44d8-b493-ea13b7e47235",
+      "name": "Witch Cauldron",
+      "x": 603,
+      "y": 210,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "67fa2ee7-fcf8-4de6-a684-c210b11f1a56",
+      "name": "Ancient Bones",
+      "x": 729,
+      "y": 68,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3034c249-d733-47aa-a091-49762ac6dc2d",
+      "name": "Snowman",
+      "x": 1167,
+      "y": 1712,
+      "type": "resource",
+      "emoji": "\u2603\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snowman"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "63bf30f8-0a4b-4411-a2ae-b2d4235a51b6",
+      "name": "Tall Grass",
+      "x": 981,
+      "y": 1311,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8b056908-14e2-4af7-b150-f897952e5659",
+      "name": "Frozen Pond",
+      "x": 741,
+      "y": 1318,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5e9317c7-ea12-45f3-b4f8-635b9b7bfb27",
+      "name": "Ice Crystal",
+      "x": 1274,
+      "y": 1908,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6c62cf23-c3db-4d87-8632-df1c81d21502",
+      "name": "Snowman",
+      "x": 946,
+      "y": 1724,
+      "type": "resource",
+      "emoji": "\u2603\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snowman"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4e57cf03-557a-4783-bb9f-41579b137956",
+      "name": "Ancient Bones",
+      "x": 1399,
+      "y": 1185,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9be8177b-ce4c-47b9-bad9-5725b4486f0a",
+      "name": "Scorpion",
+      "x": 1661,
+      "y": 372,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "52087b62-2e67-4ecf-be1a-1736ceefc060",
+      "name": "Frozen Pond",
+      "x": 875,
+      "y": 1713,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "50e08698-797f-4fa9-b693-f2e027af4684",
+      "name": "Wheat",
+      "x": 1498,
+      "y": 1329,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a825403f-6c5d-4235-b4a3-4afc9e137f53",
+      "name": "Palm Tree",
+      "x": 503,
+      "y": 199,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "183b82d3-bd0a-4851-b48d-c0d99b83ad5e",
+      "name": "Snow Rock",
+      "x": 779,
+      "y": 1918,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c77bc279-40dd-4a93-9822-3f9594736136",
+      "name": "Clay Pit",
+      "x": 1481,
+      "y": 202,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f1339340-e648-4dcb-bc6e-c7cdedd2ea34",
+      "name": "Witch Cauldron",
+      "x": 433,
+      "y": 345,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "34b58069-46f2-4770-8e2b-179f02cf1b95",
+      "name": "Ice Crystal",
+      "x": 354,
+      "y": 1153,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6e699ab3-2cce-4847-bc64-a527be7f8f9d",
+      "name": "Beehive",
+      "x": 420,
+      "y": 1880,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5996e455-7052-4e73-8c1a-94f3ca37c14f",
+      "name": "Cactus",
+      "x": 96,
+      "y": 138,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dded330f-ade3-4424-b8f9-9a5bcba17aed",
+      "name": "Oasis",
+      "x": 968,
+      "y": 654,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "70075d9b-b84d-4ef7-93cc-03e1e4375fa9",
+      "name": "Clay Pit",
+      "x": 1531,
+      "y": 862,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f658119a-a434-4f98-bb99-79559176fc94",
+      "name": "Dry Bush",
+      "x": 1792,
+      "y": 281,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1d851218-f324-4a80-9a55-3b1199ade5cf",
+      "name": "Ancient Bones",
+      "x": 611,
+      "y": 170,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "77cb2e44-ccb8-4088-8c6a-4d6059d55aed",
+      "name": "Witch Cauldron",
+      "x": 674,
+      "y": 310,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "301f9982-e9fc-4b1c-9136-ddc766e36eba",
+      "name": "Dry Bush",
+      "x": 1791,
+      "y": 1778,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "48814611-468c-40de-a32f-40a889ff936c",
+      "name": "Ice Spike",
+      "x": 421,
+      "y": 1213,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d110156f-398f-4528-a4e3-6c7a18a34b80",
+      "name": "Igloo",
+      "x": 678,
+      "y": 1496,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2b303f76-37c7-48db-961e-258b62afb18c",
+      "name": "Scorpion",
+      "x": 1760,
+      "y": 342,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a627645e-72db-44ae-a1e5-e772363485a7",
+      "name": "Frozen Pond",
+      "x": 905,
+      "y": 1866,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ebecb608-b190-4133-a59c-87093266430b",
+      "name": "Dry Bush",
+      "x": 736,
+      "y": 118,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "464e26b8-576b-441e-941d-e78f95816403",
+      "name": "Cactus",
+      "x": 135,
+      "y": 318,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3b97446b-7e6a-4a63-9d03-27db2c11c406",
+      "name": "Dead Tree",
+      "x": 890,
+      "y": 178,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e22deb62-de92-4d4a-8638-96f06a192ef5",
+      "name": "Apple Tree",
+      "x": 401,
+      "y": 1871,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 18,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree",
+        "Koa recolect\u00f3 comida.",
+        "Kit recolect\u00f3 comida."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6b52e211-8eed-4202-b209-bbdfaebec56f",
+      "name": "Witch Cauldron",
+      "x": 947,
+      "y": 380,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a16dbd51-ff75-45f7-9f09-7ed7c59f3644",
+      "name": "Gold Mine",
+      "x": 1404,
+      "y": 683,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1460c57c-52d4-4456-b705-e6f50f21012a",
+      "name": "Sand Dune",
+      "x": 1166,
+      "y": 196,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "66cbf6b3-fc9e-4631-b543-643d73b0f2ec",
+      "name": "Igloo",
+      "x": 1279,
+      "y": 1948,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3f7de88c-8ccc-4971-9923-6d51c8701616",
+      "name": "Cursed Totem",
+      "x": 384,
+      "y": 911,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "74da739f-af81-4fc1-8f8e-c8bb29d976e1",
+      "name": "Gold Mine",
+      "x": 1613,
+      "y": 671,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "22c61560-9c28-4713-b9eb-d7465e7a1ad9",
+      "name": "Stone Rock",
+      "x": 1371,
+      "y": 1819,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0a00fb23-9e6c-41a9-b3b4-ea61ff4c6d93",
+      "name": "Berry Bush",
+      "x": 298,
+      "y": 545,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b4cfb6f6-2e1f-474c-97c5-d01d2dcd6036",
+      "name": "Thorns",
+      "x": 152,
+      "y": 1039,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "770d5d3f-d24d-46d3-a997-ce12fe3d7bb5",
+      "name": "Frozen Pond",
+      "x": 497,
+      "y": 1887,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d8423a9e-1ca3-43f9-b11a-f042137774e8",
+      "name": "Ancient Bones",
+      "x": 1636,
+      "y": 792,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "98a3fab3-bb42-4d4b-8f93-c4e6ba97da68",
+      "name": "Palm Tree",
+      "x": 1246,
+      "y": 1024,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "91248621-0605-4a81-a725-f1214aa795b5",
+      "name": "Berry Bush",
+      "x": 312,
+      "y": 1651,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b935bac8-77d8-4f0b-afc2-44da92f7f674",
+      "name": "Ice Crystal",
+      "x": 704,
+      "y": 1309,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ea581906-896b-4a17-84c0-d2fb9a5c0672",
+      "name": "Scorpion",
+      "x": 1440,
+      "y": 92,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9b2ad369-fdca-432b-b354-f8217fec44a5",
+      "name": "Tall Grass",
+      "x": 64,
+      "y": 396,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "851ff2bc-4470-459e-ad52-cc194d1cd22b",
+      "name": "Wheat",
+      "x": 313,
+      "y": 1671,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5e39eccd-6f19-4e83-b4ce-478a7f26ad44",
+      "name": "Apple Tree",
+      "x": 915,
+      "y": 1245,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 19,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree",
+        "Wes recolect\u00f3 comida."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "335d423f-17d3-4870-9416-c931af6f4467",
+      "name": "Ancient Bones",
+      "x": 1386,
+      "y": 704,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0e53cba6-735c-4eea-a97d-703b1f11ad6e",
+      "name": "Mushrooms",
+      "x": 969,
+      "y": 425,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "210db8f8-c0a9-4825-b156-6a0cb7c433f7",
+      "name": "Mushrooms",
+      "x": 347,
+      "y": 397,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "21203d61-36a9-459f-9035-77173faa40d9",
+      "name": "Cursed Totem",
+      "x": 1021,
+      "y": 351,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a6e21c7e-0507-4b7e-b0dd-e6b875201d7d",
+      "name": "Gold Mine",
+      "x": 1034,
+      "y": 472,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e1364be5-6e9d-4350-9bd4-998f2b64665d",
+      "name": "Berry Bush",
+      "x": 1258,
+      "y": 1531,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3b2ea1d5-4527-4d71-bab3-07a2193558ce",
+      "name": "Berry Bush",
+      "x": 503,
+      "y": 822,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "478e3ed7-6a95-4b4e-91a9-af547fbc6dc6",
+      "name": "Pine Tree",
+      "x": 1057,
+      "y": 1778,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c2d83d61-f1c7-4fe6-a009-12c06e035010",
+      "name": "Cursed Totem",
+      "x": 79,
+      "y": 686,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dd594c30-55cc-42b7-a861-42e53acf123f",
+      "name": "Ice Spike",
+      "x": 1619,
+      "y": 1823,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f791bdf4-1633-4def-b906-56a11b20e1f2",
+      "name": "Cursed Totem",
+      "x": 99,
+      "y": 808,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6c8f2c89-ca05-456e-8394-44cbdded007f",
+      "name": "Ancient Bones",
+      "x": 1757,
+      "y": 434,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "603bbc3f-ac61-4d4b-a40c-0c16f98bcff7",
+      "name": "Scorpion",
+      "x": 1323,
+      "y": 1258,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "da7c4e06-1a26-4c0b-b645-49aa88f14d28",
+      "name": "Stone Rock",
+      "x": 451,
+      "y": 1672,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1ebf79bc-bbd4-4b70-938d-8571befe16d6",
+      "name": "Flower",
+      "x": 114,
+      "y": 1797,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "22cb4e2e-92a8-4e18-b5ef-b86a11322b85",
+      "name": "Ice Crystal",
+      "x": 433,
+      "y": 1023,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2f9d000b-069c-48fa-bd2a-a60683601dbe",
+      "name": "Clay Pit",
+      "x": 1760,
+      "y": 332,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e7ea9c69-747e-4412-ab8a-73f445b08d6f",
+      "name": "Berry Bush",
+      "x": 187,
+      "y": 370,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4534e5f5-22fd-4fb7-a4a8-413e60a574e1",
+      "name": "Polar Bear",
+      "x": 792,
+      "y": 1336,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "41cd883b-4486-4361-887a-f4a740147185",
+      "name": "Beehive",
+      "x": 217,
+      "y": 548,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "40d6a2ec-f2fd-490d-b259-b952cf4d67de",
+      "name": "Gold Mine",
+      "x": 1270,
+      "y": 307,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b045c7fb-4411-4d5a-ae93-2b9beeb769b2",
+      "name": "Dry Bush",
+      "x": 1741,
+      "y": 277,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "57fa1617-ea5e-46c2-b315-9f59e26b0b30",
+      "name": "Ice Spike",
+      "x": 685,
+      "y": 1732,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "39a39670-01f6-4e83-a6f0-47570b828c21",
+      "name": "Gold Mine",
+      "x": 1268,
+      "y": 252,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "51f62e3f-d91d-4e6c-aeab-8b3485b90005",
+      "name": "Dark Crystal",
+      "x": 564,
+      "y": 571,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4b7d9e5e-5936-4da0-bd32-562222d6e2ef",
+      "name": "Clay Pit",
+      "x": 1604,
+      "y": 198,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "eca22a61-6651-4bd1-8662-f84d3bfe0c97",
+      "name": "Beehive",
+      "x": 1402,
+      "y": 1693,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1915bcec-8bae-4169-9e50-3224a1c68122",
+      "name": "Stone Rock",
+      "x": 1283,
+      "y": 1404,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "581851cf-aba0-493b-9ada-8e4336fbc9cd",
+      "name": "Oasis",
+      "x": 988,
+      "y": 467,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "22645e5b-1b84-4362-8a00-370cb7cce8c3",
+      "name": "Witch Cauldron",
+      "x": 821,
+      "y": 360,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "efb180a5-cec2-4946-8c4e-5ee208238467",
+      "name": "Scorpion",
+      "x": 50,
+      "y": 183,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b3448636-cbae-4242-93a8-93fffcc77379",
+      "name": "Pine Tree",
+      "x": 441,
+      "y": 1153,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8d356982-217d-41cb-893d-fb5fe728e984",
+      "name": "Clay Pit",
+      "x": 1711,
+      "y": 359,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7e24a774-4521-46ab-b6be-ebfb0033d0ae",
+      "name": "Clay Pit",
+      "x": 1871,
+      "y": 198,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "34512212-0c10-4793-bc0f-805d7f138c5b",
+      "name": "Spider Web",
+      "x": 694,
+      "y": 197,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cd183c5f-08a2-4f0d-b80a-056ad94f6447",
+      "name": "Ghost",
+      "x": 645,
+      "y": 434,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "46cd3838-847e-432c-b2de-d601fcd75dea",
+      "name": "Tall Grass",
+      "x": 306,
+      "y": 1516,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3df97d8c-2f9d-42c1-9f53-7a634b64a495",
+      "name": "Dark Crystal",
+      "x": 144,
+      "y": 964,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "03e48937-95de-432b-bfa7-805bf1fe60a8",
+      "name": "Obelisk",
+      "x": 800,
+      "y": 595,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5b275209-a8e7-4679-932e-4eaaa879e531",
+      "name": "Oasis",
+      "x": 1192,
+      "y": 707,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8a2ac3c5-ae46-4dcb-aeaf-45444540290c",
+      "name": "Spider Web",
+      "x": 821,
+      "y": 647,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "25311cf4-30ea-47a2-b7d8-78f4a3513d84",
+      "name": "Beehive",
+      "x": 911,
+      "y": 1243,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ea1958c8-7f38-440b-a90e-26d5db903544",
+      "name": "Cow",
+      "x": 321,
+      "y": 777,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f6d6b1f2-d1a2-4ffd-ac14-38dbd118dc46",
+      "name": "Ghost",
+      "x": 82,
+      "y": 966,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "208d0beb-0356-41c5-a3d8-273f274b3bb4",
+      "name": "Dry Bush",
+      "x": 1711,
+      "y": 1862,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "05d8ca3b-9431-4c8d-b452-acd0e4a299b5",
+      "name": "Clay Pit",
+      "x": 1579,
+      "y": 1043,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0d837329-ed52-405d-8639-ee35751033ce",
+      "name": "Scorpion",
+      "x": 1555,
+      "y": 933,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "07001980-6b4d-4b7d-ae67-afd239bd5503",
+      "name": "Cactus",
+      "x": 116,
+      "y": 145,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9e4a3ea6-e294-4b94-b378-8694724afe46",
+      "name": "Polar Bear",
+      "x": 887,
+      "y": 1454,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1338c999-f051-4ae5-ac55-1a751c8e6295",
+      "name": "Dry Bush",
+      "x": 354,
+      "y": 71,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a1fe2cf9-931f-467f-b439-b4993c0ce51e",
+      "name": "Clay Pit",
+      "x": 1332,
+      "y": 707,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ed85ec01-fdbe-4933-b574-5d54089a91e8",
+      "name": "Stone Rock",
+      "x": 1341,
+      "y": 1481,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b94c9753-051b-4aa7-a901-3832e4ece436",
+      "name": "Wheat",
+      "x": 1341,
+      "y": 1307,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ac692770-1c98-4e19-be6e-fbac7395fdd8",
+      "name": "Gold Mine",
+      "x": 1239,
+      "y": 1145,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ca0fdae3-8433-44ef-aef4-0c5ef30ef1ce",
+      "name": "Spider Web",
+      "x": 580,
+      "y": 493,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a7c26432-dede-4d04-8e4a-6b0870438559",
+      "name": "Gold Mine",
+      "x": 61,
+      "y": 110,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "587815ec-9b77-4c1f-9ded-64814796a98e",
+      "name": "Apple Tree",
+      "x": 903,
+      "y": 1233,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3fd2a373-ed87-45df-8e45-a41719d5d389",
+      "name": "Mushrooms",
+      "x": 59,
+      "y": 977,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "95089251-c6fb-4829-82d9-202b9ee6d779",
+      "name": "Frozen Pond",
+      "x": 496,
+      "y": 985,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0fbf80b8-f010-4502-8943-d1bdcfcb0129",
+      "name": "Snow Rock",
+      "x": 1734,
+      "y": 1740,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3fe6b8ca-2f07-4918-8ec3-20319e0fa5d8",
+      "name": "Beehive",
+      "x": 211,
+      "y": 1484,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "671cd4a5-1f86-4cd5-99c5-5a2efbd724b1",
+      "name": "Obelisk",
+      "x": 550,
+      "y": 718,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cad4d5fb-bedb-4550-873f-40578628e7e3",
+      "name": "Gold Mine",
+      "x": 1428,
+      "y": 765,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9b3cf4a2-964d-4135-bbc0-cd4aa76b92e9",
+      "name": "Tall Grass",
+      "x": 932,
+      "y": 828,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "06be388d-21bc-4017-9daa-5167de9e0820",
+      "name": "Tall Grass",
+      "x": 397,
+      "y": 726,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "30b973d6-8fc1-406c-9611-3f3c8f40667e",
+      "name": "Scorpion",
+      "x": 1459,
+      "y": 984,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c265606b-9611-433e-b53c-15e265da47d5",
+      "name": "Obelisk",
+      "x": 943,
+      "y": 226,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d538393c-9e24-420a-bc13-0f0740c91c10",
+      "name": "Ice Crystal",
+      "x": 698,
+      "y": 989,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "07b3b3c8-bfca-4a17-bc32-2388fd271781",
+      "name": "Berry Bush",
+      "x": 1786,
+      "y": 1454,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "985aca3f-fae1-4ec3-99b6-504b9c63096c",
+      "name": "Cactus",
+      "x": 1182,
+      "y": 1396,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d6229237-d5ce-4971-a8d2-5cba442ceb3b",
+      "name": "Berry Bush",
+      "x": 107,
+      "y": 1626,
+      "type": "resource",
+      "emoji": "\ud83e\uded0",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Berry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "efb1b5d5-5147-405b-909a-cd92a3f84f23",
+      "name": "Ancient Bones",
+      "x": 1682,
+      "y": 550,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dfb7ec75-ca63-46c2-99e5-694b17d1965e",
+      "name": "Stone Rock",
+      "x": 423,
+      "y": 1430,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d9991f80-46fe-4d22-961d-87b51810eacc",
+      "name": "Cursed Totem",
+      "x": 450,
+      "y": 422,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6db340c8-ca24-4b3e-af94-0ba56033b94e",
+      "name": "Snow Rock",
+      "x": 732,
+      "y": 1110,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "56ddbfff-728a-4354-8230-98811fcb3742",
+      "name": "Gold Mine",
+      "x": 1097,
+      "y": 962,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "21d78745-341a-4495-9713-6649457bf2ae",
+      "name": "Dead Tree",
+      "x": 459,
+      "y": 926,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "350f4229-dd77-4855-9ad6-20a5cb2660f2",
+      "name": "Snow Rock",
+      "x": 422,
+      "y": 1155,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c24f5d99-11f3-46fd-b3fa-f9ed39587a80",
+      "name": "Ice Spike",
+      "x": 749,
+      "y": 1227,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a50c04e9-b6d5-489b-b185-9f19b6f974ec",
+      "name": "Palm Tree",
+      "x": 1046,
+      "y": 1344,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "046ada06-8c42-4275-ae7e-8fc9f0af1d5c",
+      "name": "Oasis",
+      "x": 1721,
+      "y": 341,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c24f37e8-c6f0-474f-861b-fc03cb9f0785",
+      "name": "Palm Tree",
+      "x": 1046,
+      "y": 1196,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "14969357-aecf-4e8f-9579-6b1c3fca7b9b",
+      "name": "Pine Tree",
+      "x": 1048,
+      "y": 1439,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b49debc8-be2f-4e1b-8e7c-e17197756c03",
+      "name": "Ancient Bones",
+      "x": 1545,
+      "y": 926,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dd4aadfb-edf9-4132-b049-a1c27886611e",
+      "name": "Frozen Pond",
+      "x": 1001,
+      "y": 1630,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5cd44089-db62-42f8-a0f9-2a683c90852a",
+      "name": "Clay Pit",
+      "x": 976,
+      "y": 607,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0de73568-8842-4dd9-8073-9e723605b202",
+      "name": "Wheat",
+      "x": 406,
+      "y": 1381,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "45dfe7e5-92c3-4ece-900c-9e3ea2a068f4",
+      "name": "Cow",
+      "x": 979,
+      "y": 1287,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b7f72434-a179-42e3-bb8e-63148f8332de",
+      "name": "Ancient Bones",
+      "x": 1742,
+      "y": 314,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "45be51dc-3174-4394-9145-7476889e1dc6",
+      "name": "Gold Mine",
+      "x": 222,
+      "y": 270,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cea93acc-e581-4626-9140-c8b0c19f137e",
+      "name": "Apple Tree",
+      "x": 1332,
+      "y": 1363,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree",
+        "Kit recolect\u00f3 comida.",
+        "Jed recolect\u00f3 comida.",
+        "Jed recolect\u00f3 comida.",
+        "Red recolect\u00f3 comida.",
+        "Cid recolect\u00f3 comida.",
+        "Lou recolect\u00f3 comida.",
+        "Dot recolect\u00f3 comida.",
+        "Sue recolect\u00f3 comida.",
+        "Flynn recolect\u00f3 comida.",
+        "Cid recolect\u00f3 comida.",
+        "Jed recolect\u00f3 comida.",
+        "Flynn recolect\u00f3 comida."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f25d2816-027c-4b56-912d-44c193f3882f",
+      "name": "Sheep",
+      "x": 169,
+      "y": 1784,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3633df3c-8bae-4437-9a18-3febd7e623be",
+      "name": "Gold Mine",
+      "x": 1867,
+      "y": 888,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3c581b9a-f700-4ad7-a650-b1f8d46717bb",
+      "name": "Dead Tree",
+      "x": 447,
+      "y": 982,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b6fc452c-3d3c-4789-9fae-405a43d96334",
+      "name": "Beehive",
+      "x": 1779,
+      "y": 1577,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "219a1559-db07-443f-a6de-e392959f196c",
+      "name": "Dry Bush",
+      "x": 1923,
+      "y": 54,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "df108d30-f212-4bde-9c09-a1813e910441",
+      "name": "Stone Rock",
+      "x": 374,
+      "y": 761,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0e1432f6-1fc9-4e25-a7f4-249e0bd867ff",
+      "name": "Beehive",
+      "x": 1648,
+      "y": 1141,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2535afed-28d0-498a-bff3-74a10a6d4c7c",
+      "name": "Cactus",
+      "x": 1338,
+      "y": 517,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "075a7806-2325-4c10-9c21-3cb453e26db4",
+      "name": "Igloo",
+      "x": 798,
+      "y": 1223,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b2384126-747c-4392-8f55-86b3adcaa8c5",
+      "name": "Scorpion",
+      "x": 1730,
+      "y": 610,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "20bb3e34-122e-4046-b2f0-fb775d4e1e93",
+      "name": "Ancient Bones",
+      "x": 559,
+      "y": 104,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bd1a76e6-993d-486a-aea8-9de3b06e651f",
+      "name": "Snow Rock",
+      "x": 793,
+      "y": 1470,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "322cb492-b8a5-4614-a66c-ccb4bc4e46d6",
+      "name": "Beehive",
+      "x": 1937,
+      "y": 1356,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8fb15d33-d19c-4594-bcdb-56b9d3ab8a05",
+      "name": "Ancient Bones",
+      "x": 1609,
+      "y": 712,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "16407d93-118a-4e40-be29-dbd2e9296701",
+      "name": "Ice Crystal",
+      "x": 761,
+      "y": 1102,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c7d03554-e865-4269-9160-e7d596b688f1",
+      "name": "Dry Bush",
+      "x": 1605,
+      "y": 728,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "01194510-5b91-40e6-afed-68014e7c2685",
+      "name": "Cactus",
+      "x": 1316,
+      "y": 613,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "503d0c30-6507-49b2-827e-f3ddd81725ff",
+      "name": "Mushrooms",
+      "x": 663,
+      "y": 261,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3afa62a9-4025-4970-a10a-423700f9754f",
+      "name": "Tall Grass",
+      "x": 1477,
+      "y": 1142,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2c4c728f-ee64-40d4-a070-a31ce41c31d5",
+      "name": "Apple Tree",
+      "x": 344,
+      "y": 1616,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 19,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree",
+        "Koa recolect\u00f3 comida."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c3e741fb-bc93-4a47-b90c-35e020304822",
+      "name": "Thorns",
+      "x": 1005,
+      "y": 139,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4d252166-fd99-46b9-9984-5c1be339d694",
+      "name": "Snow Rock",
+      "x": 689,
+      "y": 1609,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9b61f242-527b-4e35-a8f2-f3f6aac39d3e",
+      "name": "Polar Bear",
+      "x": 618,
+      "y": 1604,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "50aed69d-9deb-4659-83c2-32ba0d652ace",
+      "name": "Igloo",
+      "x": 963,
+      "y": 1394,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "6539ab1a-92c7-49b4-a2f2-7298737ef6b3",
+      "name": "Oasis",
+      "x": 1286,
+      "y": 734,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "75413ccb-3146-47fe-b7b4-a41d0e9188f1",
+      "name": "Ice Crystal",
+      "x": 1936,
+      "y": 1549,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "20a06765-e802-4ced-9e78-e56279689daf",
+      "name": "Witch Cauldron",
+      "x": 602,
+      "y": 742,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "35b2820f-9297-4a11-a27f-a05fea2a95da",
+      "name": "Gold Mine",
+      "x": 1775,
+      "y": 319,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a76906b2-868b-49f0-8ea9-5d033dfbbf34",
+      "name": "Scorpion",
+      "x": 1466,
+      "y": 273,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "126645c5-67f6-4e62-af34-407ad0a4162c",
+      "name": "Igloo",
+      "x": 622,
+      "y": 1174,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "06def0d9-127c-4ebb-b682-ab1337024b6f",
+      "name": "Cow",
+      "x": 1270,
+      "y": 1586,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a5e7d104-53be-48dd-8454-8c00e1fcac0c",
+      "name": "Dry Bush",
+      "x": 1403,
+      "y": 58,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "67074378-44ce-4be1-9012-b75e76b369f2",
+      "name": "Dark Crystal",
+      "x": 371,
+      "y": 1011,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3a07097e-7f37-4ede-8e99-fb978a493a20",
+      "name": "Ghost",
+      "x": 310,
+      "y": 821,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "68067290-8e92-44de-8970-97ece030f1a3",
+      "name": "Oasis",
+      "x": 1291,
+      "y": 430,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "99a621cb-6fa5-423f-b503-d0223f435ec7",
+      "name": "Gold Mine",
+      "x": 1629,
+      "y": 883,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d25f6c7e-79a0-49ef-8341-b5633661e1b3",
+      "name": "Ice Crystal",
+      "x": 614,
+      "y": 1192,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8e1c3904-3c3b-44fa-9464-9a1c29266fd3",
+      "name": "Palm Tree",
+      "x": 1240,
+      "y": 765,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5b48bd2f-2791-40c9-991b-f466ae98da0e",
+      "name": "Tall Grass",
+      "x": 934,
+      "y": 919,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c2a23cf3-21cb-4059-b7ee-6cd31322a662",
+      "name": "Cactus",
+      "x": 1373,
+      "y": 1145,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "aa6b2c1b-16ad-4524-a5f5-1b003878e2ab",
+      "name": "Sand Dune",
+      "x": 1308,
+      "y": 185,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5d9329d3-0be0-471e-b156-ec07b86fa364",
+      "name": "Polar Bear",
+      "x": 819,
+      "y": 1934,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "93732eaf-8c27-4128-b235-a2d0a0456219",
+      "name": "Scorpion",
+      "x": 1104,
+      "y": 522,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "310e651a-527d-4497-bffc-0e70154a1007",
+      "name": "Igloo",
+      "x": 1664,
+      "y": 1730,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "1931d9e5-7f30-4029-a0d5-03060d81149d",
+      "name": "Cursed Totem",
+      "x": 377,
+      "y": 910,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "618babb5-9497-4294-be3f-1fa4568ceae9",
+      "name": "Clay Pit",
+      "x": 1173,
+      "y": 873,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7df09d15-74d5-4536-a53c-d8024f0a314c",
+      "name": "Cow",
+      "x": 72,
+      "y": 420,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4e12d580-cb18-4661-9162-bd161aafbda3",
+      "name": "Ice Crystal",
+      "x": 888,
+      "y": 1854,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "06d39b7d-1781-4960-8be1-acba99d9a3c7",
+      "name": "Gold Mine",
+      "x": 1338,
+      "y": 203,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4c278411-a378-4108-a79b-9bdaca282779",
+      "name": "Cactus",
+      "x": 1742,
+      "y": 93,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8fdf0aa3-9934-43f1-8301-abb5af2313e1",
+      "name": "Polar Bear",
+      "x": 1163,
+      "y": 1833,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "68841348-fb9e-4ebe-8c48-58dbea82cff1",
+      "name": "Dead Tree",
+      "x": 993,
+      "y": 399,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f166036d-020f-4a57-8445-35369327f8fd",
+      "name": "Sand Dune",
+      "x": 1389,
+      "y": 521,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "582653a4-2a35-4f39-9f4f-ba8d1f2ffcf8",
+      "name": "Wheat",
+      "x": 860,
+      "y": 1079,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9e2ae323-1ac7-4339-a489-7a97068c3d5e",
+      "name": "Pine Tree",
+      "x": 661,
+      "y": 1364,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "de2d3802-b17b-4373-9ebc-2d92a2ebbebb",
+      "name": "Obelisk",
+      "x": 135,
+      "y": 834,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Obelisk"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4d6ed8a2-b0c4-4158-8730-e8f5497c66f2",
+      "name": "Snow Rock",
+      "x": 650,
+      "y": 1428,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "be48459a-de1e-49b7-9d42-e2eaaddb5d2d",
+      "name": "Cursed Totem",
+      "x": 497,
+      "y": 575,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9aefd8d5-a2be-4d56-ae46-87eaac1cb09b",
+      "name": "Flower",
+      "x": 463,
+      "y": 613,
+      "type": "resource",
+      "emoji": "\ud83c\udf3b",
+      "amount": 2,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Flower"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "44f4665d-2eb7-41af-8649-62abfce426e3",
+      "name": "Thorns",
+      "x": 974,
+      "y": 157,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3861c66e-c80d-4b6b-ac61-707d9165d677",
+      "name": "Cursed Totem",
+      "x": 477,
+      "y": 523,
+      "type": "resource",
+      "emoji": "\ud83d\uddff",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cursed Totem"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7fdb8545-e307-46ca-ae71-0aa1adb4deb2",
+      "name": "Snow Rock",
+      "x": 845,
+      "y": 1284,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "18deaf4c-0bad-4132-af41-bf9ded590a25",
+      "name": "Thorns",
+      "x": 1079,
+      "y": 122,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0b6e6a47-a886-4fbe-b2da-1df4af37ebcc",
+      "name": "Sand Dune",
+      "x": 1846,
+      "y": 894,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "de54ce5e-d6f3-473c-8a9e-24ff7df72b25",
+      "name": "Gold Mine",
+      "x": 416,
+      "y": 147,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2f8ab6d0-7dd0-40a3-b7e7-65ab62fc4914",
+      "name": "Cactus",
+      "x": 1816,
+      "y": 562,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "cbadc471-8646-432f-9d3f-78e5e93072d2",
+      "name": "Beehive",
+      "x": 1810,
+      "y": 1551,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4f1d390d-12a9-4757-ae9e-6e4e1fe44efd",
+      "name": "Beehive",
+      "x": 189,
+      "y": 541,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2bffab0b-ef70-45ae-a06d-9e914912f3c7",
+      "name": "Oasis",
+      "x": 1103,
+      "y": 400,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "11ae3a64-9bc1-401f-a7ca-f5f59d68a5ec",
+      "name": "Snow Rock",
+      "x": 1088,
+      "y": 1502,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "64e36d13-9b99-4100-b58e-63f85cfa5ec8",
+      "name": "Clay Pit",
+      "x": 1560,
+      "y": 921,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7bb86158-d701-4c5c-8ac9-0d25de827165",
+      "name": "Frozen Pond",
+      "x": 1246,
+      "y": 1740,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b0bdb21f-a88b-44c4-b3ca-743fd3910291",
+      "name": "Palm Tree",
+      "x": 1589,
+      "y": 94,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "dc4f5be3-e533-4231-b72c-17477611fb8f",
+      "name": "Sheep",
+      "x": 443,
+      "y": 1522,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "c3aecd51-8b12-4933-a11d-e17ced99561e",
+      "name": "Beehive",
+      "x": 421,
+      "y": 1536,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d42ddb7f-79e4-4b69-b345-dc3393b8e919",
+      "name": "Spider Web",
+      "x": 929,
+      "y": 490,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "06fa3d96-201d-4943-81d4-c30c3d37f32b",
+      "name": "Ice Spike",
+      "x": 869,
+      "y": 1332,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4457a9db-43c0-4131-aa92-073f8ba409f3",
+      "name": "Gold Mine",
+      "x": 1164,
+      "y": 764,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "945ea63b-27b7-4d74-b9cb-06aa3f3a1f49",
+      "name": "Spider Web",
+      "x": 68,
+      "y": 659,
+      "type": "resource",
+      "emoji": "\ud83d\udd78\ufe0f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Spider Web"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9855c1a4-cfff-41a7-86ca-58fa1a6cf099",
+      "name": "Witch Cauldron",
+      "x": 599,
+      "y": 261,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f8af3314-a84f-46f4-a1a6-30028dfdfcba",
+      "name": "Stone Rock",
+      "x": 236,
+      "y": 1644,
+      "type": "resource",
+      "emoji": "\ud83e\udea8",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Stone Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7e415b04-87c5-44fe-886f-2134c75d992a",
+      "name": "Pine Tree",
+      "x": 633,
+      "y": 1413,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "fd6f8c3c-fe02-4652-ade0-bf0ef97a3ea7",
+      "name": "Ice Spike",
+      "x": 530,
+      "y": 1933,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b536103b-4ed5-4451-bdb8-7f5bbac7aecb",
+      "name": "Scorpion",
+      "x": 1800,
+      "y": 368,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "edd03a6f-fe61-409c-95ee-89fed7718b89",
+      "name": "Beehive",
+      "x": 865,
+      "y": 1035,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3b0c6c94-ab3e-4a27-a752-6cc0f567d7e5",
+      "name": "Ancient Bones",
+      "x": 1793,
+      "y": 961,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2c6d1b1a-4909-46ec-9e8a-91ee828fb631",
+      "name": "Snow Rock",
+      "x": 1809,
+      "y": 1671,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9c77b62c-a3fe-409e-854b-10129e9fa3ef",
+      "name": "Mushrooms",
+      "x": 767,
+      "y": 277,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "49a9953b-4664-46a4-a684-eaa68c6b0c63",
+      "name": "Pine Tree",
+      "x": 1266,
+      "y": 1883,
+      "type": "resource",
+      "emoji": "\ud83c\udf32",
+      "amount": 25,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Pine Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "75e97a74-b04c-41b5-9129-9f21a8796195",
+      "name": "Cow",
+      "x": 1290,
+      "y": 1372,
+      "type": "resource",
+      "emoji": "\ud83d\udc04",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cow"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f51c4647-be4e-42b3-b92d-330d524d19ea",
+      "name": "Wheat",
+      "x": 1718,
+      "y": 1100,
+      "type": "resource",
+      "emoji": "\ud83c\udf3e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Wheat"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f1e04191-6e45-4f06-b465-97b62f941791",
+      "name": "Thorns",
+      "x": 129,
+      "y": 1063,
+      "type": "resource",
+      "emoji": "\ud83e\udd40",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Thorns"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0a98b698-2434-4277-9645-cc8d51747122",
+      "name": "Frozen Pond",
+      "x": 1057,
+      "y": 1530,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bebcf5c6-c5aa-4c2a-8e32-1368395a3f81",
+      "name": "Dead Tree",
+      "x": 728,
+      "y": 237,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "22a5163f-c4a3-4741-83ae-2986be567d32",
+      "name": "Scorpion",
+      "x": 1202,
+      "y": 1396,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "61f0d6ce-e8a6-406e-abae-95ee2d34f2e7",
+      "name": "Witch Cauldron",
+      "x": 753,
+      "y": 316,
+      "type": "resource",
+      "emoji": "\ud83e\uddea",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Witch Cauldron"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7a452ff7-42b9-4a53-bd74-93bb13219918",
+      "name": "Polar Bear",
+      "x": 1063,
+      "y": 1743,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d786c6c5-a199-4060-9dc7-b7aab58b6083",
+      "name": "Beehive",
+      "x": 1692,
+      "y": 1069,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "bd14c817-bb05-4f48-86c7-b396018580c3",
+      "name": "Sheep",
+      "x": 973,
+      "y": 1273,
+      "type": "resource",
+      "emoji": "\ud83d\udc11",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sheep"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "daa58bd9-fdcb-434d-9bd7-cdefc8ebedc8",
+      "name": "Dead Tree",
+      "x": 650,
+      "y": 320,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "00881d63-b33f-40e4-8048-6873cb236594",
+      "name": "Scorpion",
+      "x": 1033,
+      "y": 1242,
+      "type": "resource",
+      "emoji": "\ud83e\udd82",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Scorpion"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5f0d108d-589e-4abf-a9dc-598ea0640fbf",
+      "name": "Dry Bush",
+      "x": 1942,
+      "y": 726,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "e337f6e1-0829-4d5e-8b0c-08a5ab087ec6",
+      "name": "Ice Crystal",
+      "x": 351,
+      "y": 1093,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "950ef80a-8830-4830-8be5-fa37a2d1fbd5",
+      "name": "Gold Mine",
+      "x": 1686,
+      "y": 772,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ef7ac462-b6fa-4a3e-a3fc-7250d863a54e",
+      "name": "Oasis",
+      "x": 1191,
+      "y": 234,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "25372fab-48d0-4ee9-b15c-53b921598445",
+      "name": "Dry Bush",
+      "x": 1791,
+      "y": 90,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "21135a98-3e70-4c1e-8e34-96df538f3ae6",
+      "name": "Ancient Bones",
+      "x": 1501,
+      "y": 218,
+      "type": "resource",
+      "emoji": "\ud83e\uddb4",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ancient Bones"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "72e6c0df-8d70-4133-b58f-152aaa29a4e8",
+      "name": "Dead Tree",
+      "x": 93,
+      "y": 1066,
+      "type": "resource",
+      "emoji": "\ud83e\udeb5",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dead Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "79aba9cf-bbab-470f-bc16-6dca7ef4c3e8",
+      "name": "Frozen Pond",
+      "x": 737,
+      "y": 1405,
+      "type": "resource",
+      "emoji": "\ud83e\uddca",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Frozen Pond"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4c002214-b354-4461-9029-c5757ad83dc5",
+      "name": "Igloo",
+      "x": 441,
+      "y": 1233,
+      "type": "resource",
+      "emoji": "\ud83d\uded6",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Igloo"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0800b765-2001-4bfc-b933-9efdf599d9cd",
+      "name": "Palm Tree",
+      "x": 1392,
+      "y": 645,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0ef2173d-49c8-48e9-9895-3f131d89674c",
+      "name": "Cactus",
+      "x": 1663,
+      "y": 245,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "398558be-e22f-4f2d-bff6-a3ac31410645",
+      "name": "Sand Dune",
+      "x": 1329,
+      "y": 540,
+      "type": "resource",
+      "emoji": "\ud83c\udfdc\ufe0f",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Sand Dune"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f1e0e2fd-45ce-4a80-a88b-8a18226d41ed",
+      "name": "Tall Grass",
+      "x": 929,
+      "y": 881,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "94ceb4c4-d2e4-47b2-8456-07fcaf00dc9a",
+      "name": "Gold Mine",
+      "x": 1103,
+      "y": 1364,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "75713dd9-e0a8-400f-ab98-14fd972d0ecb",
+      "name": "Ice Spike",
+      "x": 1152,
+      "y": 1911,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "d8cd1c52-e8fb-4b28-add4-b23c75335e0c",
+      "name": "Ice Spike",
+      "x": 672,
+      "y": 948,
+      "type": "resource",
+      "emoji": "\ud83d\udc8e",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Spike"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2f5504bd-dd8d-4cc8-b769-b2d461883b7e",
+      "name": "Dark Crystal",
+      "x": 754,
+      "y": 282,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "9f8a188d-a361-4437-8a96-e9846824ad5b",
+      "name": "Clay Pit",
+      "x": 1504,
+      "y": 133,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f08cc5de-e039-4a48-b0b8-584a9dd02e23",
+      "name": "Snow Rock",
+      "x": 1925,
+      "y": 1582,
+      "type": "resource",
+      "emoji": "\u2744\ufe0f",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Snow Rock"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "609abd79-9178-4f4a-8026-e4c494d09f07",
+      "name": "Mushrooms",
+      "x": 576,
+      "y": 397,
+      "type": "resource",
+      "emoji": "\ud83c\udf44",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Mushrooms"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "38db8459-5363-4358-95ff-aa7c5ab028dc",
+      "name": "Tall Grass",
+      "x": 513,
+      "y": 800,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f4324cb1-bc93-4309-b585-5f9cf0760df0",
+      "name": "Tall Grass",
+      "x": 209,
+      "y": 1402,
+      "type": "resource",
+      "emoji": "\ud83c\udf3f",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Tall Grass"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "8e8ad47d-30e4-49a0-98d4-d5a0b1a3ba5d",
+      "name": "Beehive",
+      "x": 335,
+      "y": 445,
+      "type": "resource",
+      "emoji": "\ud83d\udc1d",
+      "amount": 8,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Beehive"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ac216f5d-4f10-4baa-9096-7a730b448cfa",
+      "name": "Apple Tree",
+      "x": 442,
+      "y": 512,
+      "type": "resource",
+      "emoji": "\ud83c\udf4e",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Apple Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3454fac1-800e-4c81-a0c1-97a9a4778a6f",
+      "name": "Ice Crystal",
+      "x": 610,
+      "y": 1434,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ice Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2ce560a5-1dc6-4b26-ae76-ee83ed19defe",
+      "name": "Cactus",
+      "x": 1585,
+      "y": 172,
+      "type": "resource",
+      "emoji": "\ud83c\udf35",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Cactus"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7adfce4c-00fe-430d-94ac-911294476bd5",
+      "name": "Ghost",
+      "x": 401,
+      "y": 359,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "85168d64-3e2a-4017-9095-4e23a2118b07",
+      "name": "Palm Tree",
+      "x": 1169,
+      "y": 514,
+      "type": "resource",
+      "emoji": "\ud83c\udf34",
+      "amount": 15,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Palm Tree"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "646b8904-fc2b-4197-b48f-9902f15602e9",
+      "name": "Dry Bush",
+      "x": 1194,
+      "y": 1230,
+      "type": "resource",
+      "emoji": "\ud83c\udf8b",
+      "amount": 5,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dry Bush"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4abd0f9a-4268-419d-81ef-6ea3e2792291",
+      "name": "Ghost",
+      "x": 1012,
+      "y": 208,
+      "type": "resource",
+      "emoji": "\ud83d\udc7b",
+      "amount": 0,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Ghost"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "53cb1fb2-c0f6-4d1e-8189-7af03c3ff2c2",
+      "name": "Dark Crystal",
+      "x": 887,
+      "y": 419,
+      "type": "resource",
+      "emoji": "\ud83d\udd2e",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Dark Crystal"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "2ed0c0d3-9eba-4e59-9d24-bfa3da0db1f8",
+      "name": "Polar Bear",
+      "x": 839,
+      "y": 1325,
+      "type": "resource",
+      "emoji": "\ud83d\udc3b\u200d\u2744\ufe0f",
+      "amount": 10,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Polar Bear"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "29f90818-da6e-4f62-8d20-b334f0cc2dad",
+      "name": "Clay Pit",
+      "x": 1130,
+      "y": 326,
+      "type": "resource",
+      "emoji": "\ud83c\udffa",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Clay Pit"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "62bbcd06-3fdd-4087-a737-16dfce7f0c30",
+      "name": "Gold Mine",
+      "x": 1650,
+      "y": 540,
+      "type": "resource",
+      "emoji": "\ud83e\ude99",
+      "amount": 20,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Gold Mine"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3b8b0517-1417-4627-813f-2de0cc63f79b",
+      "name": "Oasis",
+      "x": 1346,
+      "y": 1264,
+      "type": "resource",
+      "emoji": "\ud83c\udfdd\ufe0f",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Oasis"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b33a6a02-4d62-47f7-80d2-baa2030763ce",
+      "name": "Water Well",
+      "x": 484,
+      "y": 1766,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Koa bebi\u00f3 agua.",
+        "Koa bebi\u00f3 agua.",
+        "Kit bebi\u00f3 agua.",
+        "Koa bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "81b9f4b5-e678-4bbe-ac9f-2ee535eace35",
+      "name": "Campfire",
+      "x": 1170,
+      "y": 213,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "30af8e79-5e40-492e-b259-4ecae1b86fd4",
+      "name": "Water Well",
+      "x": 1360,
+      "y": 1112,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Cal bebi\u00f3 agua.",
+        "Jed bebi\u00f3 agua.",
+        "Lou bebi\u00f3 agua.",
+        "Dot bebi\u00f3 agua.",
+        "Red bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "5df5421e-29c8-4492-881c-81e2bed5a3cc",
+      "name": "Campfire",
+      "x": 1453,
+      "y": 1408,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4614bc2a-291e-45ca-a6fd-5c983e46e462",
+      "name": "Water Well",
+      "x": 1252,
+      "y": 1497,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Wes bebi\u00f3 agua.",
+        "Kit bebi\u00f3 agua.",
+        "Jed bebi\u00f3 agua.",
+        "Cal bebi\u00f3 agua.",
+        "Cid bebi\u00f3 agua.",
+        "Wes bebi\u00f3 agua.",
+        "Sue bebi\u00f3 agua.",
+        "Cid bebi\u00f3 agua.",
+        "Jed bebi\u00f3 agua.",
+        "Red bebi\u00f3 agua.",
+        "Flynn bebi\u00f3 agua.",
+        "Dot bebi\u00f3 agua.",
+        "Kit bebi\u00f3 agua.",
+        "Koa bebi\u00f3 agua.",
+        "Koa bebi\u00f3 agua.",
+        "Kit bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "afa1059a-3a53-45bf-b0f6-0b93c8644640",
+      "name": "Campfire",
+      "x": 406,
+      "y": 985,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0a3b2888-9b83-4486-93e0-bf019f1bf1f3",
+      "name": "Water Well",
+      "x": 966,
+      "y": 399,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Sue bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a704e7ee-8606-4798-8afa-fabe535c586d",
+      "name": "Campfire",
+      "x": 907,
+      "y": 348,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ea5251bb-3947-4c68-9d75-3c52f15c25c2",
+      "name": "Water Well",
+      "x": 59,
+      "y": 1564,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "013694d0-d76c-488b-9f50-106ba2569578",
+      "name": "Campfire",
+      "x": 1654,
+      "y": 1770,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "35fc6f1c-62ef-4bcf-8e6b-c3144675c147",
+      "name": "Water Well",
+      "x": 1909,
+      "y": 978,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "120e464d-3666-44ae-a169-a2f06f0139b7",
+      "name": "Campfire",
+      "x": 1090,
+      "y": 707,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "ac01ca2e-f575-49d2-9a15-4c9628f84881",
+      "name": "Water Well",
+      "x": 703,
+      "y": 338,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Cid bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "b5fa7c24-112a-45ab-984c-79e27fe9ee13",
+      "name": "Campfire",
+      "x": 1823,
+      "y": 967,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f43f4c2f-9bf1-4fe3-a41c-1821feb496de",
+      "name": "Water Well",
+      "x": 1245,
+      "y": 227,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Lux bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3a83174f-e0dd-4b52-906b-c6b58409e424",
+      "name": "Campfire",
+      "x": 997,
+      "y": 355,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "3ba382e7-535d-4870-a956-8b89f8c0eb89",
+      "name": "Water Well",
+      "x": 1444,
+      "y": 384,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Eva bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f3cda1b0-693c-4f89-bd49-54cbf36c446a",
+      "name": "Campfire",
+      "x": 1539,
+      "y": 220,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "a3b8ca7f-9062-4a08-bddf-767074bb5b33",
+      "name": "Water Well",
+      "x": 1029,
+      "y": 286,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "802f626b-2336-48a3-89f5-c6848ecd5003",
+      "name": "Campfire",
+      "x": 798,
+      "y": 787,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "7c2467ef-28b8-4624-ad5d-958c4720d597",
+      "name": "Water Well",
+      "x": 1192,
+      "y": 1192,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well",
+        "Flynn bebi\u00f3 agua.",
+        "Kit bebi\u00f3 agua.",
+        "Red bebi\u00f3 agua.",
+        "Jed bebi\u00f3 agua.",
+        "Flynn bebi\u00f3 agua."
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "0823bbe9-9d8b-48b5-85f7-621800330714",
+      "name": "Campfire",
+      "x": 954,
+      "y": 127,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "4b2b3c79-f116-4268-b686-419e95938cc6",
+      "name": "Water Well",
+      "x": 276,
+      "y": 393,
+      "type": "resource",
+      "emoji": "\ud83d\udeb0",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Water Well"
+      ],
+      "metadata": {}
+    },
+    {
+      "id": "f8fa6c30-6850-43b5-8622-1cf227a51886",
+      "name": "Campfire",
+      "x": 1672,
+      "y": 1660,
+      "type": "resource",
+      "emoji": "\ud83d\udd25",
+      "amount": 999,
+      "width": 0,
+      "height": 0,
+      "history": [
+        "Spawneado el mundo: Campfire"
+      ],
+      "metadata": {}
+    }
+  ],
+  "recipes": {
+    "Axe": {
+      "wood": 3,
+      "stone": 2
+    },
+    "Pickaxe": {
+      "wood": 2,
+      "stone": 3
+    },
+    "Spear": {
+      "wood": 4
+    },
+    "Bucket": {
+      "iron": 5
+    },
+    "Gold Ring": {
+      "gold": 3
+    },
+    "Iron Ingot": {
+      "stone": 5,
+      "wood": 2
+    }
+  },
+  "discovery_table": {
+    "Apple Tree": [
+      "Food",
+      "Wood"
+    ],
+    "Pine Tree": [
+      "Wood",
+      "Resin"
+    ],
+    "Stone Rock": [
+      "Stone",
+      "Iron"
+    ],
+    "Iron Ore": [
+      "Iron",
+      "Gold"
+    ]
+  },
+  "current_generation": 0,
+  "game_time": 4906,
+  "time_scale": 1.0,
+  "historical_best": [],
+  "biome_seeds": [
+    {
+      "x": 1759,
+      "y": 1479,
+      "type": "Pradera"
+    },
+    {
+      "x": 1131,
+      "y": 761,
+      "type": "Desierto"
+    },
+    {
+      "x": 1383,
+      "y": 645,
+      "type": "Desierto"
+    },
+    {
+      "x": 301,
+      "y": 1587,
+      "type": "Pradera"
+    },
+    {
+      "x": 922,
+      "y": 957,
+      "type": "Pradera"
+    },
+    {
+      "x": 631,
+      "y": 344,
+      "type": "Bosque Oscuro"
+    },
+    {
+      "x": 743,
+      "y": 1648,
+      "type": "Tundra"
+    },
+    {
+      "x": 1896,
+      "y": 1647,
+      "type": "Tundra"
+    },
+    {
+      "x": 368,
+      "y": 744,
+      "type": "Pradera"
+    },
+    {
+      "x": 286,
+      "y": 875,
+      "type": "Bosque Oscuro"
+    },
+    {
+      "x": 1924,
+      "y": 1685,
+      "type": "Desierto"
+    },
+    {
+      "x": 638,
+      "y": 703,
+      "type": "Bosque Oscuro"
+    },
+    {
+      "x": 1021,
+      "y": 950,
+      "type": "Desierto"
+    },
+    {
+      "x": 562,
+      "y": 1149,
+      "type": "Tundra"
+    },
+    {
+      "x": 518,
+      "y": 51,
+      "type": "Desierto"
+    }
+  ]
+}
