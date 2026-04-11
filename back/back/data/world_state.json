@@ -1,116 +1,35 @@
 {
   "agents": [
     {
-      "id": "570e2838-78ae-4e67-96e6-bd0ce9e966ee",
-      "name": "Dax",
-      "x": 1273.476726926835,
-      "y": 1489.9144683443128,
-      "speed": 1.7278027884686542,
+      "id": "b937a478-5f2c-4675-939f-a33aff5254c1",
+      "name": "Che",
+      "x": 605.7900217271192,
+      "y": 1958.6550007668272,
+      "speed": 1.6410576571906685,
       "dna": {
-        "sociability": 0.5487246248603572,
-        "energy_loss_rate": 0.023516175219588556,
-        "aggressiveness": 0.32335312132549676,
-        "work_ethic": 0.477336472103874,
-        "curiosity": 0.40388500864034027,
-        "strength": 1.0357432275601492,
-        "libido": 0.7499093610490642,
-        "cognitive_level": 0.03203010719935595
+        "sociability": 0.1846418483367317,
+        "energy_loss_rate": 0.01178630707675429,
+        "aggressiveness": 0.5017293442012406,
+        "work_ethic": 0.4898744989789965,
+        "curiosity": 0.8369099584242935,
+        "strength": 1.808259074092978,
+        "libido": 0.07473927513904899,
+        "cognitive_level": 0.051886330635721414
       },
       "personality": [
-        "grumpy",
-        "wise"
-      ],
-      "status": "talking",
-      "memories": [
-        {
-          "type": "action",
-          "text": "ha bebido agua del Pozo."
-        },
-        {
-          "type": "action",
-          "text": "ha recolectado manzanas."
-        },
-        {
-          "type": "action",
-          "text": "ha bebido agua del Pozo."
-        },
-        {
-          "type": "action",
-          "text": "ha bebido agua del Pozo."
-        },
-        {
-          "type": "action",
-          "text": "ha recolectado manzanas."
-        }
-      ],
-      "inventory": {
-        "wood": 0,
-        "food": 4,
-        "stone": 0,
-        "iron": 0,
-        "gold": 0,
-        "resin": 0,
-        "seed": 0,
-        "clay": 0,
-        "gemstone": 0,
-        "mana": 0
-      },
-      "tools": [],
-      "discovered_recipes": [],
-      "energy": 55.066777240217256,
-      "needs": {
-        "hunger": 61.075000000005375,
-        "thirst": 83.27999999999943,
-        "social": 58.644999999997296,
-        "rest": 52.43000000000502
-      },
-      "age": 2499,
-      "max_age": 7984,
-      "generation": 2,
-      "fitness": 4,
-      "xp": 20,
-      "level": 1,
-      "biome": "Pradera",
-      "current_dialogue": null
-    },
-    {
-      "id": "bb429b86-0f99-4d44-94f6-f4e9523d72eb",
-      "name": "Sue",
-      "x": 778.017969429486,
-      "y": 986.3509099369553,
-      "speed": 0.7488487057931896,
-      "dna": {
-        "sociability": 0.5487246248603572,
-        "energy_loss_rate": 0.023516175219588556,
-        "aggressiveness": 0.32335312132549676,
-        "work_ethic": 0.477336472103874,
-        "curiosity": 0.40388500864034027,
-        "strength": 1.0357432275601492,
-        "libido": 0.7499093610490642,
-        "cognitive_level": 0.11081904565393735
-      },
-      "personality": [
-        "grumpy",
-        "pessimistic"
+        "philosophical",
+        "naive"
       ],
       "status": "moving",
       "memories": [
         {
           "type": "action",
           "text": "ha bebido agua del Pozo."
-        },
-        {
-          "type": "action",
-          "text": "ha recolectado manzanas."
-        },
-        {
-          "type": "action",
-          "text": "ha bebido agua del Pozo."
         }
       ],
       "inventory": {
         "wood": 0,
-        "food": 2,
+        "food": 0,
         "stone": 0,
         "iron": 0,
         "gold": 0,
@@ -122,60 +41,101 @@
       },
       "tools": [],
       "discovered_recipes": [],
-      "energy": 47.99847892722803,
+      "energy": 93.82658089123038,
       "needs": {
-        "hunger": 17.825000000005147,
-        "thirst": 18.76000000000147,
-        "social": 26.694999999997222,
-        "rest": 51.13000000000436
+        "hunger": 52.60000000000153,
+        "thirst": 74.99999999999962,
+        "social": 71.55999999999892,
+        "rest": 81.04000000000208
       },
-      "age": 2499,
-      "max_age": 9092,
-      "generation": 2,
-      "fitness": 1,
+      "age": 1067,
+      "max_age": 5763,
+      "generation": 3,
+      "fitness": 0,
+      "xp": 10,
+      "level": 1,
+      "biome": "Tundra",
+      "current_dialogue": null
+    },
+    {
+      "id": "51574dad-63a6-4d20-9c40-a07aafec52f8",
+      "name": "Lia",
+      "x": 362.0008426676092,
+      "y": 1864.6965876401885,
+      "speed": 1.6299887796471504,
+      "dna": {
+        "sociability": 0.1846418483367317,
+        "energy_loss_rate": 0.01178630707675429,
+        "aggressiveness": 0.5017293442012406,
+        "work_ethic": 0.4898744989789965,
+        "curiosity": 0.8910062518285689,
+        "strength": 1.808259074092978,
+        "libido": 0.07473927513904899,
+        "cognitive_level": 0.14740237294274156
+      },
+      "personality": [
+        "inquisitive",
+        "naive"
+      ],
+      "status": "thinking_action",
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        }
+      ],
+      "inventory": {
+        "wood": 0,
+        "food": 0,
+        "stone": 0,
+        "iron": 0,
+        "gold": 0,
+        "resin": 0,
+        "seed": 0,
+        "clay": 0,
+        "gemstone": 0,
+        "mana": 0
+      },
+      "tools": [],
+      "discovered_recipes": [],
+      "energy": 93.56138898200325,
+      "needs": {
+        "hunger": 51.4750000000016,
+        "thirst": 76.75999999999989,
+        "social": 70.8849999999989,
+        "rest": 80.59000000000249
+      },
+      "age": 1067,
+      "max_age": 5670,
+      "generation": 3,
+      "fitness": 0,
       "xp": 10,
       "level": 1,
       "biome": "Pradera",
       "current_dialogue": null
     },
     {
-      "id": "6ebc6ddd-7320-442c-9d52-9e6f9a094b42",
-      "name": "Mac",
-      "x": 1257.7625024284848,
-      "y": 1531.110259085793,
-      "speed": 1.6565452762271902,
+      "id": "83094b5a-72b8-42d7-ac94-860451529eb2",
+      "name": "Vix",
+      "x": 1208.5829652735272,
+      "y": 394.06928119402,
+      "speed": 1.8574241046982964,
       "dna": {
-        "sociability": 0.5487246248603572,
-        "energy_loss_rate": 0.023516175219588556,
-        "aggressiveness": 0.3836744563828906,
-        "work_ethic": 0.477336472103874,
-        "curiosity": 0.40388500864034027,
-        "strength": 1.0357432275601492,
-        "libido": 0.7499093610490642,
-        "cognitive_level": 0.03203010719935595
+        "sociability": 0.1846418483367317,
+        "energy_loss_rate": 0.07971965789210966,
+        "aggressiveness": 0.5017293442012406,
+        "work_ethic": 0.44093619882882057,
+        "curiosity": 0.8369099584242935,
+        "strength": 1.808259074092978,
+        "libido": 0.07473927513904899,
+        "cognitive_level": 0.14740237294274156
       },
       "personality": [
-        "friendly",
-        "philosophical"
+        "naive",
+        "sarcastic"
       ],
-      "status": "talking",
+      "status": "moving",
       "memories": [
-        {
-          "type": "action",
-          "text": "ha bebido agua del Pozo."
-        },
-        {
-          "type": "action",
-          "text": "ha recolectado manzanas."
-        },
-        {
-          "type": "action",
-          "text": "ha bebido agua del Pozo."
-        },
-        {
-          "type": "action",
-          "text": "ha recolectado manzanas."
-        },
         {
           "type": "action",
           "text": "ha bebido agua del Pozo."
@@ -183,7 +143,7 @@
       ],
       "inventory": {
         "wood": 0,
-        "food": 4,
+        "food": 0,
         "stone": 0,
         "iron": 0,
         "gold": 0,
@@ -195,20 +155,134 @@
       },
       "tools": [],
       "discovered_recipes": [],
-      "energy": 55.06677724021787,
+      "energy": 29.38590448933161,
       "needs": {
-        "hunger": 61.07500000000543,
-        "thirst": 57.28000000000064,
-        "social": 58.644999999997296,
-        "rest": 52.430000000005016
+        "hunger": 52.5750000000013,
+        "thirst": 69.91999999999973,
+        "social": 71.54499999999892,
+        "rest": 81.03000000000209
       },
-      "age": 2499,
-      "max_age": 9120,
-      "generation": 2,
-      "fitness": 4,
+      "age": 1067,
+      "max_age": 8461,
+      "generation": 3,
+      "fitness": 0,
       "xp": 20,
       "level": 1,
-      "biome": "Pradera",
+      "biome": "Desierto",
+      "current_dialogue": null
+    },
+    {
+      "id": "14c7b5d6-170c-4b6c-a073-d3571be4c06c",
+      "name": "Sky",
+      "x": 1129.8623089487478,
+      "y": 1604.0420604347498,
+      "speed": 1.841235200681254,
+      "dna": {
+        "sociability": 0.1846418483367317,
+        "energy_loss_rate": 0.01178630707675429,
+        "aggressiveness": 0.5017293442012406,
+        "work_ethic": 0.4898744989789965,
+        "curiosity": 0.8369099584242935,
+        "strength": 1.808259074092978,
+        "libido": 0.07473927513904899,
+        "cognitive_level": 0.14740237294274156
+      },
+      "personality": [
+        "paranoid",
+        "philosophical"
+      ],
+      "status": "moving",
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        }
+      ],
+      "inventory": {
+        "wood": 0,
+        "food": 0,
+        "stone": 0,
+        "iron": 0,
+        "gold": 0,
+        "resin": 0,
+        "seed": 0,
+        "clay": 0,
+        "gemstone": 0,
+        "mana": 0
+      },
+      "tools": [],
+      "discovered_recipes": [],
+      "energy": 93.60264105677192,
+      "needs": {
+        "hunger": 51.650000000001974,
+        "thirst": 83.31999999999971,
+        "social": 70.9899999999989,
+        "rest": 80.66000000000243
+      },
+      "age": 1067,
+      "max_age": 8885,
+      "generation": 3,
+      "fitness": 0,
+      "xp": 20,
+      "level": 1,
+      "biome": "Tundra",
+      "current_dialogue": null
+    },
+    {
+      "id": "273b6375-54c4-4c71-8734-4131dcfed215",
+      "name": "Shay",
+      "x": 512.4804652844334,
+      "y": 1746.7369762689389,
+      "speed": 1.5008099626094693,
+      "dna": {
+        "sociability": 0.21926771872077921,
+        "energy_loss_rate": 0.01178630707675429,
+        "aggressiveness": 0.5017293442012406,
+        "work_ethic": 0.4898744989789965,
+        "curiosity": 0.8369099584242935,
+        "strength": 1.808259074092978,
+        "libido": 0.07473927513904899,
+        "cognitive_level": 0.14740237294274156
+      },
+      "personality": [
+        "paranoid",
+        "optimistic"
+      ],
+      "status": "moving",
+      "memories": [
+        {
+          "type": "action",
+          "text": "ha bebido agua del Pozo."
+        }
+      ],
+      "inventory": {
+        "wood": 0,
+        "food": 0,
+        "stone": 0,
+        "iron": 0,
+        "gold": 0,
+        "resin": 0,
+        "seed": 0,
+        "clay": 0,
+        "gemstone": 0,
+        "mana": 0
+      },
+      "tools": [],
+      "discovered_recipes": [],
+      "energy": 93.81479458415362,
+      "needs": {
+        "hunger": 52.55000000000141,
+        "thirst": 78.47999999999968,
+        "social": 71.52999999999892,
+        "rest": 81.0200000000021
+      },
+      "age": 1067,
+      "max_age": 9049,
+      "generation": 3,
+      "fitness": 0,
+      "xp": 10,
+      "level": 1,
+      "biome": "Tundra",
       "current_dialogue": null
     }
   ],
@@ -8145,7 +8219,9 @@
         "Koa bebi\u00f3 agua.",
         "Kit bebi\u00f3 agua.",
         "Koa bebi\u00f3 agua.",
-        "Gage bebi\u00f3 agua."
+        "Gage bebi\u00f3 agua.",
+        "Che bebi\u00f3 agua.",
+        "Shay bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8238,7 +8314,8 @@
         "Mac bebi\u00f3 agua.",
         "Mac bebi\u00f3 agua.",
         "Mac bebi\u00f3 agua.",
-        "Dax bebi\u00f3 agua."
+        "Dax bebi\u00f3 agua.",
+        "Sky bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8300,7 +8377,8 @@
       "height": 0,
       "history": [
         "Spawneado el mundo: Water Well",
-        "Gage bebi\u00f3 agua."
+        "Gage bebi\u00f3 agua.",
+        "Lia bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8453,7 +8531,8 @@
       "width": 0,
       "height": 0,
       "history": [
-        "Spawneado el mundo: Water Well"
+        "Spawneado el mundo: Water Well",
+        "Vix bebi\u00f3 agua."
       ],
       "metadata": {}
     },
@@ -8587,8 +8666,8 @@
       "Gold"
     ]
   },
-  "current_generation": 2,
-  "game_time": 14006,
+  "current_generation": 3,
+  "game_time": 16506,
   "time_scale": 1.0,
   "historical_best": [
     {

@@ -11,4 +11,3 @@ logs/*
 !/back/media/stay
 !/back/media/pages
 !/back/media/dist
-back/back/data/world_state.json
