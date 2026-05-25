@@ -1,20 +1,41 @@
-import { createState } from '../../../Hooks/useStates';
+import { useMemo, useEffect } from 'react';
+import { useStates, createState } from '../../../Hooks/useStates';
 import style from './styles/index.module.scss';
-import styleGen from '../styles/index.module.scss';
 
-
-export const localStates = props => {
+export const localStates = () => {
+    const { s } = useStates();
     const [titulo, setTitulo] = createState(['page', 'title'], "");
     const [actualPage, setActualPage] = createState(['page', 'actual'], "");
-    
+    const [isConnected, setIsConnected] = createState(['chat', 'isConnected'], false);
+    const [group, setGroup] = createState(['chat', 'group'], 'gen');
+    const [input, setInput] = createState(['chat', 'input'], '');
+
+    const messages = useMemo(() => s.chat?.messages || [], [s.chat?.messages]);
+    const actualMessage = useMemo(() => s.chat?.actualMessage || '', [s.chat?.actualMessage]);
+    const cargando = useMemo(() => s.chat?.cargando || false, [s.chat?.cargando]);
+
     const init = () => {
         setTitulo("chat");
         setActualPage("chat");
     }
 
+    const handleConnect = () => setIsConnected(true);
 
-    return { 
-        style, styleGen,
+    return {
+        style,
         init,
+        messages, actualMessage, cargando,
+        input, setInput,
+        group, setGroup,
+        isConnected, setIsConnected,
+        handleConnect,
     }
+}
+
+export const localEffects = () => {
+    const { init } = localStates();
+
+    useEffect(() => {
+        init();
+    }, []);
 }

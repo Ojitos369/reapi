@@ -2,6 +2,7 @@ import { useMemo, useEffect } from "react";
 import { useStates, createState } from "../../Hooks/useStates";
 import { pages } from "../../Core/helper";
 import style from './styles/index.module.scss';
+import { SideBarDefault } from "./SideBarDefault";
 
 export const localStates = () => {
     const { f, s } = useStates();
@@ -13,24 +14,34 @@ export const localStates = () => {
     const [sidebarOpen, setSidebarOpen] = createState(['sidebar', 'open'], false);
     const [menusAbiertos, setMenusAbiertos] = createState(['sidebar', 'menusAbiertos'], {});
     const [menuBarMode, setMenuBarMode] = createState(['menubar', 'menuMode'], null);
+    const [sideBarMode, setSideBarMode] = createState(['sidebar', 'sideMode'], null);
 
     const elementos = useMemo(() => {
-        return pages.map(page => {return {...page, opened: menusAbiertos[page.menu_name]}})
+        return pages.map(page => ({...page, opened: menusAbiertos[page.menu_name]}))
     }, [menusAbiertos, pages]);
 
     const toggleMenu = menu => {
         setMenusAbiertos({ [menu]: !menusAbiertos[menu] });
     }
 
+    const Component = useMemo(() => {
+        switch (sideBarMode) {
+            default:
+                return SideBarDefault;
+        }
+    }, [sideBarMode]);
+
     return {
         style,
         prod_mode, dev_mode, isInMd,
         actualPage,
-        toggleMenu, 
+        toggleMenu,
         sidebarOpen, setSidebarOpen,
         setMenusAbiertos,
-        elementos, actualMenu, 
-        setMenuBarMode, 
+        elementos, actualMenu,
+        setMenuBarMode,
+        sideBarMode, setSideBarMode,
+        Component,
     }
 }
 
