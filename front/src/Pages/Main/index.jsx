@@ -5,7 +5,7 @@ import { MenuBar } from "./MenuBar";
 import { localStates, localEffects } from "./localStates";
 
 export const Main = props => {
-    const { style, openSectionClass, showScrim, closeBars } = localStates();
+    const { style, showScrim, closeBars, openSectionClass } = localStates();
     localEffects();
 
     return (
@@ -15,14 +15,15 @@ export const Main = props => {
             </header>
 
             <div className={`${style.pageContent} ${openSectionClass && style[openSectionClass]}`}>
-                <SideBar />
-
+                {/* Contenido central: ancho fijo, nunca cambia de tamaño */}
                 <section className={`${style.sectionContainer}`}>
                     <div className={`${style.contentContainer}`}>
                         <Outlet />
                     </div>
                 </section>
 
+                {/* Barras como overlays (drawers) por encima del contenido */}
+                <SideBar />
                 <MenuBar />
 
                 {showScrim &&

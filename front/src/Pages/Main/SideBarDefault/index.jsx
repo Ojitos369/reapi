@@ -7,7 +7,7 @@ export const SideBarDefault = props => {
 
     return (
         <div className={`${style.sideBarDefault}`}>
-            <Link to="/" className={`${style.brand}`} onClick={closeIfMobile}>
+            <Link to="/" viewTransition className={`${style.brand}`} onClick={closeIfMobile}>
                 <span className={`${style.brandDot}`} />
                 <span className={`${style.brandName}`}>reapi</span>
             </Link>
@@ -23,6 +23,7 @@ export const SideBarDefault = props => {
                         <li key={index}>
                             <Link
                                 to={ele.to}
+                                viewTransition
                                 onClick={closeIfMobile}
                                 className={`${style.link} ${selected ? style.linkSelected : ''}`}
                             >

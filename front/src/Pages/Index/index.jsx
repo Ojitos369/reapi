@@ -7,6 +7,7 @@ export const Index = props => {
     indexEffect();
 
     return (
+        <ViewTransition default="moveRight">
         <div className={`${styles.indexPage}`}>
             <section className={`${styles.hero}`}>
                 <span className={`${styles.badge}`}>reapi · panel</span>
@@ -60,5 +61,6 @@ export const Index = props => {
 
             <Test />
         </div>
+        </ViewTransition>
     );
 };

@@ -1,4 +1,4 @@
-import { useMemo, useEffect, useState } from "react";
+import { useMemo, useEffect } from "react";
 import { useStates, createState } from "../../Hooks/useStates";
 import style from './style/index.module.scss';
 
@@ -6,12 +6,10 @@ export const localStates = () => {
     const [isInMd, setIsInMd] = createState(['app', 'general', 'isInMd'], window.innerWidth >= 768);
     const [sidebarOpen, setSidebarOpen] = createState(['sidebar', 'open'], false);
     const [menubarOpen, setMenubarOpen] = createState(['menubar', 'open'], false);
-    const [didInit, setDidInit] = useState(false);
 
     const init = () => {
         setIsInMd(window.innerWidth >= 768);
         setSidebarOpen(window.innerWidth >= 768);
-        setDidInit(true);
     };
 
     const closeBars = () => {
@@ -19,12 +17,13 @@ export const localStates = () => {
         setMenubarOpen(false);
     };
 
-    // En móvil solo una barra abierta a la vez (overlay)
+    // Scrim solo en móvil (las barras se superponen y toman todo el ancho).
     const showScrim = useMemo(
         () => !isInMd && (sidebarOpen || menubarOpen),
         [isInMd, sidebarOpen, menubarOpen]
     );
 
+    // En desktop las barras ocupan su columna (sin tapar el contenido).
     const openSectionClass = useMemo(() => {
         if (!sidebarOpen && !menubarOpen) return '';
         if (sidebarOpen && !menubarOpen) return 'sidebarOpen';
@@ -33,8 +32,8 @@ export const localStates = () => {
     }, [sidebarOpen, menubarOpen]);
 
     return {
-        style, openSectionClass, showScrim, closeBars,
-        isInMd, setIsInMd, sidebarOpen, menubarOpen, didInit, init
+        style, showScrim, closeBars, openSectionClass,
+        isInMd, setIsInMd, sidebarOpen, menubarOpen, init,
     };
 };
 
