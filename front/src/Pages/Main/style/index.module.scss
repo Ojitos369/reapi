@@ -4,46 +4,70 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    display: grid;
+    grid-template-rows: var(--header-h) 1fr;
+    background: var(--surface-0);
+    color: var(--text);
+    font-family: var(--font-body);
+}
 
-    .mainContent {
-        display: flex;
-        width: 100%;
-        height: calc(100vh - var(--header-h));
+.headerSlot {
+    width: 100%;
+    z-index: 70;
+}
+
+.pageContent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+
+    @include md {
+        grid-template-columns: 0 minmax(0, 1fr) 0;
+        transition: grid-template-columns var(--t-slow);
+
+        &.sidebarOpen { grid-template-columns: var(--side-bar-w) minmax(0, 1fr) 0; }
+        &.menubarOpen { grid-template-columns: 0 minmax(0, 1fr) var(--menu-bar-w); }
+        &.bothOpen    { grid-template-columns: var(--side-bar-w) minmax(0, 1fr) var(--menu-bar-w); }
     }
+}
 
-    .pageTitle {
+.sectionContainer {
+    min-width: 0;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: var(--surface-0);
+
+    .contentContainer {
         width: 100%;
-        border-bottom: 1px solid;
-        padding: 5px 15px;
-        font-weight: bolder;
-        font-size: 1.3rem;
-    }
-
-    .sectionContainer {
-        display: flex;
-        justify-content: center;
-        align-content: start;
-        flex-wrap: wrap;
-        width: 100%;
-        height: 100%;
-        overflow: scroll;
-        transition: all 0.5s ease-in-out;
-
-        &.menubarOpen {
-            width: calc(100vw - var(--menu-bar-w));
-        }
+        max-width: var(--content-max);
+        margin: 0 auto;
+        padding: var(--sp-5) var(--sp-5) var(--sp-7);
 
         @include md {
-            &.sidebarOpen {
-                width: calc(100vw - var(--side-bar-w));
-            }
-            &.bothOpen {
-                width: calc(100vw - var(--side-bar-w) - var(--menu-bar-w));
-            }
-        }
-        .contentContainer {
-            width: 100%;
-            height: 100%;
+            padding: var(--sp-6) var(--sp-6) var(--sp-7);
         }
     }
+}
+
+.scrim {
+    position: fixed;
+    inset: var(--header-h) 0 0 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    z-index: 55;
+    animation: scrimIn var(--t-base);
+
+    @include md {
+        display: none;
+    }
+}
+
+@keyframes scrimIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

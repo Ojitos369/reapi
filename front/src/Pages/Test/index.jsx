@@ -4,8 +4,12 @@ export const Test = () => {
     indexEffects();
 
     return (
-        <div>
-            <h1 className={`${style.h1Component}`}>Test Component</h1>
+        <div className={`${style.testPage}`}>
+            <span className={`${style.badge}`}>página · test</span>
+            <h1 className={`${style.title}`}>Test Component</h1>
+            <p className={`${style.subtitle}`}>
+                Página de prueba modular. Reemplaza este contenido por tu vista.
+            </p>
         </div>
     );
 };

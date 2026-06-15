@@ -5,27 +5,26 @@ import { createState } from "../../Hooks/useStates";
 import { Titulo } from "./Titulo";
 
 export const Chat = () => {
-    const { setTitulo, setActualPage } = localStates();
+    const { style, setTitulo, setActualPage } = localStates();
 
     const [messages, setMessages] = createState(['chat', 'messages'], []);
-    const [actualMessage, setActualMessage] = createState(['chat', 'actualMessage'],"");
-    const [input, setInput] = createState(['chat', 'input'],'');
-    const [group, setGroup] = createState(['chat', 'group'],'gen');
-    const [isConnected, setIsConnected] = createState(['chat', 'connected'],false);
-    const [cargando, setCargando] = createState(['chat', 'cargando'],false);
+    const [actualMessage, setActualMessage] = createState(['chat', 'actualMessage'], "");
+    const [input, setInput] = createState(['chat', 'input'], '');
+    const [group, setGroup] = createState(['chat', 'group'], 'gen');
+    const [isConnected, setIsConnected] = createState(['chat', 'connected'], false);
+    const [cargando, setCargando] = createState(['chat', 'cargando'], false);
     const socket = useRef(null);
     const clientId = useRef(Date.now());
 
     const init = () => {
         setTitulo("chat");
         setActualPage("chat");
-    }
+    };
 
     const handleConnect = () => {
         setIsConnected(true);
     };
     const sendMessage = () => {
-        console.log(socket.current?.readyState);
         if (socket.current?.readyState === WebSocket.OPEN && input) {
             setMessages(prev => [...prev, `Yo: ${input}`]);
             socket.current.send(input);
@@ -33,7 +32,6 @@ export const Chat = () => {
             setCargando(true);
         }
     };
-
 
     useEffect(() => {
         init();
@@ -45,23 +43,16 @@ export const Chat = () => {
         const wsUrl = `ws://localhost:8369/api/ws/${group}?clientId=${clientId.current}`;
         socket.current = new WebSocket(wsUrl);
 
-        console.log('Intentando conectar al WebSocket...');
-
         socket.current.onopen = () => {
             console.log('¡Conectado al WebSocket!');
         };
 
         socket.current.onmessage = (event) => {
             const message = event.data;
-
             if (message !== "-done-") {
                 setActualMessage(actualMessage + message);
             } else {
-                // setActualMessage(prevActualMessage => {
-                //     setMessages(prevMessages => [...prevMessages, prevActualMessage]);
-                //     return "";
-                // });
-                setMessages([...messages, actualMessage])
+                setMessages([...messages, actualMessage]);
                 setActualMessage("");
             }
             setCargando(false);
@@ -77,46 +68,57 @@ export const Chat = () => {
         };
 
         return () => {
-            console.log('Cerrando conexión WebSocket.');
             socket.current.close();
         };
     }, [isConnected, group]);
 
     return (
-        <div className="App">
-            <header className="App-header">
+        <div className={`${style.chatPage}`}>
+            <div className={`${style.chatHeader}`}>
                 <Titulo />
-                <div className="chat-box">
-                    {messages.map((msg, index) => (
-                        <p key={index}>{msg}</p>
-                    ))}
-                    {actualMessage && <p>{actualMessage}</p>}
-                </div>
+                <span className={`${style.status} ${isConnected ? style.statusOn : style.statusOff}`}>
+                    {isConnected ? 'Conectado' : 'Desconectado'}
+                </span>
+            </div>
 
-                {!isConnected && 
-                    <div className="input-area">
-                        <input
-                            type="text"
-                            value={group}
-                            onChange={(e) => setGroup(e.target.value)}
-                        />
-                        <button onClick={handleConnect}>Conectar</button>
-                    </div>
-                }
-                <br /><br />
-                {cargando && <p>Cargando...</p>}
-                {isConnected &&
-                    <div className="input-area">
-                        <input
-                            type="text"
-                            value={input}
-                            onChange={(e) => setInput(e.target.value)}
-                            onKeyPress={(e) => e.key === 'Enter' && sendMessage()}
-                        />
-                        <button onClick={sendMessage}>Enviar</button>
-                    </div>
-                }
-            </header>
+            <div className={`${style.chatBox}`}>
+                {messages.length === 0 && !actualMessage &&
+                    <p className={`${style.empty}`}>No hay mensajes todavía.</p>}
+                {messages.map((msg, index) => (
+                    <p key={index} className={`${style.message}`}>{msg}</p>
+                ))}
+                {actualMessage && <p className={`${style.message} ${style.streaming}`}>{actualMessage}</p>}
+                {cargando && <p className={`${style.loading}`}>Cargando…</p>}
+            </div>
+
+            {!isConnected &&
+                <div className={`${style.inputArea}`}>
+                    <input
+                        className={`${style.input}`}
+                        type="text"
+                        placeholder="Grupo"
+                        value={group}
+                        onChange={(e) => setGroup(e.target.value)}
+                    />
+                    <button className={`${style.btn} ${style.btnPrimary}`} onClick={handleConnect}>
+                        Conectar
+                    </button>
+                </div>}
+
+            {isConnected &&
+                <div className={`${style.inputArea}`}>
+                    <input
+                        className={`${style.input}`}
+                        type="text"
+                        placeholder="Escribe un mensaje…"
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onKeyPress={(e) => e.key === 'Enter' && sendMessage()}
+                    />
+                    <button className={`${style.btn} ${style.btnPrimary}`} onClick={sendMessage}>
+                        Enviar
+                    </button>
+                </div>}
         </div>
     );
 };

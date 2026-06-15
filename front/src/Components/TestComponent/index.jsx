@@ -4,8 +4,11 @@ export const Test = props => {
     indexEffects();
 
     return (
-        <div className={`${style.testComponent}`}>
-            Test Component
+        <div className={`${style.testCard}`}>
+            <span className={`${style.testLabel}`}>Demo responsive (breakpoints)</span>
+            <div className={`${style.testComponent}`}>
+                Test Component
+            </div>
         </div>
     )
 }
