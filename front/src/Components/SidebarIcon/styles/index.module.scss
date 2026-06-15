@@ -5,6 +5,13 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: var(--text-soft);
+    transition: color var(--t-fast);
+    border-radius: var(--r-sm);
+
+    &:hover {
+        color: var(--accent-hover);
+    }
 }
 
 .hamburger {
@@ -22,7 +29,7 @@
 
 .line {
   fill: none;
-  stroke: var(--my-minor);
+  stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;

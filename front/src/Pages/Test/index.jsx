@@ -6,9 +6,12 @@ import { Test as TestPage } from './Test';
 export const Test = () => {
 
     return (
-        <Routes>
-            <Route path="test" element={ <TestPage /> } />
-            <Route path="*" element={ <P404 /> } />
-        </Routes>
-    )
-}
+        <div className={`${style.testPage}`}>
+            <span className={`${style.badge}`}>página · test</span>
+            <h1 className={`${style.title}`}>Test Component</h1>
+            <p className={`${style.subtitle}`}>
+                Página de prueba modular. Reemplaza este contenido por tu vista.
+            </p>
+        </div>
+    );
+};
