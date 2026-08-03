@@ -1,59 +1,119 @@
 .loginPage {
-    display: grid;
-    grid-template-columns: 100vw;
-    grid-template-rows: 30vh 70vh;
-    .logoPart {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--sp-5);
+    background:
+        radial-gradient(600px 400px at 15% 10%, var(--accent-soft), transparent 70%),
+        radial-gradient(500px 350px at 85% 90%, var(--accent-soft), transparent 70%),
+        var(--surface-0);
+
+    .card {
         width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        .logo {
-            height: 80%;
-            // width: auto;
-            width: 50%;
-            border: 1px solid var(--my-minor);
-            border-radius: 10px;
-            background: gray;
-        }
-    }
-    .formContainer {
+        max-width: 400px;
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
-        justify-content: start;
+        gap: var(--sp-6);
+        padding: var(--sp-6) var(--sp-5);
+        border-radius: var(--r-lg);
+        border: 1px solid var(--border);
+        background: var(--surface-1);
+        box-shadow: var(--shadow-md);
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        .inputElement {
-            padding: 15px;
+        gap: var(--sp-1);
+        text-align: center;
+
+        .logoMark {
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
             justify-content: center;
+            margin-bottom: var(--sp-3);
+            border-radius: var(--r-md);
+            background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+            box-shadow: var(--accent-glow);
+            color: var(--accent-contrast);
+            font-size: var(--fs-xl);
+            font-weight: var(--fw-bold);
+        }
+
+        h1 {
+            font-size: var(--fs-xl);
+            font-weight: var(--fw-bold);
+            letter-spacing: -0.02em;
+            color: var(--text);
+        }
+        p {
+            font-size: var(--fs-sm);
+            color: var(--text-muted);
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-4);
+
+        .field {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            label, input {
-                width: 100%;
+            gap: var(--sp-1);
+
+            label {
+                font-size: var(--fs-xs);
+                font-weight: var(--fw-semibold);
+                color: var(--text-soft);
             }
+
             input {
-                border-radius: 7px;
-                padding: 10px;
-                color: black;
-                border-bottom: 2px solid var(--my-minor);
+                width: 100%;
+                padding: 0.7rem 0.875rem;
+                font-size: var(--fs-sm);
+                border-radius: var(--r-md);
+                border: 1px solid var(--border);
+                background: var(--surface-2);
+                color: var(--text);
+                transition: border-color var(--t-fast), box-shadow var(--t-fast);
+
+                &::placeholder {
+                    color: var(--text-muted);
+                }
                 &:focus {
                     outline: none;
-                    border-bottom: 2px solid var(--my-success);
-                    box-shadow: -6px 7px 7px -3px var(--my-success);
+                    border-color: var(--accent);
+                    box-shadow: var(--accent-glow);
                 }
             }
-            .submit {
-                cursor: pointer;
-                background-color: #1c8f1c;
-                border: none;
-                &:hover {
-                    background-color: #29ad29;
-                }
-                &:focus {
-                    outline: none;
-                    box-shadow: none;
-                }
+        }
+
+        .submit {
+            margin-top: var(--sp-1);
+            padding: var(--sp-3) var(--sp-4);
+            font-size: var(--fs-sm);
+            font-weight: var(--fw-semibold);
+            border: none;
+            border-radius: var(--r-md);
+            background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+            color: var(--accent-contrast);
+            cursor: pointer;
+            transition: filter var(--t-fast), transform 0.1s ease;
+
+            &:hover {
+                filter: brightness(1.08);
+            }
+            &:active {
+                transform: scale(0.985);
+            }
+            &:focus-visible {
+                outline: 2px solid var(--accent);
+                outline-offset: 2px;
             }
         }
     }

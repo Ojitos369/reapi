@@ -1,9 +1,13 @@
 import { localStates, indexEffect } from './localStates';
 import { Test } from '../../Components/TestComponent';
+import { Switch } from '../../Components/Switch';
 import { ViewTransition } from "react";
 
 export const Index = props => {
-    const { styles, toggleShowModal, toggleModalMode, hhMessage, theme, showModal, modalMode } = localStates();
+    const {
+        styles, toggleShowModal, toggleModalMode, hhMessage, theme,
+        showModal, modalMode, showLogin, toggleShowLogin, changeTheme,
+    } = localStates();
     indexEffect();
 
     return (
@@ -42,6 +46,24 @@ export const Index = props => {
                     </p>
                 </article>
             </div>
+
+            <section className={`${styles.settings}`}>
+                <h2 className={`${styles.sectionTitle}`}>Preferencias</h2>
+                <div className={`${styles.settingsCard}`}>
+                    <Switch
+                        checked={showLogin}
+                        onChange={toggleShowLogin}
+                        label="Pantalla de inicio de sesión"
+                        description="Al activarlo se pedirá iniciar sesión para usar la aplicación. Apagado por defecto."
+                    />
+                    <Switch
+                        checked={theme === 'black'}
+                        onChange={changeTheme}
+                        label="Tema oscuro"
+                        description={`Tema actual: ${theme}`}
+                    />
+                </div>
+            </section>
 
             <section className={`${styles.actions}`}>
                 <h2 className={`${styles.sectionTitle}`}>Acciones</h2>

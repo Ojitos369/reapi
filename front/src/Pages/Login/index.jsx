@@ -30,22 +30,40 @@ export const Login = () => {
     const { usuario, passwd, updateUsuario, updatePasswd, login } = myStates();
     return (
         <div className={`${style.loginPage}`}>
-            <div className={`${style.logoPart}`}>
-                <div className={`${style.logo}`}></div>
+            <div className={`${style.card}`}>
+                <div className={`${style.brand}`}>
+                    <div className={`${style.logoMark}`}>R</div>
+                    <h1>Bienvenido</h1>
+                    <p>Inicia sesión para continuar</p>
+                </div>
+                <form className={`${style.form}`} onSubmit={login}>
+                    <div className={`${style.field}`}>
+                        <label htmlFor="login-usuario">Usuario</label>
+                        <input
+                            id="login-usuario"
+                            type="text"
+                            autoComplete="username"
+                            placeholder="tu usuario"
+                            value={usuario}
+                            onChange={updateUsuario}
+                        />
+                    </div>
+                    <div className={`${style.field}`}>
+                        <label htmlFor="login-passwd">Contraseña</label>
+                        <input
+                            id="login-passwd"
+                            type="password"
+                            autoComplete="current-password"
+                            placeholder="••••••••"
+                            value={passwd}
+                            onChange={updatePasswd}
+                        />
+                    </div>
+                    <button type="submit" className={`${style.submit}`}>
+                        Ingresar
+                    </button>
+                </form>
             </div>
-            <form className={`${style.formContainer}`} onSubmit={login}>
-                <div className={`${style.inputElement} w-full md:w-1/3`}>
-                    <label>Usuario</label>
-                    <input type="text" placeholder='usuario' value={usuario} onChange={updateUsuario} />
-                </div>
-                <div className={`${style.inputElement} w-full md:w-1/3`}>
-                    <label>Contraseña</label>
-                    <input type="password" placeholder='contraseña' value={passwd} onChange={updatePasswd} />
-                </div>
-                <div className={`${style.inputElement} w-full md:w-1/3`}>
-                    <input type="submit" value='ingresar' className={`${style.submit}`} />
-                </div>
-            </form>
         </div>
     );
 };

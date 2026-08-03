@@ -1,6 +1,7 @@
 import { useEffect, useMemo } from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { cambiarThema } from '../Core/helper';
+import { settings } from '../Core/settings';
 import { Theme } from '../Components/Theme';
 
 import { Main as MainPage } from '../Pages/Main';
@@ -21,6 +22,8 @@ import { GeneralNotification } from '../Components/Modals/general/GeneralNotific
 function AppUI() {
     const { ls, s, f } = useStates();
     const logged = useMemo(() => s.auth?.logged, [s.auth?.logged]);
+    // interruptor en Index (ls.showLogin); settings.showLogin es el valor por defecto
+    const showLogin = useMemo(() => ls.showLogin ?? settings.showLogin, [ls.showLogin]);
 
     useEffect(() => {
         cambiarThema(ls?.theme);
@@ -32,10 +35,11 @@ function AppUI() {
     }, []);
 
     useEffect(() => {
+        if (!showLogin) return;
         f.auth.validateLogin();
-    }, [location.href]);
+    }, [location.href, showLogin]);
 
-    if (!logged) {
+    if (showLogin && !logged) {
         return (
             <div className={`text-[var(--my-minor)] bg-my-${ls.theme}`}>
                 <Routes>
