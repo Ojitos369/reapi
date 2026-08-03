@@ -1,32 +1,34 @@
 import { Outlet } from "react-router-dom";
-import { SideBar } from "../../Components/SideBar";
-import { MenuBar } from "../../Components/MenuBar";
 import { Header } from "../../Components/Header";
+import { SideBar } from "./SideBar";
+import { MenuBar } from "./MenuBar";
 import { localStates, localEffects } from "./localStates";
 
-
 export const Main = props => {
-    const { style, openSectionClass } = localStates();
+    const { style, showScrim, closeBars, openSectionClass } = localStates();
     localEffects();
 
     return (
         <div className={`${style.mainPage}`}>
-            <div className={`${style.headerContent}`}>
+            <header className={`${style.headerSlot}`}>
                 <Header />
-            </div>
-            <div className={`${style.pageContent}`}>
-                <SideBar />
+            </header>
+
+            <div className={`${style.pageContent} ${openSectionClass && style[openSectionClass]}`}>
+                {/* Contenido central: ancho fijo, nunca cambia de tamaño */}
                 <section className={`${style.sectionContainer}`}>
                     <div className={`${style.contentContainer}`}>
-                        <div className={`${style.outletContainer}`}>
-                            <div className={`${style.outlet}`}>
-                                <Outlet />
-                            </div>
-                        </div>
+                        <Outlet />
                     </div>
                 </section>
+
+                {/* Barras como overlays (drawers) por encima del contenido */}
+                <SideBar />
                 <MenuBar />
+
+                {showScrim &&
+                    <div className={`${style.scrim}`} onClick={closeBars} />}
             </div>
         </div>
-    )
-}
+    );
+};

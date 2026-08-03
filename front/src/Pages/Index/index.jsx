@@ -11,82 +11,78 @@ export const Index = props => {
     indexEffect();
 
     return (
-        <ViewTransition default="moveLeft">
-            <div className={`${styles.indexPage}`}>
-                <header className={`${styles.pageHeader}`}>
-                    <div>
-                        <h1>Panel principal</h1>
-                        <p>Plantilla reapi — React + FastAPI</p>
-                    </div>
-                    <span className={`${styles.statusPill} ${hhMessage ? styles.ok : ''}`}>
-                        <span className={`${styles.dot}`} />
-                        {hhMessage ? 'API conectada' : 'Sin conexión con la API'}
-                    </span>
-                </header>
+        <ViewTransition default="moveRight">
+        <div className={`${styles.indexPage}`}>
+            <section className={`${styles.hero}`}>
+                <span className={`${styles.badge}`}>reapi · panel</span>
+                <h1 className={`${styles.title}`}>Bienvenido de vuelta</h1>
+                <p className={`${styles.subtitle}`}>
+                    Plantilla base modular con estado global, sidebar y menubar dinámicos.
+                </p>
+            </section>
 
-                <div className={`${styles.cardsGrid}`}>
-                    <section className={`${styles.card}`}>
-                        <h2>Acceso</h2>
-                        <p className={`${styles.cardHint}`}>
-                            Controla la puerta de entrada de la aplicación.
-                        </p>
-                        <Switch
-                            checked={showLogin}
-                            onChange={toggleShowLogin}
-                            label="Pantalla de inicio de sesión"
-                            description="Al activarlo se pedirá iniciar sesión para usar la aplicación. Apagado por defecto."
-                        />
-                    </section>
+            <div className={`${styles.grid}`}>
+                <article className={`${styles.card}`}>
+                    <span className={`${styles.cardLabel}`}>Tema actual</span>
+                    <strong className={`${styles.cardValue}`}>{theme}</strong>
+                    <p className={`${styles.cardHint}`}>
+                        Cámbialo desde el menú lateral derecho.
+                    </p>
+                </article>
 
-                    <section className={`${styles.card}`}>
-                        <h2>Apariencia</h2>
-                        <p className={`${styles.cardHint}`}>
-                            Tema actual: {theme === 'black' ? 'oscuro' : 'claro'}
-                        </p>
-                        <Switch
-                            checked={theme === 'black'}
-                            onChange={changeTheme}
-                            label="Tema oscuro"
-                            description="Alterna entre el tema claro y el oscuro."
-                        />
-                    </section>
+                <article className={`${styles.card}`}>
+                    <span className={`${styles.cardLabel}`}>Respuesta API</span>
+                    <strong className={`${styles.cardValue}`}>{hhMessage || '—'}</strong>
+                    <p className={`${styles.cardHint}`}>Endpoint base/hh</p>
+                </article>
 
-                    <section className={`${styles.card}`}>
-                        <h2>Demostración de modales</h2>
-                        <p className={`${styles.cardHint}`}>
-                            Prueba el modal que aparece al cambiar el tema.
-                        </p>
-                        <Switch
-                            checked={showModal}
-                            onChange={toggleShowModal}
-                            label="Mostrar modal"
-                            description="Activa el modal de aviso al cambiar el tema."
-                        />
-                        {showModal &&
-                        <Switch
-                            checked={modalMode === "M"}
-                            onChange={toggleModalMode}
-                            label="Modal movible"
-                            description={`Modo actual: ${modalMode === "M" ? "Move" : "Normal"}`}
-                        />}
-                        {showModal &&
-                        <p className={`${styles.cardNote}`}>
-                            Cambia el tema de la página para ver el modal.
-                        </p>}
-                    </section>
-
-                    <section className={`${styles.card}`}>
-                        <h2>Estado del servidor</h2>
-                        <p className={`${styles.cardHint}`}>
-                            Respuesta del endpoint de prueba del backend.
-                        </p>
-                        <p className={`${styles.serverMessage}`}>
-                            {hhMessage || 'Sin mensaje del servidor'}
-                        </p>
-                        <Test />
-                    </section>
-                </div>
+                <article className={`${styles.card}`}>
+                    <span className={`${styles.cardLabel}`}>Modal demo</span>
+                    <strong className={`${styles.cardValue}`}>
+                        {showModal ? 'Activo' : 'Inactivo'}
+                    </strong>
+                    <p className={`${styles.cardHint}`}>
+                        {showModal ? `Modo: ${modalMode === 'M' ? 'Mover' : 'Normal'}` : 'Sin modal'}
+                    </p>
+                </article>
             </div>
+
+            <section className={`${styles.settings}`}>
+                <h2 className={`${styles.sectionTitle}`}>Preferencias</h2>
+                <div className={`${styles.settingsCard}`}>
+                    <Switch
+                        checked={showLogin}
+                        onChange={toggleShowLogin}
+                        label="Pantalla de inicio de sesión"
+                        description="Al activarlo se pedirá iniciar sesión para usar la aplicación. Apagado por defecto."
+                    />
+                    <Switch
+                        checked={theme === 'black'}
+                        onChange={changeTheme}
+                        label="Tema oscuro"
+                        description={`Tema actual: ${theme}`}
+                    />
+                </div>
+            </section>
+
+            <section className={`${styles.actions}`}>
+                <h2 className={`${styles.sectionTitle}`}>Acciones</h2>
+                <div className={`${styles.actionsRow}`}>
+                    <button
+                        className={`${styles.btn} ${showModal ? styles.btnSuccess : styles.btnPrimary}`}
+                        onClick={toggleShowModal}
+                    >
+                        {showModal ? 'Ocultar modal' : 'Mostrar modal'}
+                    </button>
+                    {showModal &&
+                        <button className={`${styles.btn} ${styles.btnGhost}`} onClick={toggleModalMode}>
+                            Modo: {modalMode === 'M' ? 'Mover' : 'Normal'}
+                        </button>}
+                </div>
+            </section>
+
+            <Test />
+        </div>
         </ViewTransition>
-    )
-}
+    );
+};

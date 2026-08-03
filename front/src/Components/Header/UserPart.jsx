@@ -1,10 +1,11 @@
+import { User as UserIcon } from '../Icons';
 import { localStates } from "./localStates";
 
 export const UserPart = () => {
-    const { openUserMenu, style, IconMenu, showIconMenu } = localStates();
+    const { openUserMenu, style, menubarOpen } = localStates();
     return (
         <div className={`${style.userPart}`}>
-            {showIconMenu && <IconMenu className="manita" onClick={openUserMenu} />}
+            <UserIcon className="manita" onClick={openUserMenu} open={menubarOpen} />
         </div>
     )
 }

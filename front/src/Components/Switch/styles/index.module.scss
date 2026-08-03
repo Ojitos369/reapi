@@ -2,17 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
+    gap: var(--sp-4);
     width: 100%;
     min-height: 44px;
-    padding: 0.625rem 0.5rem;
+    padding: var(--sp-3) var(--sp-2);
     text-align: left;
-    border-radius: var(--radius-md);
+    border-radius: var(--r-md);
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color var(--t-fast);
 
     &:hover:not(:disabled) {
-        background: var(--hover);
+        background: var(--surface-2);
     }
     &:focus-visible {
         outline: 2px solid var(--accent);
@@ -26,17 +26,17 @@
     .texts {
         display: flex;
         flex-direction: column;
-        gap: 0.15rem;
+        gap: var(--sp-1);
 
         .label {
-            font-weight: 600;
-            font-size: 0.95rem;
-            color: var(--text-1);
+            font-weight: var(--fw-semibold);
+            font-size: var(--fs-sm);
+            color: var(--text);
         }
         .description {
-            font-size: 0.8rem;
+            font-size: var(--fs-xs);
             line-height: 1.4;
-            color: var(--text-2);
+            color: var(--text-muted);
         }
     }
 
@@ -45,10 +45,10 @@
         position: relative;
         width: 46px;
         height: 26px;
-        border-radius: 999px;
-        background: var(--switch-off);
-        border: 1px solid var(--border);
-        transition: background-color 0.25s ease, border-color 0.25s ease;
+        border-radius: var(--r-pill);
+        background: var(--surface-3);
+        border: 1px solid var(--border-strong);
+        transition: background-color var(--t-base), border-color var(--t-base);
 
         .thumb {
             position: absolute;
@@ -58,7 +58,7 @@
             height: 20px;
             border-radius: 50%;
             background: #fff;
-            box-shadow: 0 1px 3px rgb(0 0 0 / 0.35);
+            box-shadow: var(--shadow-sm);
             transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
         }
     }

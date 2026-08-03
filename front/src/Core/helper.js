@@ -1,9 +1,9 @@
 export const cambiarThema = thema => {
-    const minor = thema === 'black' ? '#f3f4f6' : '#1f2937';
-    const major = thema === 'black' ? '#0b0f19' : '#f6f7fb';
+    // alineado con la paleta de vars.css (--text / --surface-0 por tema)
+    const minor = thema === 'black' ? '#ececf3' : '#1a1a22';
+    const major = thema === 'black' ? '#0d0d12' : '#f6f6fb';
     document.documentElement.style.setProperty('--my-minor', minor);
     document.documentElement.style.setProperty('--my-major', major);
-    document.documentElement.setAttribute('data-theme', thema === 'black' ? 'black' : 'white');
     return
 }
 
