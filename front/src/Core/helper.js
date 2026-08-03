@@ -1,9 +1,10 @@
 export const cambiarThema = thema => {
-    const minor = thema === 'black' ? '#ffffff' : '#212121';
-    const major = thema === 'black' ? '#212121' : '#ffffff';
+    const minor = thema === 'black' ? '#f3f4f6' : '#1f2937';
+    const major = thema === 'black' ? '#0b0f19' : '#f6f7fb';
     document.documentElement.style.setProperty('--my-minor', minor);
     document.documentElement.style.setProperty('--my-major', major);
-    return 
+    document.documentElement.setAttribute('data-theme', thema === 'black' ? 'black' : 'white');
+    return
 }
 
 export const getFloatCurrency = (text) => {

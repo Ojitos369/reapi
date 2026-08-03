@@ -16,6 +16,7 @@ export const localStates = props => {
     const hhMessage = useMemo(() => s.app?.hh?.response?.message, [s.app?.hh?.response?.message]);
     const [menuBarMode, setMenuBarMode] = createState(['menubar', 'menuMode'], null);
     const isInMd = useMemo(() => s.app?.general?.isInMd, [s.app?.general?.isInMd]);
+    const showLogin = useMemo(() => ls.showLogin ?? false, [ls.showLogin]);
 
     const init = () => {
         f.app.helloWorld();
@@ -49,6 +50,10 @@ export const localStates = props => {
         f.auth.closeSession();
     }
 
+    const toggleShowLogin = () => {
+        lf.u0('showLogin', !showLogin);
+    }
+
     const elementos = useMemo(() => {
         return [
             {name: `Theme: ${actualTheme}`, action: changeTheme},
@@ -62,7 +67,8 @@ export const localStates = props => {
         theme, toggleModalMode, toggleShowModal, 
         showModal, modalMode, 
         hhMessage,
-        menubarOpen, changeTheme, elementos, 
+        menubarOpen, changeTheme, elementos,
+        showLogin, toggleShowLogin,
     }
 }
 

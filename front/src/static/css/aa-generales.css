@@ -164,19 +164,15 @@ body::-webkit-scrollbar {
 }
 
 
-.bg-my-black {
-    transition: all 0.5s;
-    background: var(--my-black);
-    color: var(--my-white);
-}
+.bg-my-black,
 .bg-my-white {
-    transition: all 0.5s;
-    background: var(--my-white);
-    color: var(--my-dark);
+    transition: background-color 0.4s ease, color 0.4s ease;
+    background: var(--bg);
+    color: var(--text-1);
 }
 
 input, textarea, select {
-    background-color: white;
-    color: black;
+    background-color: var(--surface-2);
+    color: var(--text-1);
 }
 
