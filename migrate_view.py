@@ -4,12 +4,13 @@ from ojitos369.utils import printwln as pln
 
 class Migrate:
     def replace_media(self, file):
-        file_str = ""
+        # vite.config.js ya define base:'/media/dist/' para el build, asi que
+        # index.html y los chunks ya traen las rutas absolutas correctas de
+        # fabrica. NO reemplazar '/assets/' aqui: esas rutas ya son
+        # '/media/dist/assets/...' y un replace ciego las duplicaria
+        # ('/media/dist/media/dist/assets/...').
         with open(file, 'r') as f:
             file_str = f.read()
-        file_str = file_str.replace('/assets/', '/media/dist/assets/')
-        with open(file, 'w') as f:
-            f.write(file_str)
         return file_str
 
     def main(self, *args, **options):
@@ -52,7 +53,7 @@ class Migrate:
             pln(file_name)
             js = self.replace_media(f"{media_dir}/assets/{file_name}")
 
-            structure = '''https?://localhost(:\d+)?'''
+            structure = r'https?://localhost(:\d+)?'
             matches = re.finditer(structure, js)
             matches = sorted(matches, key=lambda x: len(x.group(0)), reverse=True)
             for match in matches:
